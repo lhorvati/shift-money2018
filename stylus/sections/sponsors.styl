@@ -1,0 +1,73 @@
+/* SPONSORS.STYL ======================================= */
+
+#sponsors
+    margin-bottom: 50px
+
+.sponsors-wrap,
+.sponsors-row,
+.sponsors,
+.sponsors__group,
+.sponsors__item
+    flexbox()
+
+.sponsors-wrap
+    flex-flow: column nowrap
+
+    .sponsors-row
+        flex-flow: row wrap
+        justify-content: flex-start
+        margin: 20px 0
+        align-items: flex-start
+
+        &:first-child
+            margin-top: 60px
+
+    .sponsors
+        flex-flow: column nowrap
+        justify-content: center
+        align-items: flex-start
+
+        .sponsors__group
+            flex-center()
+            margin: 0 30px 50px 0
+
+            .sponsors__item
+                flex-center()
+                margin: 0 40px 0 0
+
+                img
+                    filter: grayscale(100%)
+                    transition(.2s)
+                    width: 90px
+
+
+                a:hover img
+                    filter: grayscale(0%)
+
+
+.sponsorsSlider
+    width: 100%
+    position relative
+
+    .sponsorsSlider__btn
+        width: 40px
+        height 40px
+        background: url('../img/icons/triangle.svg') center no-repeat
+        background-size: 8px
+        position: absolute
+        top: 50%
+        margin-top: -20px
+        cursor pointer
+        opacity: .5
+        transition(.2s)
+
+        &:hover
+            opacity 1
+
+        &.btn-left,
+        &.btn-left2
+            left -42px
+            transform: rotate(180deg)
+        &.btn-right,
+        &.btn-right2
+            right -42px

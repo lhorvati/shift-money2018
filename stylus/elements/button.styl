@@ -1,0 +1,53 @@
+/* BUTTON.STYL ======================================= */
+
+/* Button 1 ========================== */
+.btn
+	flexbox()
+	flex-center()
+	box-sizing()
+	height: 36px
+	padding: 2px 20px 0 20px
+	font-family: font1
+	font-size: 13px
+	font-weight: 500
+	text-align: center
+	border-radius(4px)
+	transition(.5s)
+	cursor: pointer
+
+
+	&.blue
+		text-transform: uppercase
+		color: colorWhite
+		background: transparent
+		border: 1px solid colorBlue
+
+		&.fill
+			background: colorBlue
+			font-size: 11px
+			font-weight: 600
+
+		&.empty
+			font-weight: 700
+			font-size: 12px
+
+		&.small
+			font-size: 10px
+			font-weight: 600
+			color: colorBlue
+
+			&:hover
+				color: white
+				background: colorBlue
+
+		&:hover
+			background: colorWhite
+			color: colorBlue
+
+	&.link
+		font-size: 12px
+		font-weight: 600
+		color: colorWhite
+
+		&:hover
+			color: colorBlue
