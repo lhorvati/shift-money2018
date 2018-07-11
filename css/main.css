@@ -583,7 +583,7 @@ a.social:hover {
 }
 /* import sections styl */
 #hero {
-  background: #00287a url("../img/top-bg2.svg") center no-repeat;
+  background: #00287a url("../img/top-bg.svg") center no-repeat;
   background-size: cover;
   height: 100vh;
   display: -webkit-box;
