@@ -37,6 +37,9 @@
               <a class='nav__link' href='#tickets'>Tickets</a>
             </li>
             <li>
+              <a class='nav__link' href='#location'>Location</a>
+            </li>
+            <li>
               <a class='nav__link' href='#footer'>Contact</a>
             </li>
             <li>
@@ -122,6 +125,73 @@
         </div>
       </div>
     </div>
+    <!-- LOCATION SECTION ************************************** -->
+    <div class='section' id='location'>
+      <div class='container'>
+        <h1>Location</h1>
+        <div class='title-desc'>Where you can find us?</div>
+        <div class='location'>
+          <div class='location__map'>
+            <!-- Google Maps -->
+            <div id='map' style='height: 100%;'></div>
+            <script>
+              function initMap() {
+                var shiftSpot = {lat: 45.811607, lng: 15.940597};
+                var shiftParty1 = {lat: 45.810168, lng: 15.942291};
+              
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 16,
+                  center: shiftSpot
+                });
+              
+                var contentString = "<strong>Shift Money - FinTech Conference 2018</strong><br>Prilaz Baruna Filipovića 23, Zagreb<br>";
+              
+                var infowindow = new google.maps.InfoWindow({
+                  content: contentString
+                });
+              
+                var marker = new google.maps.Marker({
+                  position: shiftSpot,
+                  map: map,
+                  title: 'Shift Money - FinTech Conference 2018'
+                });
+              
+              
+              
+                marker.addListener('click', function() {
+                  infowindow.open(map, marker);
+                });
+                infowindow.open(map, marker);
+              }
+            </script>
+            <script async='' defer='defer' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCMAYab_tmsuABPTE_haSUcVBUqXIuuz5o&amp;callback=initMap'></script>
+          </div>
+          <div class='location__details'>
+            <h2 class='small'>
+              <span>Shift Money</span>
+              FinTech Conference 2018
+            </h2>
+            <div class='title-desc'>
+              Prilaz Baruna Filipovića 23,
+              <br>
+              Zagreb, Croatia
+            </div>
+            <div class='acommodation'>
+              <div class='acommodation__logo'>
+                <i class='icon bed'></i>
+              </div>
+              <h3 class='large'>
+                <span>Accommodation</span>
+              </h3>
+              <p>Checkout our partner Booking for the best possible accommodation for your stay</p>
+              <a href='https://www.booking.com/' target='_blenk'>
+                <img alt='Booking' src='img/location/booking.svg'>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- FOOTER SECTION ************************************** -->
     <div class='section' id='footer'>
       <div class='container'>
@@ -152,6 +222,14 @@
             <a href='https://www.instagram.com/shiftsplit/'>
               <img alt='Shift Instagram' src='img/icons/s-instagram.svg'>
             </a>
+          </div>
+        </div>
+        <div class='footer__col'>
+          <h3>Previous Events</h3>
+          <div class='footer-previous'>
+            <a href='https://shiftconf.co/2016'>Shift Dev 2016</a>
+            <a href='https://shiftconf.co/2017'>Shift Dev 2017</a>
+            <a href='https://shiftconf.co/2018'>Shift Dev 2018</a>
           </div>
         </div>
         <div class='footer__col'>

@@ -42,6 +42,8 @@
             %li
               %a.nav__link(href="#tickets") Tickets
             %li
+              %a.nav__link(href="#location") Location
+            %li
               %a.nav__link(href="#footer") Contact
             %li
               %a.btn.blue.fill(href="#tickets") Buy Tickets
@@ -115,6 +117,69 @@
 
 
 
+    / LOCATION SECTION **************************************
+    #location.section
+      .container
+        %h1 Location
+        .title-desc Where you can find us?
+
+        .location
+          .location__map
+            / Google Maps
+            #map(style="height: 100%;")
+            :javascript
+              function initMap() {
+                var shiftSpot = {lat: 45.811607, lng: 15.940597};
+                var shiftParty1 = {lat: 45.810168, lng: 15.942291};
+
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 16,
+                  center: shiftSpot
+                });
+
+                var contentString = "<strong>Shift Money - FinTech Conference 2018</strong><br>Prilaz Baruna Filipovića 23, Zagreb<br>";
+
+                var infowindow = new google.maps.InfoWindow({
+                  content: contentString
+                });
+
+                var marker = new google.maps.Marker({
+                  position: shiftSpot,
+                  map: map,
+                  title: 'Shift Money - FinTech Conference 2018'
+                });
+
+
+
+                marker.addListener('click', function() {
+                  infowindow.open(map, marker);
+                });
+                infowindow.open(map, marker);
+              }
+            %script(async="" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMAYab_tmsuABPTE_haSUcVBUqXIuuz5o&callback=initMap")
+
+          .location__details
+            %h2.small
+              %span Shift Money
+              FinTech Conference 2018
+            .title-desc
+              Prilaz Baruna Filipovića 23, 
+              %br/
+              Zagreb, Croatia
+
+
+            .acommodation
+              .acommodation__logo
+                %i.icon.bed
+              %h3.large
+                %span Accommodation
+              %p Checkout our partner Booking for the best possible accommodation for your stay
+              %a(href="https://www.booking.com/" target="_blenk")
+                %img(src="img/location/booking.svg" alt="Booking")/
+
+
+
+
 
 
     / FOOTER SECTION **************************************
@@ -126,6 +191,7 @@
             All Rights Reserved by 
             %a(href="https://money.shiftconf.co/") Shift 
             © 2018
+
         .footer__col
           %h3 About
           %p Shift Money is a Financial Technology Conference, which purpose is to explore new ways to disrupt the world of Payments, Insurance, Lending & Blockchain. This event gathers the representatives of every sector of the industry, no matter their size or stage, in one place to find new partners, create connections and find new opportunities.
@@ -140,7 +206,14 @@
               %img(src="img/icons/s-flicker.svg" alt="Shift Flicker")/
             %a(href="https://www.instagram.com/shiftsplit/")
               %img(src="img/icons/s-instagram.svg" alt="Shift Instagram")/
-            
+
+        .footer__col
+          %h3 Previous Events
+          .footer-previous
+            %a(href="https://shiftconf.co/2016") Shift Dev 2016
+            %a(href="https://shiftconf.co/2017") Shift Dev 2017
+            %a(href="https://shiftconf.co/2018") Shift Dev 2018
+
         .footer__col
           %h3 Contact
           .contact
