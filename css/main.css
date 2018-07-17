@@ -1220,6 +1220,9 @@ a.social:hover {
 .previous #slideshow2018 {
   background: rgba(216,216,216,0.2) url("../img/slideshow/2018@1x.jpg") no-repeat center;
 }
+#location {
+  padding-bottom: 50px;
+}
 .location {
   display: -webkit-box;
   display: -moz-flex;
@@ -1228,8 +1231,7 @@ a.social:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 50px;
-  padding-top: 0;
+  margin-top: 50px;
 }
 .location .location__map {
   width: 60%;
