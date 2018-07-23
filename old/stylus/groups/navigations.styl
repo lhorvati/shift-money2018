@@ -1,0 +1,145 @@
+/* NAVIGATIONS.STYL ======================================= */
+
+/* MAIN NAV ========================== */
+.navBar
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    height: 60px
+    width: 100%
+    padding-top: 20px
+    padding-bottom: 20px
+    flexbox()
+    flex-center()
+    background: color0
+    z-index: 10
+
+    &.scroll
+        background: colorBlueDark
+
+    .container
+        flexbox()
+        justify-content: space-between
+        align-items: center
+
+
+    .navBar__logo
+        width: 83px
+        height: 56px
+
+        svg
+            height: 100%
+
+            path
+                fill: white
+
+    .navBar__btn,
+    .navBar__close
+        width: 34px
+        height: 34px
+        display: none
+    .navBar__btn
+        background: url("../img/menu-mobile.svg") center no-repeat
+        background-size: 30px
+    .navBar__close
+        background: url("../img/menu-close.svg") center no-repeat
+        background-size: 26px
+        position: absolute
+        top: 13px
+        right: 5%
+
+    .navBar__nav
+        transition(.5s)
+
+        ul
+            flexbox()
+            flex-flow: row nowrap
+
+            li
+                .nav__link
+                    position: relative
+                    min-width: 105px
+                    height: 36px
+                    flexbox()
+                    flex-center()
+                    color: colorWhite
+                    font-weight: 400
+                    cursor: pointer
+                    transition(.2s)
+
+                    &:hover
+                        font-weight: 600
+
+                    &.active
+                        font-weight: 600
+
+                        &:before
+                            display: block
+                            position: absolute
+                            width: 105px
+                            height: 8px
+                            top: -32px
+                            left: 0
+                            right: 0
+                            content: ''
+                            background: colorBlue
+
+
+/* SMALL NAV ========================== */
+.small-nav1,
+.small-nav2,
+.small-nav3
+    margin-top: 20px
+    flexbox()
+    flex-center()
+
+    .small-nav1__item,
+    .small-nav2__item,
+    .small-nav3__item
+        font-size: 19px
+        color: colorBlack
+        font-weight: 400
+        height: 25px
+        cursor: pointer
+        box-sizing()
+
+        &:first-child
+            margin-right: 50px
+
+        &.active
+            color: colorBlue
+            font-weight: 600
+            border-bottom: 2px solid colorBlue
+
+        &:hover
+            border-bottom: 2px solid colorBlue
+
+
+
+/* AGENDA NAV ========================== */
+.agenda-nav-wrap
+    position: absolute
+    left: 0
+    width: 100%
+    display: none
+
+    .agenda-nav
+        flexbox()
+        width: 100%
+        justify-content: space-between
+        align-items: center
+
+        .agenda-nav__btn
+            width: 33px
+            height: 33px
+            background: colorBlue
+            flexbox()
+            flex-center()
+            color: colorWhite
+            font-size: 14px
+            font-size: 600
+            transition(.2s)
+
+            &:active
+                background: colorBlueLight

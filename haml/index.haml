@@ -40,13 +40,15 @@
           .navBar__close
           %ul
             %li
+              %a.nav__link(href="#about") About
+            %li
               %a.nav__link(href="#tickets") Tickets
             %li
               %a.nav__link(href="#location") Location
             %li
               %a.nav__link(href="#footer") Contact
             %li
-              %a.btn.blue.fill(href="#tickets") Buy Tickets
+              %a.btn.green.fill(href="#tickets") Buy Tickets
 
     / HERO SECTION **************************************
     #hero.section
@@ -54,22 +56,32 @@
 
         .heroBox
           .heroBox__date
-            .heroBox__date--text 26 & 27 November
             .heroBox__date--line
-            .heroBox__date--text Zagreb, Croatia
+            .heroBox__date--text 26 & 27 November
           .heroBox__heading
+            .heroBox__wrap
+              Welcome
+              .heroBox__heading--line
             %strong Shift Money
-            %br
-            FinTech Conference
+          .heroBox__text
+            The biggest Developer Conference in Southeast Europe. This event, Shift 2019 is the eight and will bring together more than 1300 attendees. During the two conference days, Shift becomes a meeting place for developers in the most beautiful city in the world.
           .heroBox__buttons
-            %a.btn.blue.empty(href="#tickets") Get Tickets
+            %a.btn.green.empty(href="#tickets") Get Tickets
             .heroBox__buttons-spacer or
             %a.btn.link.white(href="https://www.youtube.com/watch?time_continue=1&v=YOMcSbT82Ks" target="_blenk") Watch our Video Review
             /.heroBox__buttons-spacer or
             /%a.btn.link.white(href="https://play.rtl.hr/digitalshapers/uzivo" target="_blenk") Watch Live Stream
 
-        .heroDate
-          26 & 27 November 2018
+
+
+    / ABOUT SECTION **************************************
+    #about.section
+      .container
+        %h1.small
+          Why Shift Money
+
+        %p The biggest Developer Conference in Southeast Europe. This event, Shift 2019 is the eight and will bring together more than 1300 attendees. During the two conference days, Shift becomes a meeting place for developers in the most beautiful city in the world.
+
 
 
 
@@ -105,7 +117,7 @@
             %br
             FinTech Conference
           .heroBox__buttons
-            %a.btn.blue.fill(href="#tickets") Get Tickets
+            %a.btn.green.fill(href="#tickets") Get Tickets
 
           .download__row
             Download our app
@@ -187,44 +199,60 @@
       .container
         .footer__col
           .footer__logo
-          .footer__copyright
-            All Rights Reserved by 
-            %a(href="https://money.shiftconf.co/") Shift 
-            © 2018
+          .footer__logo-bg
 
         .footer__col
-          %h3 About
+          %h3.footerIcon.footerIcon--about About
           %p Shift Money is a Financial Technology Conference, which purpose is to explore new ways to disrupt the world of Payments, Insurance, Lending & Blockchain. This event gathers the representatives of every sector of the industry, no matter their size or stage, in one place to find new partners, create connections and find new opportunities.
-          .footer-social
-            %a(href="https://twitter.com/shiftsplit")
-              %img(src="img/icons/s-twitter.svg" alt="Shift Twitter")/
-            %a(href="https://www.facebook.com/shiftsplit")
-              %img(src="img/icons/s-facebook.svg" alt="Shift Facebook")/
-            %a(href="https://www.youtube.com/user/TheShiftConference")
-              %img(src="img/icons/s-youtube.svg" alt="Shift Youtube")/
-            %a(href="https://www.flickr.com/photos/shiftsplit/sets/")
-              %img(src="img/icons/s-flicker.svg" alt="Shift Flicker")/
-            %a(href="https://www.instagram.com/shiftsplit/")
-              %img(src="img/icons/s-instagram.svg" alt="Shift Instagram")/
 
         .footer__col
-          %h3 Previous Events
+          %h3.footerIcon.footerIcon--events Previous Events
           .footer-previous
             %a(href="https://shiftconf.co/2016") Shift Dev 2016
             %a(href="https://shiftconf.co/2017") Shift Dev 2017
             %a(href="https://shiftconf.co/2018") Shift Dev 2018
 
         .footer__col
-          %h3 Contact
+          %h3.footerIcon.footerIcon--contacts Contact
           .contact
             Shift Conference
             %br/
             %br/
             114. brigade 8,
+            %br/
             21000 Split, Croatia
             %br/
             %br/
             %a(href="mailto: shift@shiftconf.co") shift@shiftconf.co
+
+      .footer__row
+        .container
+          .footer__row
+            .footer-social
+              %a(href="https://twitter.com/shiftsplit")
+                %svg(height="18" viewbox="0 0 22 18" width="22" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M6.749 18c8.107 0 12.543-6.927 12.543-12.924 0-.195 0-.39-.009-.585.86-.638 1.608-1.444 2.2-2.356-.79.363-1.641.602-2.535.717.911-.558 1.607-1.452 1.943-2.515-.851.522-1.797.894-2.803 1.098C17.28.549 16.137 0 14.873 0c-2.433 0-4.41 2.037-4.41 4.544 0 .355.043.7.111 1.037C6.912 5.395 3.662 3.579 1.487.833 1.11 1.506.894 2.285.894 3.118c0 1.577.782 2.968 1.96 3.783-.722-.027-1.401-.23-1.994-.567v.062c0 2.197 1.521 4.039 3.533 4.455-.37.107-.756.16-1.16.16-.284 0-.56-.027-.826-.08.559 1.807 2.192 3.118 4.118 3.154-1.513 1.222-3.413 1.948-5.476 1.948-.353 0-.705-.017-1.049-.062C1.943 17.247 4.264 18 6.749 18" fill="#FFF" fill-rule="nonzero")
+              %a(href="https://www.facebook.com/shiftsplit")
+                %svg(height="21" viewbox="0 0 22 21" width="22" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M22 3.5C22 1.661 20.26 0 18.333 0H3.667C1.739 0 0 1.661 0 3.5v14C0 19.339 1.74 21 3.667 21H11v-7.933H8.311v-3.5H11V8.203c0-2.352 1.85-4.47 4.125-4.47h2.964v3.5h-2.964c-.324 0-.703.376-.703.94v1.394h3.667v3.5h-3.667V21h3.911C20.261 21 22 19.339 22 17.5v-14z" fill="#FFF" fill-rule="nonzero")
+              %a(href="https://www.youtube.com/user/TheShiftConference")
+                %svg(height="21" viewbox="0 0 32 21" width="32" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M30.64 2.024C29.772.55 28.83.279 26.912.176 24.996.052 20.178 0 16.004 0 11.822 0 7.002.052 5.088.174 3.174.279 2.23.548 1.354 2.024.46 3.496 0 6.03 0 10.494v.016c0 4.444.46 6.998 1.354 8.455.876 1.474 1.818 1.741 3.732 1.865 1.916.107 6.736.17 10.918.17 4.174 0 8.992-.063 10.91-.168 1.918-.124 2.86-.391 3.728-1.865C31.544 17.51 32 14.956 32 10.51v-.01-.005c0-4.465-.456-7-1.36-8.472zM12 16.227V4.773L22 10.5l-10 5.727z" fill="#FFF" fill-rule="nonzero")
+              %a(href="https://www.flickr.com/photos/shiftsplit/sets/")
+                %svg(height="21" viewbox="0 0 22 21" width="22" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M20.79 1.155C19.983.385 19.012 0 17.875 0H4.125C2.989 0 2.017.385 1.21 1.155.403 1.925 0 2.853 0 3.937v13.125c0 1.085.403 2.012 1.21 2.783C2.017 20.615 2.99 21 4.125 21h13.75c1.136 0 2.108-.385 2.915-1.155.807-.77 1.21-1.698 1.21-2.783V3.937c0-1.084-.403-2.012-1.21-2.782zM9.11 12.551c-.593.565-1.309.848-2.149.848-.84 0-1.556-.283-2.148-.848-.592-.565-.888-1.249-.888-2.051s.295-1.486.888-2.05C5.404 7.883 6.12 7.6 6.96 7.6c.84 0 1.556.283 2.149.848.591.565.887 1.249.887 2.05 0 .803-.296 1.487-.887 2.052zm8.077 0c-.591.565-1.307.848-2.148.848-.84 0-1.556-.283-2.149-.848-.591-.565-.888-1.249-.888-2.051s.297-1.486.888-2.05c.593-.566 1.309-.849 2.149-.849.84 0 1.556.283 2.148.848.592.565.889 1.249.889 2.05 0 .803-.297 1.487-.889 2.052z" fill="#FFF" fill-rule="nonzero")
+              %a(href="https://www.instagram.com/shiftsplit/")
+                %svg(height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg")
+                  %g(fill="none" fill-rule="nonzero")
+                    %path(d="M12.638 0H5.362C2.406 0 0 2.406 0 5.362v7.276C0 15.594 2.406 18 5.362 18h7.276C15.594 18 18 15.594 18 12.638V5.362C18 2.406 15.594 0 12.638 0zm3.551 12.638c0 1.961-1.59 3.551-3.551 3.551H5.362c-1.961 0-3.551-1.59-3.551-3.551V5.362c0-1.961 1.59-3.551 3.551-3.551h7.276c1.961 0 3.551 1.59 3.551 3.551v7.276z" fill="url(#a)")
+                    %path(d="M9 4.39C6.458 4.39 4.39 6.458 4.39 9c0 2.542 2.068 4.61 4.61 4.61 2.542 0 4.61-2.068 4.61-4.61 0-2.542-2.068-4.61-4.61-4.61zm0 7.427c-1.556 0-2.817-1.261-2.817-2.817 0-1.556 1.261-2.817 2.817-2.817 1.556 0 2.817 1.261 2.817 2.817 0 1.556-1.261 2.817-2.817 2.817z" fill="url(#b)")
+                    %circle(cx="13.829" cy="4.171" fill="url(#c)" r="1.098")
+
+          .footer__row
+            .footer__copyright
+              All Rights Reserved by 
+              %a(href="https://money.shiftconf.co/") Shift 
+              © 2018
 
 
 

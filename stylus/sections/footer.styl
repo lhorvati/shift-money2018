@@ -1,18 +1,50 @@
 /* FOOTER.STYL ======================================= */
 
 #footer
-    background: rgba(216,216,216,0.2)
+    background: darkBlue
     padding: 50px 0 20px 0
+    color: white
+
+    h3
+        color: white
+        position relative
+
+        &.footerIcon
+            &:before
+                content: ''
+                display: block
+                width: 42px
+                height 42px
+                position absolute
+                left -60px
+                top: - 16px
+
+            &.footerIcon--about:before
+                background: url("../img/icons/f-about.svg") center no-repeat
+                background-size: 40px
+            &.footerIcon--events:before
+                background: url("../img/icons/f-events.svg") center no-repeat
+                background-size: 40px
+            &.footerIcon--contacts:before
+                background: url("../img/icons/f-contacts.svg") center no-repeat
+                background-size: 40px
+
 
     .container
         flexbox()
         justify-content: space-between
 
-    .footer__col
+    .footer__row
+        .container
+            flexbox()
+            flex-flow: column nowrap
+            justify-content: center
+            text-align: center
 
+    .footer__col
         &:first-child,
         &:last-child
-            width: 20%
+            width: auto
             flex-shrink: 0
 
         &:nth-child(2)
@@ -23,31 +55,49 @@
             line-height: 17px
 
     .footer__logo
+        position relative
         width: 120px
-        height: 83px
-        background: url("../img/shift-logo-blue.svg") center no-repeat
+        height: 104px
+        background: url("../img/shift_money_logo-white.svg") center no-repeat
         background-size: 120px
+        z-index 10
+
+    .footer__logo-bg
+        position: relative
+        width: 226px
+        height 116px
+        background: darkBlue url("../img/footer-bg.svg") left center no-repeat
+        background-size: 226px
+        left: 0
+        top: -60px
+        z-index 0
+
 
     .footer__copyright
         margin-top: 50px
+        font-size: 13px
 
         a
-            color: colorBlue
+            color: white
             font-weight: 700
+
+            &:hover
+                color: green
 
     .footer-social
         margin-top: 30px
         flexbox()
-        justify-content: space-between
+        justify-content: center
         width: 100%
 
         a
-            img
-                transition(.2s)
-                filter: grayscale(100%)
+            margin: 0 25px
+            svg path
+                fill: white
+                transition(.3s)
 
-                &:hover
-                    filter: grayscale(0)
+            &:hover svg path
+                fill: green
 
 
     .footer-previous
@@ -55,22 +105,28 @@
         flex-flow: column nowrap
 
         a
-            margin-bottom: 12px
-            color: colorBlue
+            font-family: font2
+            font-size: 12px
             font-weight: 400
+            margin-bottom: 12px
+            color: white
+
+            &:hover
+                color: green
 
             &:last-child
                 margin-bottom: 0
 
+
     .contact
-        font-family: font2
         font-size: 12px
         font-weight: normal
         line-height: 17px
+        font-family: font2
 
         a
-            color: colorBlack
+            color: white
 
             &:hover
-                color: colorBlue
+                color: green
 

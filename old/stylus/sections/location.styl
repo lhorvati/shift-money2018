@@ -1,0 +1,70 @@
+/* LOCATION.STYL ======================================= */
+
+#location
+    padding-bottom: 50px
+
+
+.location
+    flexbox()
+    justify-content: space-between
+    margin-top: 50px
+
+    .location__map
+        width: 60%
+        height: 500px
+        background: colorGray02
+
+    .location__details
+        width: 36%
+
+        .title-desc
+            line-height: 23px
+
+    .howto
+        margin-top: 40px
+
+        .howto__choice
+            flexbox()
+            flex-center()
+
+            .howto__choice-item
+                flexbox()
+                flex-center()
+                flex-flow: column nowrap
+                width: 40%
+
+                &:hover img
+                    filter: grayscale(0)
+
+                img
+                    width: 150px
+                    margin-bottom: 20px
+                    filter: grayscale(100%)
+                    transition(.2s)
+                
+                &:last-child img
+                    width: 120px
+
+
+            .howto__choice-spacer
+                width: 20%
+                flexbox()
+                flex-center()
+
+
+    .acommodation
+        margin-top: 40px
+
+        p
+            font-family: font2
+            font-size: 13px
+            line-height: 21px
+            margin-bottom: 10px
+
+        img
+            filter: grayscale(100%)
+            transition(.2s)
+            width: 150px
+
+            &:hover
+                filter: grayscale(0)

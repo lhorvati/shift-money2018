@@ -1,8 +1,8 @@
 /* HERO.STYL ======================================= */
 
 #hero
-    background: colorBlueDark url(../img/top-bg.svg) center no-repeat
-    background-size: cover
+    background: darkBlue url(../img/top-bg.svg) center no-repeat
+    background-size: contain
     height: 100vh
     flexbox()
     flex-center()
@@ -19,24 +19,54 @@
     .heroBox__date
         flexbox()
         align-items: center
-        font-size: 12px
+        position relative
+        bottom: 100px
+        left 150px
 
         .heroBox__date--text
             font-family: font2
+            font-size: 17px
+            font-weight: 600
+            color: darkBlue
+            background: white
+            padding: 10px 20px
 
         .heroBox__date--line
-            width: 34px
-            height: 1px
-            background: colorBlue
-            margin: 0 10px
+            width: 330px
+            height: 20px
+            background: url(../img/date-bg.svg) center no-repeat
+            background-size: contain
+            margin-right: 10px
 
     .heroBox__heading
-        font-size: 30px
-        margin: 30px 0
-        line-height: 36px
+        font-size: 32px
+        font-weight: 300
+        margin: 30px 0 15px 0
+        line-height: 60px
 
         strong
-            color: colorBlue
+            font-size: 64px
+            font-weight: 600
+
+    .heroBox__wrap
+        flexbox()
+        align-items: center
+        font-size: 32px
+        font-weight: 300
+
+    .heroBox__heading--line
+        width: 76px
+        height 5px
+        background: white
+        margin-left: 30px
+
+    .heroBox__text
+        font-size: 14px
+        font-weight: 300
+        color: white
+        line-height: 1.5
+        margin-bottom: 20px
+        max-width 400px
 
     .heroBox__buttons
         flexbox()
@@ -45,14 +75,3 @@
         .heroBox__buttons-spacer
             margin: 0 10px 0 24px
 
-
-.heroDate
-    position: absolute
-    flexbox()
-    font-size: 30px
-    font-family: font2
-    font-weight: 700
-    transform: rotate(90deg)
-    bottom: 0
-    right: 0
-    margin: 0px 120px 240px 0

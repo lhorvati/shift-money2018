@@ -1,0 +1,79 @@
+/* SPEAKERS.STYL ======================================= */
+
+#speakers
+    border-bottom: 1px solid colorBlue
+    padding-bottom: 50px
+
+    .container
+        flexbox()
+        flex-flow: column nowrap
+
+    .speakers-content
+        display: none
+
+    .speakers-wrap
+        flexbox()
+        flex-flow: row wrap
+
+    .more-comming
+        margin: 50px auto
+        width: 100%
+        text-align: center
+
+    .speaker
+        flexbox()
+        flex-flow: column nowrap
+        justify-content: flex-start
+        align-items: center
+        width: 33%
+        box-sizing()
+        padding: 50px 20px
+        text-align: center
+
+        .speaker__image
+            width: 160px
+            height: 160px
+            border-radius: 100%
+            overflow: hidden
+
+            img
+                filter: grayscale()
+
+        .speaker__name
+            text-transform: uppercase
+            color: colorBlue
+            font-size: 15px
+            font-weight: 700
+            margin: 40px 0 15px 0
+
+        .speaker__title
+            font-family: font2
+            font-size: 12px
+            font-style: italic
+            color: colorGray
+            line-height: 1.7
+
+            span
+                font-family: font1
+                color: colorBlue
+
+        .btn.blue.small
+            margin-top: 30px
+
+
+        .speaker__more
+            display: none
+
+
+        .speaker__social
+            margin: 20px 0
+            flexbox()
+            flex-center()
+
+            .social
+                margin: 0 30px
+
+        .social__bio
+            font-size: 14px
+            line-height: 25px
+            font-family: font2
