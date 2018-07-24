@@ -1,0 +1,46 @@
+/* WHO.STYL ======================================= */
+
+#who
+    position relative
+    background: darkBlue
+    background: -moz-linear-gradient(left, colorWhite 0%, colorWhite 53%, darkBlue 53%, darkBlue 100%)
+    background:linear-gradient(to right, colorWhite 0%, colorWhite 53%, darkBlue 53%, darkBlue 100%)
+    z-index 10
+
+.who
+    position relative
+    background: colorWhite
+    width: 70%
+    margin-right: auto
+    padding: 60px 60px 40px 0
+    box-sizing()
+
+    p
+        font-size: 15px
+        font-family: font2
+        line-height: 30px
+
+.who__list
+    margin-top: 40px
+    flexbox()
+    align-items: center
+    justify-content: space-between
+
+    .who__list-item
+        cursor pointer
+
+        &:hover img
+            filter: grayscale(0)
+            opacity 1
+
+        img
+            filter: grayscale(100%)
+            opacity .8
+            transition(.3s)
+
+
+.who__list-btn
+    flexbox()
+    flex-center()
+    position relative
+    bottom: -59px

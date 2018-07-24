@@ -13,7 +13,7 @@
     flexbox()
     flex-center()
     background: color0
-    z-index: 10
+    z-index: 100
 
     &.scroll
         background: darkBlue
@@ -103,22 +103,32 @@
     .small-nav2__item,
     .small-nav3__item
         font-size: 19px
-        color: colorBlack
+        color: colorWhite
         font-weight: 400
         height: 25px
         cursor: pointer
         box-sizing()
+        border-bottom: 2px solid color0
+        transition(.3s)
 
         &:first-child
             margin-right: 50px
 
         &.active
-            color: colorBlue
+            color: colorWhite
             font-weight: 600
-            border-bottom: 2px solid colorBlue
+            border-bottom: 3px solid green
 
         &:hover
-            border-bottom: 2px solid colorBlue
+            border-bottom: 3px solid green
+
+
+    .small-nav2__item,
+    .small-nav3__item
+        color: colorBlack
+
+        &.active
+            color: colorBlack
 
 
 

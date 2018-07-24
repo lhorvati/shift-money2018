@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="923px" height="630px" viewBox="0 0 923 630" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-453.000000, -2499.000000)">
+            <g id="BG" transform="translate(-839.000000, -29.000000)">
+                <g id="Group" transform="translate(0.000000, 29.000000)">
+                    <g id="Group-122">
+                        <g id="Group-18">
+                            <g id="Group-12" transform="translate(1308.000000, 2499.000000)">
+                                <path d="M761,27.83 C761,12.918 748.911,0.83 734,0.83 C719.088,0.83 707,12.918 707,27.83 C707,42.742 719.088,54.83 734,54.83 C748.911,54.83 761,42.742 761,27.83" id="Fill-2" fill="#E2E3E8"></path>
+                                <path d="M879.8226,608.985 C864.8846,608.985 852.7746,596.876 852.7746,581.937 C852.7746,566.999 864.8846,554.889 879.8226,554.889 C894.7606,554.889 906.8706,566.999 906.8706,581.937 C906.8706,596.876 894.7606,608.985 879.8226,608.985" id="Fill-4" fill="#0FD895"></path>
+                                <path d="M832.8832,628.8766 C806.9592,628.8766 785.9442,607.8606 785.9442,581.9376 C785.9442,556.0136 806.9592,534.9976 832.8832,534.9976 C858.8072,534.9976 879.8222,556.0136 879.8222,581.9376 C879.8222,607.8606 858.8072,628.8766 832.8832,628.8766 Z" id="Stroke-6" stroke="#FFFFFF" stroke-width="0.877"></path>
+                                <path d="M128.8295,167.6441 L0.5775,295.8961" id="Stroke-8" stroke="#017FFF" stroke-width="45.344"></path>
+                                <path d="M128.8295,295.8961 L0.5775,167.6441" id="Stroke-10" stroke="#017FFF" stroke-width="45.344"></path>
+                                <path d="M449,472 L449,498" id="Stroke-22" stroke="#0FD895" stroke-width="5.829"></path>
+                                <path d="M462,485 L436,485" id="Stroke-24" stroke="#0FD895" stroke-width="5.829"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

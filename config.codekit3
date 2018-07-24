@@ -242,6 +242,56 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
+	"\/img\/about-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/about-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/about-img1@1x.jpg": {
+		"ft": 16384,
+		"iS": 191509,
+		"oA": 0,
+		"oAP": "\/img\/about-img1@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/about-img1@2x.jpg": {
+		"ft": 16384,
+		"iS": 733620,
+		"oA": 0,
+		"oAP": "\/img\/about-img1@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/about-img2@1x.jpg": {
+		"ft": 16384,
+		"iS": 127514,
+		"oA": 0,
+		"oAP": "\/img\/about-img2@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/about-img2@2x.jpg": {
+		"ft": 16384,
+		"iS": 467435,
+		"oA": 0,
+		"oAP": "\/img\/about-img2@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/appstore.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -307,6 +357,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/icons\/f-events.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/icons\/icon-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/icon-arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -571,6 +631,76 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/speakers-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/speakers-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/speakers\/grgurGrisogono@1x.jpg": {
+		"ft": 16384,
+		"iS": 6114,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/grgurGrisogono@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/grgurGrisogono@2x.jpg": {
+		"ft": 16384,
+		"iS": 17714,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/grgurGrisogono@2x.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
+	"\/img\/speakers\/ivanBurazin@1x.jpg": {
+		"ft": 16384,
+		"iS": 7031,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/ivanBurazin@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/ivanBurazin@2x.jpg": {
+		"ft": 16384,
+		"iS": 20216,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/ivanBurazin@2x.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
+	"\/img\/speakers\/peter-hopwood@1x.jpg": {
+		"ft": 16384,
+		"iS": 9040,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/peter-hopwood@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/peter-hopwood@2x.jpg": {
+		"ft": 16384,
+		"iS": 24719,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/peter-hopwood@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
 		},
 	"\/img\/sponsors\/aduro.png": {
 		"ft": 32768,
@@ -5222,6 +5352,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/tickets.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"\/stylus\/sections\/who.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/who.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0

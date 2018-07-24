@@ -1,12 +1,18 @@
 /* SPEAKERS.STYL ======================================= */
 
 #speakers
-    border-bottom: 1px solid colorBlue
+    background: darkBlue url(../img/speakers-bg.svg) top 230px right 40px no-repeat
+    background-size: 907px
     padding-bottom: 50px
+    color: colorWhite
 
     .container
         flexbox()
         flex-flow: column nowrap
+        text-align: center
+
+        h1
+            color: colorWhite
 
     .speakers-content
         display: none
@@ -20,6 +26,7 @@
         width: 100%
         text-align: center
 
+
     .speaker
         flexbox()
         flex-flow: column nowrap
@@ -29,6 +36,22 @@
         box-sizing()
         padding: 50px 20px
         text-align: center
+
+        &:nth-child(1n)
+            .speaker__image
+                border: 10px solid blue
+        &:nth-child(2n)
+            .speaker__image
+                border: 10px solid green
+        &:nth-child(3n)
+            .speaker__image
+                border: 10px solid tiel
+        &:nth-child(4n)
+            .speaker__image
+                border: 10px solid red
+        &:nth-child(5n)
+            .speaker__image
+                border: 10px solid yellow
 
         .speaker__image
             width: 160px
@@ -41,21 +64,20 @@
 
         .speaker__name
             text-transform: uppercase
-            color: colorBlue
+            color: colorWhite
             font-size: 15px
             font-weight: 700
-            margin: 40px 0 15px 0
+            margin: 25px 0 15px 0
 
         .speaker__title
             font-family: font2
             font-size: 12px
-            font-style: italic
-            color: colorGray
+            color: colorWhite
             line-height: 1.7
 
             span
-                font-family: font1
-                color: colorBlue
+                font-family: font2
+                color: colorWhite
 
         .btn.blue.small
             margin-top: 30px
@@ -73,7 +95,16 @@
             .social
                 margin: 0 30px
 
+                &:hover svg path
+                    fill green
+
+                svg path
+                    fill: white
+                    transition(.3s)
+
         .social__bio
+            margin-top: 20px
             font-size: 14px
             line-height: 25px
             font-family: font2
+            color: colorWhite

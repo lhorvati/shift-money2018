@@ -1,46 +1,66 @@
 /* ABOUT.STYL ======================================= */
 
 #about
+    background: darkBlue
+    background: -moz-linear-gradient(left, darkBlue 0%, darkBlue 53%, colorWhite 53%, colorWhite 100%)
+    background:linear-gradient(to right, darkBlue 0%, darkBlue 53%, colorWhite 53%, colorWhite 100%)
+
     .container
         flexbox()
         flex-flow: column nowrap
         position: relative
 
+    .aboutFiller
+        background: darkBlue
+        height 170px
 
-    .about__event,
-    .about__talks,
-    .about__workshops
-
-        img
-            position: absolute
-            left: -70px
-            top: 200px
-
-        h2
-            margin: 20px 0 30px 0
+    .about
+        position relative
+        background: colorWhite
+        width: 60%
+        margin-left: auto
+        padding: 170px 0 300px 200px
+        box-sizing()
 
         p
+            font-size: 15px
             font-family: font2
-            font-size: 13px
-            color: black
             line-height: 30px
 
-    .about__event
-        width: 80%
-        height: 400px
-        margin: 150px 0 0 auto
-        border: 18px solid colorBlue
-        box-sizing: border-box
-        padding: 50px 20px 50px 360px
-        flexbox()
-        justify-content: center
-        flex-flow: column nowrap
+        .about__bg
+            position absolute
+            left: -300px
+            top: 50px
+            width: 517px
+            height 332px
+            background: url("../img/about-bg.svg") center no-repeat
+            background-size: 517px
+            z-index 5
 
-    .about__wrap
-        flexbox()
-        justify-content: space-between
-        margin-top: 20px
-        
-        .about__talks,
-        .about__workshops
-            width: 48%
+        .about__arrow
+            position absolute
+            left: 370px
+            bottom: -105px
+            width: 119px
+            height 97px
+            background: url("../img/icons/icon-arrow.svg") center no-repeat
+            background-size: 119px
+            z-index 7
+
+        .about__img1,
+        .about__img2
+            position: absolute
+            overflow hidden
+            z-index 6
+
+        .about__img1
+            width: 475px
+            height 317px
+            top: 150px
+            left -450px
+
+        .about__img2
+            width: 401px
+            height 261px
+            bottom: -100px
+            left 0
