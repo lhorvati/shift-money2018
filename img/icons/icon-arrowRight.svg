@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="17px" viewBox="0 0 10 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-840.000000, -6511.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="NEWSLETTER-#7" transform="translate(292.000000, 6331.000000)">
+                <g id="mail-label" transform="translate(278.000000, 164.000000)">
+                    <g id="arrow-point-to-right" transform="translate(270.000000, 16.000000)">
+                        <path d="M9.34401991,9.33841593 L2.03676549,16.6454447 C1.57193584,17.1105 0.818294248,17.1105 0.353690265,16.6454447 C-0.110951327,16.1808031 -0.110951327,15.4271991 0.353690265,14.9625951 L6.8194823,8.49699115 L0.353878319,2.03161283 C-0.110763274,1.56678319 -0.110763274,0.813254425 0.353878319,0.348612832 C0.818519912,-0.116216814 1.57212389,-0.116216814 2.03695354,0.348612832 L9.34420796,7.65575442 C9.57652876,7.88818805 9.69255752,8.19249558 9.69255752,8.49695354 C9.69255752,8.80156195 9.5763031,9.10609513 9.34401991,9.33841593 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

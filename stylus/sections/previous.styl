@@ -1,42 +1,25 @@
 /* PREVOUIS.STYL ======================================= */
 
 
+#previous
+    padding: 20px 0
+    background: lightGray
+    background: -moz-linear-gradient(top, lightGray 0%, lightGray 70%, darkBlue 70%, darkBlue 100%)
+    background:linear-gradient(to bottom, lightGray 0%, lightGray 70%, darkBlue 70%, darkBlue 100%)
+
 .previous
     flexbox()
-    flex-flow: column nowrap
-    max-width: 750px
+    flex-flow: row nowrap
+    width: 100%
     margin: 50px auto 0 auto
+    overflow: hidden
 
-    .previous__nav
-        flexbox()
-
-        .pn-item
-            width: 50px
-
-            &.active span
-                color: colorBlue
-                font-weight: 700
-                border-bottom: 2px solid colorBlue
-
-            span
-                font-size: 14px
-                font-weight: 400
-                cursor: pointer
-
-                &:hover,
-                &.active
-                    color: colorBlue
-                    font-weight: 700
-                    border-bottom: 2px solid colorBlue
-
-    .slideshow
+    .previousItem
         margin-top: 20px
-        width: 100%
-        height: 500px
+        max-width: 400px
+        height: auto
         background: colorGray02
         background-size: cover !important
-        overflow: hidden
-        display: none
 
         a
             width: 100%
@@ -71,23 +54,3 @@
                         margin-top: 20px
                         text-shadow: 0 0 10px colorBlack
 
-
-
-
-
-    #slideshowAll
-        background: colorGray02 url(../img/slideshow/all@1x.jpg) no-repeat center
-    #slideshow2012
-        background: colorGray02 url(../img/slideshow/2012@1x.jpg) no-repeat center
-    #slideshow2013
-        background: colorGray02 url(../img/slideshow/2013@1x.jpg) no-repeat center
-    #slideshow2014
-        background: colorGray02 url(../img/slideshow/2014@1x.jpg) no-repeat center
-    #slideshow2015
-        background: colorGray02 url(../img/slideshow/2015@1x.jpg) no-repeat center
-    #slideshow2016
-        background: colorGray02 url(../img/slideshow/2016@1x.jpg) no-repeat center
-    #slideshow2017
-        background: colorGray02 url(../img/slideshow/2017@1x.jpg) no-repeat center
-    #slideshow2018
-        background: colorGray02 url(../img/slideshow/2018@1x.jpg) no-repeat center

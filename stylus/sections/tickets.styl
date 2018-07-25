@@ -1,10 +1,130 @@
 /* TICKETS.STYL ======================================= */
 
+#tickets
+    background: lightGray
+
+    .container
+        border-radius(10px)
+        background: colorWhite
+        padding: 50px 70px 30px 70px
+        box-sizing()
+
+    h1
+        margin-top: 0
+
+    .title-desc
+        font-family: font2
+
 .tickets
     margin-top: 50px
     flexbox()
     flex-center()
+    flex-flow: column nowrap
 
-    iframe
-        margin: 0 auto
-        max-width: 1080px
+
+.ticketsBot
+    flexbox()
+    align-items: center
+    justify-content: space-between
+
+    .tickets__cards,
+    .tickets__buttons
+        flexbox()
+
+    .tickets__cards
+        box-sizing()
+        padding: 0 20px
+        flex: 1 1 auto
+        margin-right: 80px
+        justify-content: space-between
+
+        img
+            max-width 70px
+
+    .tickets__buttons
+        min-width: 205px
+        flex-flow: column nowrap
+
+        .btn
+            font-size: 15px
+            font-weight: 500
+            padding: 11px 16px
+
+            &:first-child
+                margin-bottom: 15px
+
+        .btn.yellow
+            &:hover svg path
+                fill: white
+
+            svg
+                width: 20px
+                height: 20px
+                margin-right: 10px
+
+                path
+                    transition(.5s)
+                    fill: yellow
+
+
+.ticket
+    width: 100%
+    flexbox()
+    align-items: center
+    justify-content: flex-start
+    border: 1px solid gray1
+    border-radius(3px)
+    box-sizing()
+    padding: 40px 35px
+    margin-bottom: 20px
+    transition(.5s)
+
+    &:first-child
+        &:hover
+            border-color: green
+        .select select:hover
+            border-color: green
+    &:nth-child(2)
+        &:hover
+            border-color: red
+        .select select:hover
+            border-color: red
+
+    .ticket__icon
+        width: 40px
+        height 40px
+        flex-shrink: 0
+        margin-right: 50px
+
+    .ticket__name
+        font-size: 20px
+        font-weight: 600
+        flex: 1 1 425px
+        text-transform: capitalize
+
+        &.ticket__name--green
+            color: green
+        &.ticket__name--red
+            color: red
+
+    .ticket__price
+        flex: 1 1 390px
+
+        .ticket__price-top,
+        .ticket__price-bot
+            font-family: font2
+            font-weight: 400
+
+        .ticket__price-top
+            font-size: 15px
+            color: black
+            margin-bottom: 7px
+
+        .ticket__price-bot
+            font-size: 13px
+            color: gray2
+
+    .ticket__quatnity
+        margin-left: 50px
+        flexbox()
+        flex-center()

@@ -332,6 +332,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/icons\/carret-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/carret-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/icons\/f-about.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -372,11 +382,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/icons\/icon-arrowRight.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/icon-arrowRight.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/icons\/icon-bed.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/icons\/icon-bed.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/icons\/icon-bitcoin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/icon-bitcoin.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -417,6 +447,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/icons\/icon-team.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/icons\/icon-tickets.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/icon-tickets.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -577,6 +617,56 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/modal-close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/payment\/american-express.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/payment\/american-express.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/payment\/discover.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/payment\/discover.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/payment\/mastercard.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/payment\/mastercard.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/payment\/paypal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/payment\/paypal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/payment\/visa.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/payment\/visa.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -5235,6 +5325,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/location.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"\/stylus\/sections\/newsletter.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/newsletter.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0

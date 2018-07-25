@@ -1,1 +1,36 @@
 /* INPUT.STYL ======================================= */
+
+
+
+// SELECT
+.select
+    position relative
+
+    &::before
+        content: ''
+        position: absolute
+        flexbox()
+        flex-center()
+        width: 10px
+        height 6px
+        top: 18px
+        right 10px
+        background: url(../img/icons/carret-down.svg) center no-repeat
+        background-size: 10px
+        z-index 0
+
+    select
+        position relative
+        cursor pointer
+        background: transparent
+        border: 1px solid gray1
+        border-radius(5px)
+        padding: 10px 15px
+        -webkit-appearance: none
+        font-size: 16px
+        min-width: 62px
+        z-index 1
+        transition(.5s)
+
+
+
