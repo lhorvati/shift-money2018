@@ -1,70 +1,95 @@
 /* LOCATION.STYL ======================================= */
 
 #location
-    padding-bottom: 50px
+    background: darkBlue
+    padding: 20px 0 50px 0
+    min-height: 720px
+    flexbox()
+    align-items: center
+
+    .container
+        flexbox()
+        justify-content: space-between
+        align-items: center
 
 
 .location
     flexbox()
-    justify-content: space-between
-    margin-top: 50px
+    flex-flow: column nowrap
+    max-width: 360px
+    position relative
 
-    .location__map
-        width: 60%
-        height: 500px
-        background: colorGray02
+    &:before
+        content: ''
+        display: block
+        width: 450px
+        height 236px
+        background: url(../img/location-bg.svg) center no-repeat
+        background-size: 450px
+        position absolute
+        top -110%
+        left -120px
 
-    .location__details
-        width: 36%
+    .location__title
+        flexbox()
+        flex-flow: column nowrap
+        align-items: flex-end
+        text-align: right
+        
+        
 
-        .title-desc
-            line-height: 23px
+        span
+            font-size: 60px
+            color: blue
+            font-weight: 700
 
-    .howto
-        margin-top: 40px
+            &:last-child
+                font-size: 45px
+                color: white
+                font-weight: 600
+                flexbox()
+                align-items: center
 
-        .howto__choice
+                &:before
+                    content: ''
+                    display: block
+                    width: 140px
+                    height 2px
+                    background: blue
+                    position relative
+                    margin-right: 30px
+
+    p
+        font-size: 15px
+        font-family: font2
+        color: white
+        text-align: left
+        margin: 22px 0
+
+    .location__desc
+        flexbox()
+        justify-content: flex-start
+        align-items: center
+
+        .location__icon
+            width: 52px
+            height 52px
+            margin-right: 22px
+
+        .location__details
             flexbox()
-            flex-center()
+            flex-flow: column nowrap
 
-            .howto__choice-item
-                flexbox()
-                flex-center()
-                flex-flow: column nowrap
-                width: 40%
-
-                &:hover img
-                    filter: grayscale(0)
-
-                img
-                    width: 150px
-                    margin-bottom: 20px
-                    filter: grayscale(100%)
-                    transition(.2s)
-                
-                &:last-child img
-                    width: 120px
+            span
+                font-size: 15px
+                font-family: font2
+                color: green
+                line-height: 24px
 
 
-            .howto__choice-spacer
-                width: 20%
-                flexbox()
-                flex-center()
+.location__map
+    max-width 700px
+    max-height: 720px
 
-
-    .acommodation
-        margin-top: 40px
-
-        p
-            font-family: font2
-            font-size: 13px
-            line-height: 21px
-            margin-bottom: 10px
-
-        img
-            filter: grayscale(100%)
-            transition(.2s)
-            width: 150px
-
-            &:hover
-                filter: grayscale(0)
+    img
+        object-fit: cover

@@ -432,6 +432,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/icons\/icon-location.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/icon-location.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/icons\/icon-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -562,6 +572,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/location-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/location-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/location\/booking.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -591,6 +611,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/location\/location-map@1x.jpg": {
+		"ft": 16384,
+		"iS": 809661,
+		"oA": 0,
+		"oAP": "\/img\/location\/location-map@1x.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
 		},
 	"\/img\/menu-close.svg": {
 		"ft": 2097152,

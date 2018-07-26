@@ -788,64 +788,62 @@
     / LOCATION SECTION **************************************
     #location.section
       .container
-        %h1 Location
-        .title-desc Where you can find us?
 
         .location
-          .location__map
-            / Google Maps
-            #map(style="height: 100%;")
-            :javascript
-              function initMap() {
-                var shiftSpot = {lat: 45.811607, lng: 15.940597};
-                var shiftParty1 = {lat: 45.810168, lng: 15.942291};
+          .location__title
+            %span Shift
+            %span Location
+          %p Where you can find us?
 
-                var map = new google.maps.Map(document.getElementById('map'), {
-                  zoom: 16,
-                  center: shiftSpot
-                });
+          .location__desc 
+            .location__icon
+              %svg(height="53" viewbox="0 0 53 53" width="53" xmlns="http://www.w3.org/2000/svg")
+                %g(fill="none" fill-rule="evenodd")
+                  %path(d="M27.004 18.871c-4.458 0-8.075 3.612-8.075 8.072 0 4.46 3.617 8.078 8.075 8.078 4.457 0 8.074-3.617 8.074-8.078 0-4.46-3.618-8.072-8.074-8.072z" fill="#FF697E")
+                  %path(d="M48.045 21.709c.768 1.02 2.216 1.222 3.235.454 1.018-.768 1.221-2.218.453-3.237-.767-1.02-2.215-1.223-3.234-.455-1.018.77-1.221 2.218-.454 3.238M17.957 4.987c.768 1.02 2.216 1.223 3.235.454 1.017-.768 1.221-2.217.453-3.237-.768-1.019-2.216-1.222-3.235-.454-1.018.769-1.221 2.218-.453 3.237M18.644 51.292c.768 1.02 2.216 1.222 3.235.454 1.017-.768 1.221-2.218.453-3.237-.768-1.02-2.216-1.223-3.235-.455-1.018.77-1.221 2.218-.453 3.238" fill="#0FD895")
+                  %path(d="M13.838 6.297C7.03 10.569 2.502 18.147 2.502 26.784c0 8.715 4.61 16.353 11.521 20.604M47.54 14.667C43.36 7.463 35.569 2.619 26.645 2.619M26.646 50.949c13.334 0 24.143-10.82 24.143-24.165" stroke="#017FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.926")
+            .location__details
+              %span
+                Prilaz Baruna Filipovića 23A,
+                %br/
+                10 000 Zagreb,Croatia
 
-                var contentString = "<strong>Shift Money - FinTech Conference 2018</strong><br>Prilaz Baruna Filipovića 23, Zagreb<br>";
 
-                var infowindow = new google.maps.InfoWindow({
-                  content: contentString
-                });
-
-                var marker = new google.maps.Marker({
-                  position: shiftSpot,
-                  map: map,
-                  title: 'Shift Money - FinTech Conference 2018'
-                });
+        .location__map
+          %img(srcset="img/location/location-map@2x.jpg 2x, img/location/location-map@1x.jpg 1x," src="img/location/location-map@1x.jpg" alt="Shift Money location")/
 
 
 
-                marker.addListener('click', function() {
-                  infowindow.open(map, marker);
-                });
-                infowindow.open(map, marker);
-              }
-            %script(async="" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMAYab_tmsuABPTE_haSUcVBUqXIuuz5o&callback=initMap")
-
-          .location__details
-            %h2.small
-              %span Shift Money
-              FinTech Conference 2018
-            .title-desc
-              Prilaz Baruna Filipovića 23, 
-              %br/
-              Zagreb, Croatia
 
 
-            .acommodation
-              .acommodation__logo
-                %i.icon.bed
-              %h3.large
-                %span Accommodation
-              %p Checkout our partner Booking for the best possible accommodation for your stay
-              %a(href="https://www.booking.com/" target="_blenk")
-                %img(src="img/location/booking.svg" alt="Booking")/
 
 
+    / HOWTO SECTION **************************************
+    #howto.section
+      .container
+
+        .location
+          .location__title
+            %span Shift
+            %span Location
+          %p Where you can find us?
+
+          .location__desc 
+            .location__icon
+              %svg(height="53" viewbox="0 0 53 53" width="53" xmlns="http://www.w3.org/2000/svg")
+                %g(fill="none" fill-rule="evenodd")
+                  %path(d="M27.004 18.871c-4.458 0-8.075 3.612-8.075 8.072 0 4.46 3.617 8.078 8.075 8.078 4.457 0 8.074-3.617 8.074-8.078 0-4.46-3.618-8.072-8.074-8.072z" fill="#FF697E")
+                  %path(d="M48.045 21.709c.768 1.02 2.216 1.222 3.235.454 1.018-.768 1.221-2.218.453-3.237-.767-1.02-2.215-1.223-3.234-.455-1.018.77-1.221 2.218-.454 3.238M17.957 4.987c.768 1.02 2.216 1.223 3.235.454 1.017-.768 1.221-2.217.453-3.237-.768-1.019-2.216-1.222-3.235-.454-1.018.769-1.221 2.218-.453 3.237M18.644 51.292c.768 1.02 2.216 1.222 3.235.454 1.017-.768 1.221-2.218.453-3.237-.768-1.02-2.216-1.223-3.235-.455-1.018.77-1.221 2.218-.453 3.238" fill="#0FD895")
+                  %path(d="M13.838 6.297C7.03 10.569 2.502 18.147 2.502 26.784c0 8.715 4.61 16.353 11.521 20.604M47.54 14.667C43.36 7.463 35.569 2.619 26.645 2.619M26.646 50.949c13.334 0 24.143-10.82 24.143-24.165" stroke="#017FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.926")
+            .location__details
+              %span
+                Prilaz Baruna Filipovića 23A,
+                %br/
+                10 000 Zagreb,Croatia
+
+
+        .location__map
+          %img(srcset="img/location/location-map@2x.jpg 2x, img/location/location-map@1x.jpg 1x," src="img/location/location-map@1x.jpg" alt="Shift Money location")/
 
 
 
