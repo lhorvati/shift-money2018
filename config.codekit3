@@ -332,6 +332,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/howto-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/howto-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/icons\/carret-down.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -402,11 +412,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/icons\/icon-bed2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/icon-bed2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/icons\/icon-bitcoin.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/icons\/icon-bitcoin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/icons\/icon-bus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/icon-bus.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -447,6 +477,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/icons\/icon-map.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/icons\/icon-plane.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/icon-plane.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -612,6 +652,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/location\/getByBus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/location\/getByBus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/location\/location-map@1x.jpg": {
 		"ft": 16384,
 		"iS": 809661,
@@ -620,6 +670,16 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"q": 81
+		},
+	"\/img\/location\/location-map@2x.jpg": {
+		"ft": 16384,
+		"iS": 2443325,
+		"oA": 0,
+		"oAP": "\/img\/location\/location-map@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/menu-close.svg": {
@@ -1118,6 +1178,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/sponsors\/gamachef.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/getByBus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/getByBus.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -5329,6 +5399,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/hero.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"\/stylus\/sections\/howto.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/howto.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0

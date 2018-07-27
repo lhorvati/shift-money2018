@@ -1,0 +1,89 @@
+/* HOWTO.STYL ======================================= */
+
+#howto
+    padding: 50px 0
+    overflow hidden
+
+    .container
+        position relative
+
+    .howto
+
+        p
+            font-family: font2
+            font-size: 16px
+            color: black
+
+        .howto__buttons
+            margin-top: 50px
+            flexbox()
+            align-items: center
+
+    .howtoBtn
+        width: 260px
+        height 60px
+        flexbox()
+        flex-flow: row nowrap
+        align-items: center
+        justify-content: space-between
+        border: 1px solid gray3
+        border-radius(3px)
+        background: color0
+        cursor pointer
+        transition(.5s)
+        margin-right: 15px
+        padding: 0 30px
+        box-sizing()
+        opacity .7
+
+        &:last-child
+            margin-right: 0
+
+        &:hover
+            opacity 1
+
+            .howtoBtn__icon svg path,
+            .howtoBtn__logo svg path
+                fill: white
+
+            &.howtoBtn--tiel
+                border-color: tiel
+                background: tiel
+            &.howtoBtn--red
+                border-color: red
+                background: red
+            &.howtoBtn--green
+                border-color: green
+                background: green
+
+        .howtoBtn__icon,
+        .howtoBtn__logo
+            flexbox()
+            flex-center()
+
+            svg path
+                fill: gray3
+
+        .howtoBtn__icon
+            width: 38px
+            height 38px
+
+        .howtoBtn__logo
+            width: 120px
+            height auto
+
+            svg
+                max-height 30px
+
+
+
+    .howtoBg
+        position absolute
+        top: 50%
+        margin-top: -180px
+        right: -30px
+        width: 391px
+        height 304px
+        background: url(../img/howto-bg.svg) right center no-repeat
+        background-size: 391px 304px
+        z-index 1

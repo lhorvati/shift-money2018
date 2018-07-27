@@ -1,46 +1,65 @@
 /* TESTIMONIALS.STYL ======================================= */
 
 #testimonials
+    .container
+        position relative
 
     .testimonials
         flexbox()
-        justify-content: space-between
-        margin-top: 50px
+        flex-flow: column nowrap
 
     .testimonials-item
-        width: 30%
+        flexbox()
 
-        .v-top
-            vertical-align: top
+        .testemonials__comment
+            flexbox()
+            flex-flow: column nowrap
 
-        .testimonials__img
-            width: 60px
-            height: 60px
-            margin-right: 20px
-            border-radius(100%)
-            overflow: hidden
+            .testemonials__name
+                font-size: 17px
+                font-weight: 700
+                color: blue
 
-            &.quote
-                background: url("../img/icons/quotes.svg") no-repeat
-                background-position: 100% 12px
-                background-size: 30px
-                border-radius(0)
+            .testemonials__title
+                font-size: 15px
+                font-family: font2
+                color: black
 
-        .testimonials__name
-            font-size: 12px
-            font-weight: 700
-            color: colorBlue
-            text-transform: uppercase
-            margin-bottom: 20px
+        .testemonials__image
+            position relative
 
-        .testimonials__title
-            font-family: font2
-            font-style: italic
-            font-size: 12px
-            color: colorGray
 
-        .testimonials__text
-            font-family: font2
-            font-size: 12px
-            line-height: 17px
-            margin-top: 10px
+
+.testemonialsBox
+    position relative
+    background: blue
+    width: 720px
+    padding: 35px 75px 35px 35px
+    box-sizing()
+    color: white
+    font-family: font2
+    font-size: 14px
+    line-height: 29px
+
+    &.testemonialsBox--left,
+    &.testemonialsBox--right
+        &:before
+            content: ''
+            position: absolute
+            width: 0
+            height: 0
+            border-style: solid
+            top: -48px
+
+    &.testemonialsBox--left
+        &:before
+            right 0
+            border-width: 0 0 50px 50px
+            border-color: transparent transparent blue transparent
+
+    &.testemonialsBox--right
+        &:before
+            left 0
+            border-width: 50px 0 0 50px
+            border-color: transparent transparent transparent blue
+
