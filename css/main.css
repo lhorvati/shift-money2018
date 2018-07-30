@@ -1240,8 +1240,7 @@ a.social:hover {
 }
 #testimonials .testimonials .testimonials-item:nth-child(odd) .testimonialsBox {
   padding: 35px 75px 35px 35px;
-  background: #017fff url("../img/testimonialsQuoteL-bg.svg") right 15px top 40px no-repeat;
-  background-size: 32px;
+  background-position: right 20px top 40px;
 }
 #testimonials .testimonials .testimonials-item:nth-child(odd) .testimonialsBox:before {
   right: 0;
@@ -1260,8 +1259,7 @@ a.social:hover {
 }
 #testimonials .testimonials .testimonials-item:nth-child(even) .testimonialsBox {
   padding: 35px 35px 35px 75px;
-  background: #017fff url("../img/testimonialsQuoteR-bg.svg") left 15px top 40px no-repeat;
-  background-size: 32px;
+  background-position: left 20px top 40px;
 }
 #testimonials .testimonials .testimonials-item:nth-child(even) .testimonialsBox:before {
   left: 0;
@@ -1338,6 +1336,10 @@ a.social:hover {
   font-size: 14px;
   line-height: 29px;
   margin-top: 20px;
+  background-color: #017fff;
+  background-image: url("../img/testimonialsQuote-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 32px;
 }
 .testimonialsBox:before {
   content: '';
