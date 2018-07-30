@@ -682,6 +682,16 @@
 		"opt": 0,
 		"q": 81
 		},
+	"\/img\/location\/mzlz.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/location\/mzlz.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/menu-close.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1871,6 +1881,16 @@
 		"oT": 1,
 		"q": 81
 		},
+	"\/img\/testemonials-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/testemonials-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/testimonials\/evan-stites.png": {
 		"ft": 32768,
 		"iS": 18940,
@@ -1902,6 +1922,36 @@
 		"opt": 0,
 		"q": 81
 		},
+	"\/img\/testimonials\/testemonials1.jpg": {
+		"ft": 16384,
+		"iS": 385690,
+		"oA": 0,
+		"oAP": "\/img\/testimonials\/testemonials1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/testimonials\/testimonials@1x.jpg": {
+		"ft": 16384,
+		"iS": 385690,
+		"oA": 0,
+		"oAP": "\/img\/testimonials\/testimonials@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/testimonials\/testimonials@2x.jpg": {
+		"ft": 16384,
+		"iS": 1288118,
+		"oA": 0,
+		"oAP": "\/img\/testimonials\/testimonials@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/testimonials\/tom-preston.png": {
 		"ft": 32768,
 		"iS": 20507,
@@ -1922,6 +1972,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 81
+		},
+	"\/img\/testimonialsQuoteL-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/testimonialsQuoteL-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/testimonialsQuoteR-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/testimonialsQuoteR-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/top-bg.svg": {
 		"ft": 2097152,
