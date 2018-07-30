@@ -138,8 +138,4 @@ $(function() {
     $("#attendees__close").click(function() {
         $("#attendees").removeClass("show");
     });
-
-    $.get("https://165.227.165.88.nip.io/attendees", function(list) {
-        $("#attendee__list").append(list);
-    });
 });
