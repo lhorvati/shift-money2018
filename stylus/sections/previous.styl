@@ -13,13 +13,26 @@
     width: 100%
     margin: 50px auto 0 auto
     overflow: hidden
+    height: 580px
 
     .previousItem
+        position relative
         margin-top: 20px
-        max-width: 400px
+        width: 25%
         height: auto
         background: colorGray02
-        background-size: cover !important
+        overflow hidden
+
+        &:nth-child(odd)
+            align-self: flex-start
+            height 400px
+        &:nth-child(even)
+            align-self: flex-end
+            height 540px
+
+        img
+            object-fit: cover
+            max-width: fit-content
 
         a
             width: 100%
@@ -33,6 +46,7 @@
                 background-color: colorBlack03
 
             .previous-overlay
+                position absolute
                 opacity: 0
                 transition(.5s)
                 background-color: transparent
@@ -40,6 +54,7 @@
                 flex-center()
                 width: 100%
                 height: 100%
+                z-index 1
 
 
                 .previous__btn

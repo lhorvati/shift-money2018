@@ -2,9 +2,14 @@
 
 #testimonials
     overflow-x: hidden
+    background: darkBlue
+    background: -moz-linear-gradient(top, darkBlue 0%, darkBlue 75%, lightGray 75%, lightGray 100%)
+    background: linear-gradient(to top, darkBlue 0%, darkBlue 75%, lightGray 75%, lightGray 100%)
 
     .container
         position relative
+        background: url(../img/testimonials-bg.svg) center no-repeat
+        background-size: auto
 
     .testimonials
         flexbox()
@@ -38,6 +43,9 @@
 
             .testimonials__top
                 margin: 0 35px 0 auto
+
+                .testimonials__title
+                    color: white
 
             .testimonialsBox
                 padding: 35px 35px 35px 75px

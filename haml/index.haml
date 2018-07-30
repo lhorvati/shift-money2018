@@ -25,6 +25,10 @@
 
     %link(rel="stylesheet" href="css/main.css")/
 
+    / Slick slider
+    %link(href="slick/slick.css" rel="stylesheet" type="text/css")/
+    %link(href="slick/slick-theme.css" rel="stylesheet" type="text/css")/
+
 
   %body
 
@@ -50,7 +54,7 @@
             %li
               %a.btn.green.fill(href="#tickets") Buy Tickets
 
-    / HERO SECTION **************************************
+    / HERO SECTION ****************************************
     #hero.section
       .container
 
@@ -74,7 +78,7 @@
 
 
 
-    / ABOUT SECTION **************************************
+    / ABOUT SECTION ***************************************
     #about.section
       .container
         .about
@@ -91,7 +95,7 @@
 
 
 
-    / WHO SECTION **************************************
+    / WHO SECTION *****************************************
     #who.section
       .container
         .who
@@ -115,7 +119,7 @@
 
 
 
-    / SPEAKERS SECTION **************************************
+    / SPEAKERS SECTION ************************************
     #speakers.section
       .container
         %h1 Speakers
@@ -231,7 +235,7 @@
 
 
 
-    / SCHEDULE SECTION **************************************
+    / SCHEDULE SECTION ************************************
     #schedule.section
       .container
         %h1 Schedule
@@ -619,7 +623,7 @@
 
 
 
-    / TICKETS SECTION **************************************
+    / TICKETS SECTION *************************************
     #tickets.section
       .container
         %h1 Tickets
@@ -693,7 +697,7 @@
 
 
 
-    / PREVIOUS SECTION **************************************
+    / PREVIOUS SECTION ************************************
     #previous.section
       .container
         %h1 Be on track
@@ -710,8 +714,10 @@
                     %circle(cx="27.5" cy="27.5" fill="#005DF2" r="27.5")
                     %path(d="M35.5 28.5l-11 8v-16z" fill="#FFF" opacity=".863")
                 %p Click to view the gallery
+            %img(src="img/slideshow/previous1.jpg" alt="")/
         .previousItem
           %a(href="https://www.flickr.com/photos/shiftsplit/sets/72157668537132170" target="_blenk")
+            %img(src="img/slideshow/previous2.jpg" alt="")/
             .previous-overlay
               .previous__btn
                 %svg(height="55" viewbox="0 0 55 55" width="55" xmlns="http://www.w3.org/2000/svg")
@@ -728,35 +734,10 @@
                     %circle(cx="27.5" cy="27.5" fill="#005DF2" r="27.5")
                     %path(d="M35.5 28.5l-11 8v-16z" fill="#FFF" opacity=".863")
                 %p Click to view the gallery
+            %img(src="img/slideshow/previous1.jpg" alt="")/
         .previousItem
           %a(href="https://www.flickr.com/photos/shiftsplit/sets/72157645145257121" target="_blenk")
-            .previous-overlay
-              .previous__btn
-                %svg(height="55" viewbox="0 0 55 55" width="55" xmlns="http://www.w3.org/2000/svg")
-                  %g(fill="none" fill-rule="evenodd")
-                    %circle(cx="27.5" cy="27.5" fill="#005DF2" r="27.5")
-                    %path(d="M35.5 28.5l-11 8v-16z" fill="#FFF" opacity=".863")
-                %p Click to view the gallery
-        .previousItem
-          %a(href="https://www.flickr.com/photos/shiftsplit/albums/72157633757857833" target="_blenk")
-            .previous-overlay
-              .previous__btn
-                %svg(height="55" viewbox="0 0 55 55" width="55" xmlns="http://www.w3.org/2000/svg")
-                  %g(fill="none" fill-rule="evenodd")
-                    %circle(cx="27.5" cy="27.5" fill="#005DF2" r="27.5")
-                    %path(d="M35.5 28.5l-11 8v-16z" fill="#FFF" opacity=".863")
-                %p Click to view the gallery
-        .previousItem
-          %a(href="https://www.flickr.com/photos/shiftsplit/albums/72157630002364465" target="_blenk")
-            .previous-overlay
-              .previous__btn
-                %svg(height="55" viewbox="0 0 55 55" width="55" xmlns="http://www.w3.org/2000/svg")
-                  %g(fill="none" fill-rule="evenodd")
-                    %circle(cx="27.5" cy="27.5" fill="#005DF2" r="27.5")
-                    %path(d="M35.5 28.5l-11 8v-16z" fill="#FFF" opacity=".863")
-                %p Click to view the gallery
-        .previousItem
-          %a(href="https://www.flickr.com/photos/shiftsplit/sets/" target="_blenk")
+            %img(src="img/slideshow/previous2.jpg" alt="")/
             .previous-overlay
               .previous__btn
                 %svg(height="55" viewbox="0 0 55 55" width="55" xmlns="http://www.w3.org/2000/svg")
@@ -769,7 +750,8 @@
 
 
 
-    / NEWSLETTER SECTION **************************************
+
+    / NEWSLETTER SECTION ***********************************
     #newsletter.section
       .container
         %h1 Signup to newsletter
@@ -785,7 +767,7 @@
 
 
 
-    / LOCATION SECTION **************************************
+    / LOCATION SECTION *************************************
     #location.section
       .container
 
@@ -818,7 +800,7 @@
 
 
 
-    / HOWTO SECTION **************************************
+    / HOWTO SECTION ****************************************
     #howto.section
       .container
 
@@ -883,7 +865,7 @@
         .howtoBg
 
 
-    / TESTIMONIALS SECTION **************************************
+    / TESTIMONIALS SECTION *********************************
     #testimonials.section
       .container
 
@@ -910,6 +892,274 @@
             .testimonials__image
               %img(srcset="img/testimonials/testimonials@2x.jpg 2x, img/testimonials/testimonials@1x.jpg 1x" src="img/testimonials/testimonials@1x.jpg" alt="")/
 
+
+
+    / SPONSORS SECTION *************************************
+    #sponsors.section
+      .container
+        %h1 Sponsors
+        .title-desc Companies that support us
+      .sponsors-wrap
+        .container
+          .sponsors-row
+            .sponsors
+              %h3 
+                5 star
+                .stars.stars5
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                Sponsor
+              .sponsors__group
+                .sponsors__item
+                  %a(href="https://www.bellabeat.com/home" target="_blank")
+                    %img(src="img/sponsors/bellabeat.svg" alt="Bellabeat" style="width: 120px;")/
+
+
+
+          .sponsors-row.sponsorsSlider
+            %h3
+              4 star
+              .stars.stars4
+                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+              Sponsor
+            %button.sponsorsSlider__btn.btn-left4
+            %button.sponsorsSlider__btn.btn-right4
+            #sponsorsSlider4.sponsorsSlider
+              .sponsors__item
+                %a(href="http://www.split.hr/" target="_blank")
+                  %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
+              .sponsors__item
+                %a(href="http://five.agency/" target="_blank")
+                  %img(src="img/sponsors/five.svg" alt="Five" style="width: 50px;")/
+              .sponsors__item
+                %a(href="https://www.ericsson.hr/" target="_blank")
+                  %img(src="img/sponsors/ericsson.png" alt="Ericsson" style="width: 80px;")/
+              .sponsors__item
+                %a(href="https://iop.global/" target="_blank")
+                  %img(src="img/sponsors/iop.png" alt="Internet of People")/
+              .sponsors__item
+                %a(href="https://www.kiwi.com/en/" target="_blank")
+                  %img(src="img/sponsors/kiwi.png" alt="kiwi.com")/
+              .sponsors__item
+                %a(href="https://www.splitskabanka.hr/" target="_blank")
+                  %img(src="img/sponsors/splitskabanka.svg" alt="Splitska banka")/
+              .sponsors__item
+                %a(href="http://hamagbicro.hr/" target="_blank")
+                  %img(src="img/sponsors/hamag.svg" alt="Hamag Bicro")/
+              .sponsors__item
+                %a(href="http://www.split.hr/" target="_blank")
+                  %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
+              .sponsors__item
+                %a(href="http://five.agency/" target="_blank")
+                  %img(src="img/sponsors/five.svg" alt="Five" style="width: 50px;")/
+              .sponsors__item
+                %a(href="https://www.ericsson.hr/" target="_blank")
+                  %img(src="img/sponsors/ericsson.png" alt="Ericsson" style="width: 80px;")/
+              .sponsors__item
+                %a(href="https://iop.global/" target="_blank")
+                  %img(src="img/sponsors/iop.png" alt="Internet of People")/
+              .sponsors__item
+                %a(href="https://www.kiwi.com/en/" target="_blank")
+                  %img(src="img/sponsors/kiwi.png" alt="kiwi.com")/
+              .sponsors__item
+                %a(href="https://www.splitskabanka.hr/" target="_blank")
+                  %img(src="img/sponsors/splitskabanka.svg" alt="Splitska banka")/
+              .sponsors__item
+                %a(href="http://hamagbicro.hr/" target="_blank")
+                  %img(src="img/sponsors/hamag.svg" alt="Hamag Bicro")/
+
+
+
+
+          .sponsors-row.sponsorsSlider
+            %h3
+              3 star
+              .stars.stars3
+                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+              Sponsor
+            %button.sponsorsSlider__btn.btn-left3
+            %button.sponsorsSlider__btn.btn-right3
+            #sponsorsSlider3.sponsorsSlider
+              .sponsors__item
+                %a(href="http://www.jana-water.com/hr" target="_blank")
+                  %img(src="img/sponsors/jana.svg" alt="Jana" style="width: 50px; margin-top: 10px;")/
+              .sponsors__item
+                %a(href="http://www.split.hr/" target="_blank")
+                  %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
+              .sponsors__item
+                %a(href="http://five.agency/" target="_blank")
+                  %img(src="img/sponsors/five.svg" alt="Five" style="width: 50px;")/
+              .sponsors__item
+                %a(href="https://www.ericsson.hr/" target="_blank")
+                  %img(src="img/sponsors/ericsson.png" alt="Ericsson" style="width: 80px;")/
+              .sponsors__item
+                %a(href="https://iop.global/" target="_blank")
+                  %img(src="img/sponsors/iop.png" alt="Internet of People")/
+              .sponsors__item
+                %a(href="https://www.kiwi.com/en/" target="_blank")
+                  %img(src="img/sponsors/kiwi.png" alt="kiwi.com")/
+              .sponsors__item
+                %a(href="https://www.splitskabanka.hr/" target="_blank")
+                  %img(src="img/sponsors/splitskabanka.svg" alt="Splitska banka")/
+              .sponsors__item
+                %a(href="http://hamagbicro.hr/" target="_blank")
+                  %img(src="img/sponsors/hamag.svg" alt="Hamag Bicro")/
+              .sponsors__item
+                %a(href="http://www.split.hr/" target="_blank")
+                  %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
+              .sponsors__item
+                %a(href="http://five.agency/" target="_blank")
+                  %img(src="img/sponsors/five.svg" alt="Five" style="width: 50px;")/
+              .sponsors__item
+                %a(href="https://www.ericsson.hr/" target="_blank")
+                  %img(src="img/sponsors/ericsson.png" alt="Ericsson" style="width: 80px;")/
+              .sponsors__item
+                %a(href="https://iop.global/" target="_blank")
+                  %img(src="img/sponsors/iop.png" alt="Internet of People")/
+              .sponsors__item
+                %a(href="https://www.kiwi.com/en/" target="_blank")
+                  %img(src="img/sponsors/kiwi.png" alt="kiwi.com")/
+              .sponsors__item
+                %a(href="https://www.splitskabanka.hr/" target="_blank")
+                  %img(src="img/sponsors/splitskabanka.svg" alt="Splitska banka")/
+              .sponsors__item
+                %a(href="http://hamagbicro.hr/" target="_blank")
+                  %img(src="img/sponsors/hamag.svg" alt="Hamag Bicro")/
+
+
+          .sponsors-row.sponsorsSlider
+            %h3
+              2 star
+              .stars.stars2
+                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+              Sponsor
+            %button.sponsorsSlider__btn.btn-left2
+            %button.sponsorsSlider__btn.btn-right2
+            #sponsorsSlider2.sponsorsSlider
+              .sponsors__item
+                %a(href="http://www.jana-water.com/hr" target="_blank")
+                  %img(src="img/sponsors/jana.svg" alt="Jana" style="width: 50px; margin-top: 10px;")/
+              .sponsors__item
+                %a(href="http://www.split.hr/" target="_blank")
+                  %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
+              .sponsors__item
+                %a(href="http://five.agency/" target="_blank")
+                  %img(src="img/sponsors/five.svg" alt="Five" style="width: 50px;")/
+              .sponsors__item
+                %a(href="https://www.ericsson.hr/" target="_blank")
+                  %img(src="img/sponsors/ericsson.png" alt="Ericsson" style="width: 80px;")/
+              .sponsors__item
+                %a(href="https://iop.global/" target="_blank")
+                  %img(src="img/sponsors/iop.png" alt="Internet of People")/
+              .sponsors__item
+                %a(href="https://www.kiwi.com/en/" target="_blank")
+                  %img(src="img/sponsors/kiwi.png" alt="kiwi.com")/
+              .sponsors__item
+                %a(href="https://www.splitskabanka.hr/" target="_blank")
+                  %img(src="img/sponsors/splitskabanka.svg" alt="Splitska banka")/
+              .sponsors__item
+                %a(href="http://hamagbicro.hr/" target="_blank")
+                  %img(src="img/sponsors/hamag.svg" alt="Hamag Bicro")/
+              .sponsors__item
+                %a(href="http://www.split.hr/" target="_blank")
+                  %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
+              .sponsors__item
+                %a(href="http://five.agency/" target="_blank")
+                  %img(src="img/sponsors/five.svg" alt="Five" style="width: 50px;")/
+              .sponsors__item
+                %a(href="https://www.ericsson.hr/" target="_blank")
+                  %img(src="img/sponsors/ericsson.png" alt="Ericsson" style="width: 80px;")/
+              .sponsors__item
+                %a(href="https://iop.global/" target="_blank")
+                  %img(src="img/sponsors/iop.png" alt="Internet of People")/
+              .sponsors__item
+                %a(href="https://www.kiwi.com/en/" target="_blank")
+                  %img(src="img/sponsors/kiwi.png" alt="kiwi.com")/
+              .sponsors__item
+                %a(href="https://www.splitskabanka.hr/" target="_blank")
+                  %img(src="img/sponsors/splitskabanka.svg" alt="Splitska banka")/
+              .sponsors__item
+                %a(href="http://hamagbicro.hr/" target="_blank")
+                  %img(src="img/sponsors/hamag.svg" alt="Hamag Bicro")/
+          
+          .sponsors-row.sponsorsSlider
+            %h3
+              1 star
+              .stars.stars1
+                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+              Sponsor
+            %button.sponsorsSlider__btn.btn-left1
+            %button.sponsorsSlider__btn.btn-right1
+            #sponsorsSlider1.sponsorsSlider
+              .sponsors__item
+                %a(href="http://www.jana-water.com/hr" target="_blank")
+                  %img(src="img/sponsors/jana.svg" alt="Jana" style="width: 50px; margin-top: 10px;")/
+              .sponsors__item
+                %a(href="http://www.split.hr/" target="_blank")
+                  %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
+              .sponsors__item
+                %a(href="http://five.agency/" target="_blank")
+                  %img(src="img/sponsors/five.svg" alt="Five" style="width: 50px;")/
+              .sponsors__item
+                %a(href="https://www.ericsson.hr/" target="_blank")
+                  %img(src="img/sponsors/ericsson.png" alt="Ericsson" style="width: 80px;")/
+              .sponsors__item
+                %a(href="https://iop.global/" target="_blank")
+                  %img(src="img/sponsors/iop.png" alt="Internet of People")/
+              .sponsors__item
+                %a(href="https://www.kiwi.com/en/" target="_blank")
+                  %img(src="img/sponsors/kiwi.png" alt="kiwi.com")/
+              .sponsors__item
+                %a(href="https://www.splitskabanka.hr/" target="_blank")
+                  %img(src="img/sponsors/splitskabanka.svg" alt="Splitska banka")/
+              .sponsors__item
+                %a(href="http://hamagbicro.hr/" target="_blank")
+                  %img(src="img/sponsors/hamag.svg" alt="Hamag Bicro")/
+              .sponsors__item
+                %a(href="http://www.split.hr/" target="_blank")
+                  %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
+              .sponsors__item
+                %a(href="http://five.agency/" target="_blank")
+                  %img(src="img/sponsors/five.svg" alt="Five" style="width: 50px;")/
+              .sponsors__item
+                %a(href="https://www.ericsson.hr/" target="_blank")
+                  %img(src="img/sponsors/ericsson.png" alt="Ericsson" style="width: 80px;")/
+              .sponsors__item
+                %a(href="https://iop.global/" target="_blank")
+                  %img(src="img/sponsors/iop.png" alt="Internet of People")/
+              .sponsors__item
+                %a(href="https://www.kiwi.com/en/" target="_blank")
+                  %img(src="img/sponsors/kiwi.png" alt="kiwi.com")/
+              .sponsors__item
+                %a(href="https://www.splitskabanka.hr/" target="_blank")
+                  %img(src="img/sponsors/splitskabanka.svg" alt="Splitska banka")/
+              .sponsors__item
+                %a(href="http://hamagbicro.hr/" target="_blank")
+                  %img(src="img/sponsors/hamag.svg" alt="Hamag Bicro")/
 
 
 
@@ -983,3 +1233,83 @@
 
   %script(src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript")
   %script(src="js/script.js" type="text/javascript")
+  %script(src="slick/slick.min.js" type="text/javascript")
+
+  / Sponsor slider code
+  :javascript
+    $(document).ready(function(){
+      $('#sponsorsSlider4').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        variableWidth: true,
+        prevArrow: $('.btn-left4'),
+        nextArrow: $('.btn-right4'),
+        speed: 2000,
+        responsive: [
+          {
+            breakpoint: 850,
+            settings: "unslick"
+          }
+        ]
+      });
+    });
+
+    $(document).ready(function(){
+      $('#sponsorsSlider3').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1200,
+        variableWidth: true,
+        prevArrow: $('.btn-left3'),
+        nextArrow: $('.btn-right3'),
+        speed: 2000,
+        responsive: [
+          {
+            breakpoint: 850,
+            settings: "unslick"
+          }
+        ]
+      });
+    });
+
+    $(document).ready(function(){
+      $('#sponsorsSlider2').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1400,
+        variableWidth: true,
+        prevArrow: $('.btn-left2'),
+        nextArrow: $('.btn-right2'),
+        speed: 2000,
+        responsive: [
+          {
+            breakpoint: 850,
+            settings: "unslick"
+          }
+        ]
+      });
+    });
+
+    $(document).ready(function(){
+      $('#sponsorsSlider1').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1600,
+        variableWidth: true,
+        prevArrow: $('.btn-left1'),
+        nextArrow: $('.btn-right1'),
+        speed: 2000,
+        responsive: [
+          {
+            breakpoint: 850,
+            settings: "unslick"
+          }
+        ]
+      });
+    });
+  / End Sponsor slider code

@@ -3,6 +3,16 @@
 #sponsors
     margin-bottom: 50px
 
+    h1
+        font-size: 41px
+
+    h3
+        font-size: 14px
+        font-weight: 600
+        color: black
+        flexbox()
+        align-items: center
+
 .sponsors-wrap,
 .sponsors-row,
 .sponsors,
@@ -10,44 +20,46 @@
 .sponsors__item
     flexbox()
 
+.sponsors
+    flex-flow: column nowrap
+
 .sponsors-wrap
     flex-flow: column nowrap
+    background: white
+    margin-top: 10px
 
     .sponsors-row
         flex-flow: row wrap
         justify-content: flex-start
-        margin: 20px 0
+        margin: 60px 0
         align-items: flex-start
 
         &:first-child
             margin-top: 60px
 
-    .sponsors
-        flex-flow: column nowrap
-        justify-content: center
-        align-items: flex-start
 
-        .sponsors__group
-            flex-center()
-            margin: 0 30px 50px 0
+    .sponsors__item
+        flex-center()
+        margin: 0 40px 0 0
 
-            .sponsors__item
-                flex-center()
-                margin: 0 40px 0 0
-
-                img
-                    filter: grayscale(100%)
-                    transition(.2s)
-                    width: 90px
+        img
+            filter: grayscale(100%)
+            transition(.2s)
+            width: 90px
 
 
-                a:hover img
-                    filter: grayscale(0%)
+        a:hover img
+            filter: grayscale(0%)
 
 
 .sponsorsSlider
     width: 100%
     position relative
+
+    // overwrite slick to align center all logos
+    .slick-track
+        flexbox()
+        flex-center()
 
     .sponsorsSlider__btn
         width: 40px
@@ -56,7 +68,7 @@
         background-size: 8px
         position: absolute
         top: 50%
-        margin-top: -20px
+        margin-top: -5px
         cursor pointer
         opacity: .5
         transition(.2s)
@@ -64,10 +76,39 @@
         &:hover
             opacity 1
 
-        &.btn-left,
-        &.btn-left2
+        &.btn-left1,
+        &.btn-left2,
+        &.btn-left3,
+        &.btn-left4
             left -42px
             transform: rotate(180deg)
-        &.btn-right,
-        &.btn-right2
+        &.btn-right1,
+        &.btn-right2,
+        &.btn-right3,
+        &.btn-right4
             right -42px
+
+
+
+.stars
+    margin: 0 10px 2px 10px
+    flexbox()
+
+    svg
+        margin: 0 1px
+
+    &.stars5
+        svg path
+            fill: blue
+    &.stars4
+        svg path
+            fill: green
+    &.stars3
+        svg path
+            fill: tiel
+    &.stars2
+        svg path
+            fill: red
+    &.stars1
+        svg path
+            fill: yellow
