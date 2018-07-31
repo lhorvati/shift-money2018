@@ -2020,6 +2020,26 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/js\/apiRequest.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/apiRequest-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/crypto.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/crypto-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/script.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2040,6 +2060,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/templating.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/templating-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -2047,6 +2077,26 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/min\/apiRequest-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/apiRequest-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/min\/crypto-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/crypto-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/min\/script-min.js": {
 		"ft": 64,
