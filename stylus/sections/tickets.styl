@@ -24,7 +24,7 @@
 
 .ticketsBot
     flexbox()
-    align-items: center
+    align-items: flex-start
     justify-content: space-between
 
     .tickets__cards,
@@ -35,11 +35,13 @@
         box-sizing()
         padding: 0 20px
         flex: 1 1 auto
-        margin-right: 80px
+        max-width: 500px
         justify-content: space-between
+        align-items: center
+        margin-top: 6px
 
         img
-            max-width 70px
+            max-width 50px
 
     .tickets__buttons
         min-width: 205px
