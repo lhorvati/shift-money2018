@@ -82,6 +82,12 @@ $(function() {
     });
 
 
+    /* WHO ATTENDING LIST */
+    $("#who__list-btn").click(function() {
+        $(".who__listExpanded").toggle("show");;
+    });
+
+
 
     /* SLIDESHOW */
     $(".pn-item").click(function() {

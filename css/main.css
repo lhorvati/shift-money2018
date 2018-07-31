@@ -904,7 +904,9 @@ a.social:hover {
   font-family: 'Maison Mono', sans-serif;
   line-height: 30px;
 }
-.who__list {
+.who__list,
+.who__listExpanded,
+.who__listRow {
   margin-top: 40px;
   display: -webkit-box;
   display: -moz-flex;
@@ -917,20 +919,38 @@ a.social:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.who__list .who__list-item {
+.who__list .who__list-item,
+.who__listExpanded .who__list-item,
+.who__listRow .who__list-item {
   cursor: pointer;
 }
-.who__list .who__list-item:hover img {
+.who__list .who__list-item:hover img,
+.who__listExpanded .who__list-item:hover img,
+.who__listRow .who__list-item:hover img {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
   opacity: 1;
 }
-.who__list .who__list-item img {
+.who__list .who__list-item img,
+.who__listExpanded .who__list-item img,
+.who__listRow .who__list-item img {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   opacity: 0.8;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+.who__listExpanded {
+  display: none;
+  margin-top: 0;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+.who__listExpanded .who__listRow {
+  width: 100%;
 }
 .who__list-btn {
   display: -webkit-box;
@@ -1384,9 +1404,8 @@ a.social:hover {
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
   width: 100%;
-  margin: 50px auto 0 auto;
+  margin: 50px auto;
   overflow: hidden;
-  height: 580px;
 }
 .previous .previousItem {
   position: relative;
