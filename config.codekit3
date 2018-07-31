@@ -5360,19 +5360,6 @@
 		"oS": 0,
 		"rrU": 0
 		},
-	"\/stylus\/elements\/checkbox.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/checkbox.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
 	"\/stylus\/elements\/icons.styl": {
 		"aP": 1,
 		"bl": 0,
@@ -5451,32 +5438,6 @@
 		"oS": 0,
 		"rrU": 0
 		},
-	"\/stylus\/sections\/codeOfConduct.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/codeOfConduct.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
-	"\/stylus\/sections\/download.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/download.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
 	"\/stylus\/sections\/footer.styl": {
 		"aP": 1,
 		"bl": 0,
@@ -5516,19 +5477,6 @@
 		"oS": 0,
 		"rrU": 0
 		},
-	"\/stylus\/sections\/jobs.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/jobs.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
 	"\/stylus\/sections\/location.styl": {
 		"aP": 1,
 		"bl": 0,
@@ -5551,32 +5499,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/newsletter.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
-	"\/stylus\/sections\/note.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/note.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
-	"\/stylus\/sections\/numbers.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/numbers.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
@@ -5629,19 +5551,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/sponsors.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
-	"\/stylus\/sections\/submission.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/submission.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
