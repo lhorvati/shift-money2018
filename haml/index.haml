@@ -46,9 +46,15 @@
             %li
               %a.nav__link(href="#about") About
             %li
+              %a.nav__link(href="#speakers") Speakers
+            %li
+              %a.nav__link(href="#schedule") Schedule
+            %li
               %a.nav__link(href="#tickets") Tickets
             %li
               %a.nav__link(href="#location") Location
+            %li
+              %a.nav__link(href="#sponsors") Sponsors
             %li
               %a.nav__link(href="#footer") Contact
             %li
@@ -749,6 +755,50 @@
 
 
 
+        .previousItem
+          %a(href="https://www.flickr.com/photos/shiftsplit/sets/72157684842195725" target="_blenk")
+            .previous-overlay
+              .previous__btn
+                %svg(height="55" viewbox="0 0 55 55" width="55" xmlns="http://www.w3.org/2000/svg")
+                  %g(fill="none" fill-rule="evenodd")
+                    %circle(cx="27.5" cy="27.5" fill="#005DF2" r="27.5")
+                    %path(d="M35.5 28.5l-11 8v-16z" fill="#FFF" opacity=".863")
+                %p Click to view the gallery
+            %img(src="img/slideshow/previous1.jpg" alt="")/
+        .previousItem
+          %a(href="https://www.flickr.com/photos/shiftsplit/sets/72157668537132170" target="_blenk")
+            %img(src="img/slideshow/previous2.jpg" alt="")/
+            .previous-overlay
+              .previous__btn
+                %svg(height="55" viewbox="0 0 55 55" width="55" xmlns="http://www.w3.org/2000/svg")
+                  %g(fill="none" fill-rule="evenodd")
+                    %circle(cx="27.5" cy="27.5" fill="#005DF2" r="27.5")
+                    %path(d="M35.5 28.5l-11 8v-16z" fill="#FFF" opacity=".863")
+                %p Click to view the gallery
+        .previousItem
+          %a(href="https://www.flickr.com/photos/shiftsplit/sets/72157654137811068" target="_blenk")
+            .previous-overlay
+              .previous__btn
+                %svg(height="55" viewbox="0 0 55 55" width="55" xmlns="http://www.w3.org/2000/svg")
+                  %g(fill="none" fill-rule="evenodd")
+                    %circle(cx="27.5" cy="27.5" fill="#005DF2" r="27.5")
+                    %path(d="M35.5 28.5l-11 8v-16z" fill="#FFF" opacity=".863")
+                %p Click to view the gallery
+            %img(src="img/slideshow/previous1.jpg" alt="")/
+        .previousItem
+          %a(href="https://www.flickr.com/photos/shiftsplit/sets/72157645145257121" target="_blenk")
+            %img(src="img/slideshow/previous2.jpg" alt="")/
+            .previous-overlay
+              .previous__btn
+                %svg(height="55" viewbox="0 0 55 55" width="55" xmlns="http://www.w3.org/2000/svg")
+                  %g(fill="none" fill-rule="evenodd")
+                    %circle(cx="27.5" cy="27.5" fill="#005DF2" r="27.5")
+                    %path(d="M35.5 28.5l-11 8v-16z" fill="#FFF" opacity=".863")
+                %p Click to view the gallery
+
+
+
+
 
 
     / NEWSLETTER SECTION ***********************************
@@ -1237,6 +1287,37 @@
 
   / Sponsor slider code
   :javascript
+    $('.previous').slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      variableWidth: true,
+      speed: 2000,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 520,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+
+
+
     $(document).ready(function(){
       $('#sponsorsSlider4').slick({
         slidesToShow: 1,

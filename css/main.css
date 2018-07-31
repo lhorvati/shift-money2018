@@ -1221,9 +1221,9 @@ a.social:hover {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1242,13 +1242,17 @@ a.social:hover {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  margin-right: 80px;
+  max-width: 500px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6px;
 }
 .ticketsBot .tickets__cards img {
-  max-width: 70px;
+  max-width: 50px;
 }
 .ticketsBot .tickets__buttons {
   min-width: 205px;
@@ -1387,20 +1391,18 @@ a.social:hover {
 .previous .previousItem {
   position: relative;
   margin-top: 20px;
-  width: 25%;
   height: auto;
-  background: rgba(216,216,216,0.2);
   overflow: hidden;
+  height: 400px;
 }
 .previous .previousItem:nth-child(odd) {
   -ms-flex-item-align: start;
       align-self: flex-start;
-  height: 400px;
 }
 .previous .previousItem:nth-child(even) {
   -ms-flex-item-align: end;
       align-self: flex-end;
-  height: 540px;
+  margin-top: 80px;
 }
 .previous .previousItem img {
   -o-object-fit: cover;

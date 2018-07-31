@@ -40,10 +40,19 @@
               <a class='nav__link' href='#about'>About</a>
             </li>
             <li>
+              <a class='nav__link' href='#speakers'>Speakers</a>
+            </li>
+            <li>
+              <a class='nav__link' href='#schedule'>Schedule</a>
+            </li>
+            <li>
               <a class='nav__link' href='#tickets'>Tickets</a>
             </li>
             <li>
               <a class='nav__link' href='#location'>Location</a>
+            </li>
+            <li>
+              <a class='nav__link' href='#sponsors'>Sponsors</a>
             </li>
             <li>
               <a class='nav__link' href='#footer'>Contact</a>
@@ -879,6 +888,70 @@
             </div>
           </a>
         </div>
+        <div class='previousItem'>
+          <a href='https://www.flickr.com/photos/shiftsplit/sets/72157684842195725' target='_blenk'>
+            <div class='previous-overlay'>
+              <div class='previous__btn'>
+                <svg height='55' viewbox='0 0 55 55' width='55' xmlns='http://www.w3.org/2000/svg'>
+                  <g fill-rule='evenodd' fill='none'>
+                    <circle cx='27.5' cy='27.5' fill='#005DF2' r='27.5'></circle>
+                    <path d='M35.5 28.5l-11 8v-16z' fill='#FFF' opacity='.863'></path>
+                  </g>
+                </svg>
+                <p>Click to view the gallery</p>
+              </div>
+            </div>
+            <img alt='' src='img/slideshow/previous1.jpg'>
+          </a>
+        </div>
+        <div class='previousItem'>
+          <a href='https://www.flickr.com/photos/shiftsplit/sets/72157668537132170' target='_blenk'>
+            <img alt='' src='img/slideshow/previous2.jpg'>
+            <div class='previous-overlay'>
+              <div class='previous__btn'>
+                <svg height='55' viewbox='0 0 55 55' width='55' xmlns='http://www.w3.org/2000/svg'>
+                  <g fill-rule='evenodd' fill='none'>
+                    <circle cx='27.5' cy='27.5' fill='#005DF2' r='27.5'></circle>
+                    <path d='M35.5 28.5l-11 8v-16z' fill='#FFF' opacity='.863'></path>
+                  </g>
+                </svg>
+                <p>Click to view the gallery</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class='previousItem'>
+          <a href='https://www.flickr.com/photos/shiftsplit/sets/72157654137811068' target='_blenk'>
+            <div class='previous-overlay'>
+              <div class='previous__btn'>
+                <svg height='55' viewbox='0 0 55 55' width='55' xmlns='http://www.w3.org/2000/svg'>
+                  <g fill-rule='evenodd' fill='none'>
+                    <circle cx='27.5' cy='27.5' fill='#005DF2' r='27.5'></circle>
+                    <path d='M35.5 28.5l-11 8v-16z' fill='#FFF' opacity='.863'></path>
+                  </g>
+                </svg>
+                <p>Click to view the gallery</p>
+              </div>
+            </div>
+            <img alt='' src='img/slideshow/previous1.jpg'>
+          </a>
+        </div>
+        <div class='previousItem'>
+          <a href='https://www.flickr.com/photos/shiftsplit/sets/72157645145257121' target='_blenk'>
+            <img alt='' src='img/slideshow/previous2.jpg'>
+            <div class='previous-overlay'>
+              <div class='previous__btn'>
+                <svg height='55' viewbox='0 0 55 55' width='55' xmlns='http://www.w3.org/2000/svg'>
+                  <g fill-rule='evenodd' fill='none'>
+                    <circle cx='27.5' cy='27.5' fill='#005DF2' r='27.5'></circle>
+                    <path d='M35.5 28.5l-11 8v-16z' fill='#FFF' opacity='.863'></path>
+                  </g>
+                </svg>
+                <p>Click to view the gallery</p>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
     <!-- NEWSLETTER SECTION *********************************** -->
@@ -1551,6 +1624,37 @@
   <script src='slick/slick.min.js' type='text/javascript'></script>
   <!-- Sponsor slider code -->
   <script>
+    $('.previous').slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      variableWidth: true,
+      speed: 2000,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 520,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+    
+    
+    
     $(document).ready(function(){
       $('#sponsorsSlider4').slick({
         slidesToShow: 1,
