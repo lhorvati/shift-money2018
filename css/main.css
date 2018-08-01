@@ -196,14 +196,14 @@ input {
   visibility: hidden;
 }
 .slide {
-  right: 0 !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+          transform: translate3d(0, 0, 0) !important;
 }
 .section {
   margin: 0 auto;
 }
 .section#speakers,
 .section#schedule,
-.section#tickets,
 .section#sponsors {
   padding-top: 50px;
 }
@@ -611,17 +611,6 @@ a.social:hover {
   border-bottom: 2px solid transparent;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
-.small-nav1 .small-nav1__item:first-child,
-.small-nav2 .small-nav1__item:first-child,
-.small-nav3 .small-nav1__item:first-child,
-.small-nav1 .small-nav2__item:first-child,
-.small-nav2 .small-nav2__item:first-child,
-.small-nav3 .small-nav2__item:first-child,
-.small-nav1 .small-nav3__item:first-child,
-.small-nav2 .small-nav3__item:first-child,
-.small-nav3 .small-nav3__item:first-child {
-  margin-right: 50px;
 }
 .small-nav1 .small-nav1__item.active,
 .small-nav2 .small-nav1__item.active,
@@ -1204,6 +1193,7 @@ a.social:hover {
   top: 0;
 }
 #tickets {
+  padding-top: 100px;
   background: #fafafa;
 }
 #tickets .container {
@@ -1241,13 +1231,14 @@ a.social:hover {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.ticketsBot .tickets__cardWrap,
 .ticketsBot .tickets__cards,
 .ticketsBot .tickets__buttons {
   display: -webkit-box;
@@ -1255,24 +1246,33 @@ a.social:hover {
   display: -ms-flexbox;
   display: flex;
 }
+.ticketsBot .tickets__cardWrap {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  max-width: 500px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
 .ticketsBot .tickets__cards {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 20px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  max-width: 500px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 6px;
+  height: 36px;
 }
 .ticketsBot .tickets__cards img {
   max-width: 50px;
+}
+.ticketsBot .tickets__cards:first-child {
+  margin-bottom: 15px;
 }
 .ticketsBot .tickets__buttons {
   min-width: 205px;
@@ -1341,6 +1341,18 @@ a.social:hover {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin-right: 50px;
+}
+.ticket .ticket__mid {
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 .ticket .ticket__name {
   font-size: 20px;
@@ -1484,13 +1496,12 @@ a.social:hover {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
 }
-.previous .previousItem a .previous-overlay .previous__btn p {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 20px;
-  text-shadow: 0 0 10px #000;
+.previous .previousItem a .previous-overlay .previous__btn svg path {
+  fill: #fff;
 }
 #newsletter {
   padding: 90px 0 160px 0;
@@ -2312,7 +2323,9 @@ a.social:hover {
   .navBar__nav {
     position: fixed;
     top: 0;
-    right: -120%;
+    right: 0;
+    -webkit-transform: translate3d(120%, 0, 0);
+            transform: translate3d(120%, 0, 0);
     width: 100vw;
     height: 100vh;
     background: #0f1f31;
@@ -2341,6 +2354,7 @@ a.social:hover {
   }
   .navBar .navBar__nav ul li {
     margin-bottom: 20px;
+    margin-right: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2605,12 +2619,28 @@ a.social:hover {
   }
 }
 @media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  #hero {
+    background: #092e82 url("../img/top-bg-mobile.svg") center no-repeat;
+  }
+  .heroBox .heroBox__date {
+    left: auto;
+    bottom: 0px;
+    width: 100%;
+  }
   .heroBox .heroBox__date .heroBox__date--text {
     font-size: 12px;
+    min-width: 120px;
   }
   .heroBox .heroBox__heading {
     font-size: 20px;
     margin: 20px 0;
+  }
+  .heroBox .heroBox__wrap {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .heroBox .heroBox__heading strong {
+    font-size: 40px;
   }
   .heroDate {
     display: none;
@@ -2620,19 +2650,88 @@ a.social:hover {
   }
   h1 {
     margin: 60px 0 40px 0;
-    font-size: 22px;
+    font-size: 30px;
   }
   h1:after {
     width: 140px;
   }
   h1.small {
-    font-size: 18px;
+    font-size: 30px;
   }
   h1.small:after {
     width: 100%;
   }
   .title-desc {
     font-size: 10px;
+  }
+  #about {
+    background: #092e82;
+    background: -webkit-gradient(linear, left top, left bottom, from(#092e82), color-stop(12%, #092e82), color-stop(12%, #fafafa), to(#fafafa));
+    background: linear-gradient(to bottom, #092e82 0%, #092e82 12%, #fafafa 12%, #fafafa 100%);
+  }
+  #about .about {
+    width: 100%;
+    padding: 200px 0;
+    margin: 0;
+    background: transparent;
+  }
+  #about .about h1,
+  #about .about p {
+    position: relative;
+    z-index: 6;
+  }
+  #about .about .about__img1 {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: -30px;
+  }
+  #about .about .about__img2 {
+    width: 100%;
+    height: auto;
+    bottom: -120px;
+    left: -30px;
+  }
+  #about .about .about__arrow {
+    left: auto;
+    right: 0;
+    bottom: -120px;
+  }
+  #about .about .about__bg {
+    width: 150px;
+    height: 150px;
+    background: url("../img/about-bg-mobile.svg") center no-repeat;
+    background-size: 150px;
+    top: 150px;
+    right: 0;
+    left: auto;
+  }
+  #who {
+    background: #fafafa;
+  }
+  #who .who {
+    width: 100%;
+    padding: 60px 0;
+  }
+  #who .who__list,
+  #who .who__listExpanded,
+  #who .who__listRow {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 0;
+  }
+  #who .who__list {
+    margin-top: 40px;
+  }
+  #who .who__list-item {
+    margin-bottom: 30px;
+  }
+  #who .who__list-btn {
+    bottom: 0;
   }
   #tickets .tickets iframe {
     height: 487px;
@@ -2667,6 +2766,76 @@ a.social:hover {
   }
   .sponsors-wrap .sponsors .sponsors__group .sponsors__item {
     margin-bottom: 30px;
+  }
+  .title-desc {
+    font-size: 15px;
+  }
+  #tickets .container {
+    padding: 0;
+    background: #fafafa;
+  }
+  #tickets .ticket {
+    padding: 35px 15px;
+  }
+  #tickets .ticket .ticket__icon {
+    margin-right: 15px;
+  }
+  #tickets .ticket .ticket__mid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #tickets .ticket .ticket__name,
+  #tickets .ticket .ticket__price {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+  #tickets .ticket .ticket__price .ticket__price-top {
+    margin: 13px 0;
+  }
+  #tickets .ticket .ticket__quantity {
+    margin-left: 15px;
+  }
+  .select select {
+    min-width: 50px;
+    padding: 10px;
+  }
+  #tickets .ticketsBot {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #tickets .ticketsBot .tickets__cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    max-width: 100%;
+    padding: 0;
+  }
+  #tickets .ticketsBot .tickets__cards img {
+    max-width: 70px;
+    margin: 0 10px 20px 10px;
+  }
+  #tickets .ticketsBot .tickets__buttons {
+    min-width: 100%;
+  }
+  #newsletter {
+    padding: 50px 0;
+  }
+  #newsletter .container h1 {
+    font-size: 30px;
   }
   #attendee__list td {
     font-size: 14px !important;

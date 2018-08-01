@@ -1,6 +1,7 @@
 /* TICKETS.STYL ======================================= */
 
 #tickets
+    padding-top: 100px
     background: lightGray
 
     .container
@@ -24,24 +25,31 @@
 
 .ticketsBot
     flexbox()
-    align-items: flex-start
+    align-items: center
     justify-content: space-between
 
+    .tickets__cardWrap,
     .tickets__cards,
     .tickets__buttons
         flexbox()
 
+    .tickets__cardWrap
+        flex-flow: column nowrap
+        max-width: 500px
+        flex: 1 1 auto
+
     .tickets__cards
         box-sizing()
         padding: 0 20px
-        flex: 1 1 auto
-        max-width: 500px
         justify-content: space-between
         align-items: center
-        margin-top: 6px
+        height 36px
 
         img
             max-width 50px
+
+        &:first-child
+            margin-bottom: 15px
 
     .tickets__buttons
         min-width: 205px
@@ -97,6 +105,11 @@
         height 40px
         flex-shrink: 0
         margin-right: 50px
+
+    .ticket__mid
+        flexbox()
+        align-items: center
+        flex: 1 1 auto
 
     .ticket__name
         font-size: 20px

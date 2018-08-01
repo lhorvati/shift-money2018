@@ -242,6 +242,16 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
+	"\/img\/about-bg-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/about-bg-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/about-bg.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2003,6 +2013,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/top-bg-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/top-bg-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/top-bg.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2054,6 +2074,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/min\/script-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/min\/script.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/script.min-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
