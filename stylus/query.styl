@@ -77,6 +77,10 @@
         position: relative
         z-index: 5
     }
+    .navBar .navBar__logo svg {
+        width: 40px
+        height 34px
+    }
     .navBar .navBar__nav ul {
         flex-flow: column nowrap
         width: 100%
@@ -271,7 +275,7 @@
 
 
     #location .location {
-        flex-flow: column-reverse nowrap
+        flex-flow: column nowrap
     }
     .location .location__map,
     .location .location__details {
@@ -280,22 +284,49 @@
     .location .location__map {
         margin-top: 30px
     }
+    .location .location__title span:last-child:before {
+        width: 70px
+    }
 
 
-
+    #footer {
+        padding: 0 0 20px 0
+    }
     #footer .container {
-        flex-flow: column-reverse nowrap
+        flex-flow: column nowrap
     }
     #footer .footer__col,
     #footer .footer__col:first-child,
     #footer .footer__col:last-child,
     #footer .footer__col:nth-child(2) {
         width: 100%
+        flexbox()
+        flex-flow: column nowrap
+        align-items: center
     }
 
-    #footer .footer__col:nth-child(2) {
-        margin: 50px 0
+    #footer .footer__col:nth-child(2),
+    #footer .footer__col:nth-child(3),
+    #footer .footer__col:nth-child(4) {
+        margin: 35px 0
     }
+    #footer .footer__logo {
+        margin: 0 auto
+    }
+    #footer .footer__logo-bg {
+        top: -80px
+        background-size: contain
+        width: 100%
+        background-position: center
+    }
+    #footer .footer-social {
+        justify-content: space-around
+    }
+    #footer .footer-social a {
+        margin: 0
+    }
+
+
 
     #codeOfconduct,
     #attendees {
@@ -312,6 +343,11 @@
     }
 
 }/* media end */
+
+
+
+
+
 
 
 
@@ -374,6 +410,10 @@
         left: auto
         bottom: 0px
         width: 100%
+    }
+    .heroBox .heroBox__date .heroBox__date--line {
+        background: url(../img/date-bg-mobile.svg) center no-repeat
+        background-size: contain
     }
     .heroBox .heroBox__date .heroBox__date--text {
         font-size: 12px
@@ -566,6 +606,7 @@
         justify-content: space-around
         max-width: 100%
         padding: 0
+        height auto
     }
     #tickets .ticketsBot .tickets__cards img {
         max-width: 70px
@@ -584,6 +625,117 @@
     #newsletter .container h1 {
         font-size: 30px
     }
+
+
+
+    #location {
+        padding 250px 0 0 0 !important
+        overflow visible
+    }
+    .location:before {
+        width: 100%
+        background-size: cover
+        top: -260px
+        left: 0
+    }
+    #location .location__map {
+        margin-top: 50px
+    }
+    #location .location__img1,
+    #location .location__img2 {
+        position relative
+    }
+
+    #location .location__img1 {
+        max-width: 100%
+        right: 0
+        bottom: -30px
+    }
+    #location .location__img2 {
+        max-width: 200px
+        max-height: 420px
+        left: 0
+        bottom: -60px
+    }
+    .sectionFiller.sectionFiller--white {
+        display: none
+    }
+
+
+
+
+    #howto .howto {
+        position relative
+        z-index 2
+    }
+    #howto .howto .howto__buttons {
+        flex-flow: column nowrap
+    }
+    #howto .howto .howto__buttons .howtoBtn {
+        margin: 0 auto
+    }
+    #howto .howto .howto__buttons .howtoBtn:first-child {
+        margin-bottom: 15px
+    }
+    #howto .howtoBg {
+        margin-top: -260px
+    }
+
+
+    #testimonials .container {
+        margin: 0
+        width: 100%
+        background-image: none
+    }
+    #testimonials .testimonials-item .testimonials__image {
+        display: none
+    }
+    #testimonials .testimonials-item .testimonials__image--mobile {
+        display: block
+    }
+    #testimonials .testimonialsBox {
+        width: 100%
+        margin-top: -10px
+    }
+    #testimonials .testimonials .testimonials-item:nth-child(odd) .testimonials__top,
+    #testimonials .testimonials .testimonials-item:nth-child(even) .testimonials__top {
+        margin: 0 16px 16px 16px
+        text-align: center
+    }
+    #testimonials .testimonials-item:last-child .testimonials__comment,
+    #testimonials .testimonials-item:last-child {
+        margin-bottom: 0
+    }
+
+
+
+
+    #sponsors {
+        background: darkBlue
+    }
+    #sponsors .title-desc {
+        color: white
+    }
+    #sponsors .sponsors-wrap {
+        background: lightGray
+        margin-top: 50px
+    }
+    #sponsors .sponsors-wrap .sponsors-row {
+        justify-content: center
+    }
+    #sponsors .sponsors-wrap .sponsors-row .sponsors {
+        align-items: center
+    }
+    #sponsors .sponsorsSlider {
+        flexbox()
+        flex-flow: row wrap
+        justify-content: space-between
+        align-items: center
+    }
+    #sponsors .sponsorsSlider .sponsors__item {
+        margin: 10px
+    }
+
 
 
 

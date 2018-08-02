@@ -207,6 +207,17 @@ input {
 .section#sponsors {
   padding-top: 50px;
 }
+.sectionFiller {
+  width: 100%;
+}
+.sectionFiller.sectionFiller--darkBlue {
+  background: #092e82;
+  height: 170px;
+}
+.sectionFiller.sectionFiller--white {
+  background: #fafafa;
+  height: 280px;
+}
 .container {
   width: 1180px;
   margin: 0 auto;
@@ -838,10 +849,6 @@ a.social:hover {
           flex-flow: column nowrap;
   position: relative;
 }
-#about .aboutFiller {
-  background: #092e82;
-  height: 170px;
-}
 #about .about {
   position: relative;
   background: #fafafa;
@@ -1447,6 +1454,14 @@ a.social:hover {
   height: auto;
   overflow: hidden;
   height: 400px;
+  z-index: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.previous .previousItem:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 2;
 }
 .previous .previousItem:nth-child(odd) {
   -ms-flex-item-align: start;
@@ -1605,7 +1620,7 @@ a.social:hover {
 }
 #location {
   background: #092e82;
-  padding: 20px 0 50px 0;
+  padding: 20px 0 0 0;
   min-height: 720px;
   display: -webkit-box;
   display: -moz-flex;
@@ -1614,8 +1629,15 @@ a.social:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  overflow: visible;
+  z-index: 2;
 }
 #location .container {
+  position: relative;
   display: -webkit-box;
   display: -moz-flex;
   display: -ms-flexbox;
@@ -1737,6 +1759,23 @@ a.social:hover {
 .location__map img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.location__img1,
+.location__img2 {
+  position: absolute;
+  overflow: hidden;
+}
+.location__img1 {
+  max-width: 480px;
+  max-height: 320px;
+  bottom: -260px;
+  right: 220px;
+}
+.location__img2 {
+  max-width: 360px;
+  max-height: 420px;
+  bottom: -260px;
+  left: 0;
 }
 #howto {
   padding: 50px 0;
@@ -1929,7 +1968,7 @@ a.social:hover {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   position: relative;
   z-index: 2;
 }
@@ -1954,6 +1993,9 @@ a.social:hover {
   font-size: 15px;
   font-family: 'Maison Mono', sans-serif;
   color: #000;
+}
+#testimonials .testimonials-item .testimonials__image--mobile {
+  display: none;
 }
 #testimonials .testimonials-item .testimonials__image {
   width: 680px;
@@ -1993,7 +2035,7 @@ a.social:hover {
   top: -48px;
 }
 #sponsors {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 #sponsors h1 {
   font-size: 41px;
@@ -2367,6 +2409,10 @@ a.social:hover {
     position: relative;
     z-index: 5;
   }
+  .navBar .navBar__logo svg {
+    width: 40px;
+    height: 34px;
+  }
   .navBar .navBar__nav ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2553,9 +2599,9 @@ a.social:hover {
   }
   #location .location {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-flow: column-reverse nowrap;
-            flex-flow: column-reverse nowrap;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   .location .location__map,
   .location .location__details {
@@ -2564,20 +2610,55 @@ a.social:hover {
   .location .location__map {
     margin-top: 30px;
   }
+  .location .location__title span:last-child:before {
+    width: 70px;
+  }
+  #footer {
+    padding: 0 0 20px 0;
+  }
   #footer .container {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-flow: column-reverse nowrap;
-            flex-flow: column-reverse nowrap;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .footer__col,
   #footer .footer__col:first-child,
   #footer .footer__col:last-child,
   #footer .footer__col:nth-child(2) {
     width: 100%;
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  #footer .footer__col:nth-child(2) {
-    margin: 50px 0;
+  #footer .footer__col:nth-child(2),
+  #footer .footer__col:nth-child(3),
+  #footer .footer__col:nth-child(4) {
+    margin: 35px 0;
+  }
+  #footer .footer__logo {
+    margin: 0 auto;
+  }
+  #footer .footer__logo-bg {
+    top: -80px;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+  }
+  #footer .footer-social {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #footer .footer-social a {
+    margin: 0;
   }
   #codeOfconduct,
   #attendees {
@@ -2648,6 +2729,10 @@ a.social:hover {
     left: auto;
     bottom: 0px;
     width: 100%;
+  }
+  .heroBox .heroBox__date .heroBox__date--line {
+    background: url("../img/date-bg-mobile.svg") center no-repeat;
+    background-size: contain;
   }
   .heroBox .heroBox__date .heroBox__date--text {
     font-size: 12px;
@@ -2845,6 +2930,7 @@ a.social:hover {
         justify-content: space-around;
     max-width: 100%;
     padding: 0;
+    height: auto;
   }
   #tickets .ticketsBot .tickets__cards img {
     max-width: 70px;
@@ -2858,6 +2944,119 @@ a.social:hover {
   }
   #newsletter .container h1 {
     font-size: 30px;
+  }
+  #location {
+    padding: 250px 0 0 0 !important;
+    overflow: visible;
+  }
+  .location:before {
+    width: 100%;
+    background-size: cover;
+    top: -260px;
+    left: 0;
+  }
+  #location .location__map {
+    margin-top: 50px;
+  }
+  #location .location__img1,
+  #location .location__img2 {
+    position: relative;
+  }
+  #location .location__img1 {
+    max-width: 100%;
+    right: 0;
+    bottom: -30px;
+  }
+  #location .location__img2 {
+    max-width: 200px;
+    max-height: 420px;
+    left: 0;
+    bottom: -60px;
+  }
+  .sectionFiller.sectionFiller--white {
+    display: none;
+  }
+  #howto .howto {
+    position: relative;
+    z-index: 2;
+  }
+  #howto .howto .howto__buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  #howto .howto .howto__buttons .howtoBtn {
+    margin: 0 auto;
+  }
+  #howto .howto .howto__buttons .howtoBtn:first-child {
+    margin-bottom: 15px;
+  }
+  #howto .howtoBg {
+    margin-top: -260px;
+  }
+  #testimonials .container {
+    margin: 0;
+    width: 100%;
+    background-image: none;
+  }
+  #testimonials .testimonials-item .testimonials__image {
+    display: none;
+  }
+  #testimonials .testimonials-item .testimonials__image--mobile {
+    display: block;
+  }
+  #testimonials .testimonialsBox {
+    width: 100%;
+    margin-top: -10px;
+  }
+  #testimonials .testimonials .testimonials-item:nth-child(odd) .testimonials__top,
+  #testimonials .testimonials .testimonials-item:nth-child(even) .testimonials__top {
+    margin: 0 16px 16px 16px;
+    text-align: center;
+  }
+  #testimonials .testimonials-item:last-child .testimonials__comment,
+  #testimonials .testimonials-item:last-child {
+    margin-bottom: 0;
+  }
+  #sponsors {
+    background: #092e82;
+  }
+  #sponsors .title-desc {
+    color: #fff;
+  }
+  #sponsors .sponsors-wrap {
+    background: #fafafa;
+    margin-top: 50px;
+  }
+  #sponsors .sponsors-wrap .sponsors-row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sponsors .sponsors-wrap .sponsors-row .sponsors {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #sponsors .sponsorsSlider {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #sponsors .sponsorsSlider .sponsors__item {
+    margin: 10px;
   }
   #attendee__list td {
     font-size: 14px !important;
