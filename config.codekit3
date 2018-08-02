@@ -722,6 +722,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/paybear.png": {
+		"ft": 32768,
+		"iS": 20692,
+		"oA": 0,
+		"oAP": "\/img\/paybear.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
 	"\/img\/payment\/american-express.svg": {
 		"ft": 2097152,
 		"miP": 0,

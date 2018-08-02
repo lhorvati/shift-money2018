@@ -30,11 +30,30 @@
     %link(href="slick/slick-theme.css" rel="stylesheet" type="text/css")/
 
 
-  %body
+  %body.crypto-payment
     #crypto-payment
+      .crypto__title Crypto Payment
+      .summary__title You selected:
       #crypto-summary
-      #crypto-currencies
-      #crypto-wallet
+      .form__title Information
+      %form
+        %input(type="text" placeholder="E-mail address")/
+        %input(type="text" placeholder="First name")/
+        %input(type="text" placeholder="Last name")/
+        %input(type="text" placeholder="Company")/
+        %input(type="text" placeholder="Title")/
+        %a.btn.green.fill(href="#" id="crypto-checkout") Checkout
+      .currencies
+        .currencies__title Select your currency
+        #crypto-currencies
+      .crypto-checkout
+        .crypto-header Thank you for your order!
+        %img.crypto-icon
+        .crypto-amount
+        .crypto-fiat
+        .crypto-info Please send the amount above to this Address
+        #crypto-wallet
+        .crypto-result After we receive a confirmation for your payment, you will get a ticket to the provided e-mail address.
 
     / NAVBAR SECTION **************************************
     .navBar
@@ -675,7 +694,7 @@
             %img(src="img/payment/mastercard.svg" alt="Mastercard")/
             %img(src="img/payment/discover.svg" alt="Discover")/
           .tickets__buttons
-            .btn.green.fill Order now
+            .btn.green.fill#order Order now
             .btn.yellow.empty 
               %svg(height="19" viewbox="0 0 19 19" width="19" xmlns="http://www.w3.org/2000/svg")
                 %path(d="M9.507 0C4.26-.004.004 4.246 0 9.493-.004 14.74 4.246 18.996 9.493 19c5.246-.004 9.499-4.254 9.507-9.5C19 4.256 14.751.004 9.507 0zm-.014 17.42c-4.374 0-7.92-3.546-7.92-7.92 0-4.374 3.546-7.92 7.92-7.92 4.372.005 7.914 3.548 7.919 7.92 0 4.374-3.546 7.92-7.92 7.92zm3.082-8.322c.644-.36.993-1.079.873-1.8-.15-1.114-1.493-1.535-2.552-1.623V4H9.85v1.66h-.702V4H8.105v1.66H6v1.07h.784c.35 0 .522.103.522.383v4.597c0 .383-.194.501-.403.501h-.799v1.092h2.03V15h1.053v-1.697h.701V15h1.022v-1.697h.224c2.15 0 2.866-1.04 2.866-2.457-.017-.835-.603-1.553-1.425-1.748zM9.149 6.796h.747c.522 0 1.552.089 1.552.93.036.549-.367 1.03-.918 1.099H9.15V6.796zm1.157 5.312V12.1H9.149V9.887h1.344c.313 0 1.492.104 1.492.93 0 .826-.56 1.29-1.679 1.29z" fill="" fill-rule="nonzero")
@@ -1323,25 +1342,24 @@
   / Sponsor slider code
   
   %script(type="text/html" id="summary")
-    .crypto
-      .crypto__summary(data-content="summary")
-      .crypto__total-prefix Total: $
-      .crypto__total(data-content="total")
-  
+    .crypto__summary(data-content="summary")
+    .crypto__total
+      .crypto__prefix Total:
+      .crypto__value(data-content="total")
+
   %script(type="text/html" id="currencies")
-    .currencies
-      #ltc.currency
-        .name LTC (Litecoin)
-        .price(data-content="ltc-price")
-      #btc.currency
-        .name BTC (Bitcoin)
-        .price(data-content="btc-price")
-      #bch.currency
-        .name BCH (Bitcoin cash)
-        .price(data-content="bch-price")
-      #eth.currency
-        .name ETH (Ethereum)
-        .price(data-content="eth-price")
+    #ltc.currency
+      %img(class="ltc-icon")
+      .price(data-content="ltc-price")
+    #btc.currency
+      %img(class="btc-icon")
+      .price(data-content="btc-price")
+    #bch.currency
+      %img(class="bch-icon")
+      .price(data-content="bch-price")
+    #eth.currency
+      %img(class="eth-icon")
+      .price(data-content="eth-price")
   
   
   :javascript
@@ -1454,3 +1472,10 @@
       });
     });
   / End Sponsor slider code
+
+  //qr code
+  //dolar -> euro
+  // discount code
+  // pitat samo mail -> nakon potvrde se salje link na tito sa prefilled ticket quantity i discount code
+  // cetri ikone - btc, bch, eth, ltc
+  // f6s
