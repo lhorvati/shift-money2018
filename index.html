@@ -31,10 +31,6 @@
       <div class='form__title'>Information</div>
       <form>
         <input placeholder='E-mail address' type='text'>
-        <input placeholder='First name' type='text'>
-        <input placeholder='Last name' type='text'>
-        <input placeholder='Company' type='text'>
-        <input placeholder='Title' type='text'>
         <a class='btn green fill' href='#' id='crypto-checkout'>Checkout</a>
       </form>
       <div class='currencies'>
@@ -48,6 +44,7 @@
         <div class='crypto-fiat'></div>
         <div class='crypto-info'>Please send the amount above to this Address</div>
         <div id='crypto-wallet'></div>
+        <img class='crypto-qr'>
         <div class='crypto-result'>After we receive a confirmation for your payment, you will get a ticket to the provided e-mail address.</div>
       </div>
     </div>
@@ -606,11 +603,10 @@
               <img alt='Discover' src='img/payment/discover.svg'>
             </div>
             <div class='tickets__cards'>
-              <img alt='Paypal' src='img/payment/paypal.svg'>
-              <img alt='American Express' src='img/payment/american-express.svg'>
-              <img alt='Visa' src='img/payment/visa.svg'>
-              <img alt='Mastercard' src='img/payment/mastercard.svg'>
-              <img alt='Discover' src='img/payment/discover.svg'>
+              <img alt='Bitcoin' class='crypto-image' src='img/payment/btc.svg'>
+              <img alt='Bitcoin Cash' class='crypto-image' src='img/payment/bch.jpg'>
+              <img alt='Visa' class='crypto-image' src='img/payment/eth.png'>
+              <img alt='Discover' class='crypto-image' src='img/payment/ltc.png'>
             </div>
           </div>
           <div class='tickets__buttons'>
@@ -1596,8 +1592,6 @@
     });
   </script>
   <!-- End Sponsor slider code -->
-  <!-- /qr code -->
-  <!-- /dolar -> euro -->
   <!-- / discount code -->
   <!-- / pitat samo mail -> nakon potvrde se salje link na tito sa prefilled ticket quantity i discount code -->
   <!-- / cetri ikone - btc, bch, eth, ltc -->

@@ -753,6 +753,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/payment\/bch.jpg": {
+		"ft": 16384,
+		"iS": 12754,
+		"oA": 0,
+		"oAP": "\/img\/payment\/bch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/payment\/btc.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/payment\/btc.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/payment\/discover.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -762,6 +782,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/payment\/eth.png": {
+		"ft": 32768,
+		"iS": 153223,
+		"oA": 0,
+		"oAP": "\/img\/payment\/eth.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/payment\/ltc.png": {
+		"ft": 32768,
+		"iS": 11037,
+		"oA": 0,
+		"oAP": "\/img\/payment\/ltc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
 		},
 	"\/img\/payment\/mastercard.svg": {
 		"ft": 2097152,
@@ -2051,6 +2093,26 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/js\/apiRequest.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/apiRequest-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/crypto.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/crypto-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/script.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2071,6 +2133,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/templating.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/templating-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -2078,6 +2150,26 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/min\/apiRequest-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/apiRequest-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/min\/crypto-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/crypto-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/min\/script-min.js": {
 		"ft": 64,

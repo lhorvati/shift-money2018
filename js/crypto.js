@@ -6,7 +6,7 @@ $(function() {
       id: 1,
       name: 'Super Early Bird Student',
       price: '20',
-      humanPrice: '$20 + VAT',
+      humanPrice: '20€ + VAT',
       time: 'Sales end on September 1',
       quantity: 0,
       slug: 'jam5hfm5bjq'
@@ -15,7 +15,7 @@ $(function() {
       id: 2,
       name: 'Super Early Bird Standard',
       price: '100',
-      humanPrice: '$100 + VAT',
+      humanPrice: '100€ + VAT',
       time: 'Sales end on May 30',
       quantity: 0,
       slug: 'fn4uss8b90m'
@@ -128,13 +128,13 @@ $(function() {
   
       for(var i in boughtTickets) {
         total += boughtTickets[i].quantity * boughtTickets[i].price;
-        summary += boughtTickets[i].name + ' x' + boughtTickets[i].quantity + ' - $' + boughtTickets[i].price * boughtTickets[i].quantity + '<br>';
+        summary += boughtTickets[i].name + ' x' + boughtTickets[i].quantity + ' - ' + boughtTickets[i].price * boughtTickets[i].quantity + '€' + '<br>';
       }
   
       $("#crypto-summary").loadTemplate($("#summary"),
       {
         summary: summary,
-        total: total
+        total: total + '€'
       });
   
       apiRequest.get('http://167.99.91.136/info/' + total).then(function(response) {
@@ -156,12 +156,17 @@ $(function() {
             const currency = $(this).attr('id');
             console.log(info);
 
+            $('.crypto-qr').attr('src', 'https://chart.googleapis.com/chart?chl=' + info[currency].address + '&chs=200x200&cht=qr&chld=H%7C0');
             $('.crypto-checkout').css('display', 'block');
             $('.crypto-icon').attr('src', info[currency].icon);
             $('.crypto-amount').text(info[currency].price + ' ' + currency.toUpperCase());
             $('.crypto-fiat').text(total + ' EUR');
             $('#crypto-wallet').text(info[currency].address);
             $('.currencies').css('display', 'none');
+
+            apiRequest.get('https://api.paybear.io/v2/btc/payment/http%3A%2F%2Fputsreq.com%2FUv8u7ofxXDWVoaVawDWd/?token=secc75ccf1135cc62dd3a0455f4f4d8316a').then(function(response) {
+              console.log(response);
+            });
           });
         });
       });  

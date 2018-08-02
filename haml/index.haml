@@ -38,10 +38,6 @@
       .form__title Information
       %form
         %input(type="text" placeholder="E-mail address")/
-        %input(type="text" placeholder="First name")/
-        %input(type="text" placeholder="Last name")/
-        %input(type="text" placeholder="Company")/
-        %input(type="text" placeholder="Title")/
         %a.btn.green.fill(href="#" id="crypto-checkout") Checkout
       .currencies
         .currencies__title Select your currency
@@ -53,6 +49,7 @@
         .crypto-fiat
         .crypto-info Please send the amount above to this Address
         #crypto-wallet
+        %img.crypto-qr
         .crypto-result After we receive a confirmation for your payment, you will get a ticket to the provided e-mail address.
 
     / NAVBAR SECTION **************************************
@@ -526,11 +523,10 @@
               %img(src="img/payment/mastercard.svg" alt="Mastercard")/
               %img(src="img/payment/discover.svg" alt="Discover")/
             .tickets__cards
-              %img(src="img/payment/paypal.svg" alt="Paypal")/
-              %img(src="img/payment/american-express.svg" alt="American Express")/
-              %img(src="img/payment/visa.svg" alt="Visa")/
-              %img(src="img/payment/mastercard.svg" alt="Mastercard")/
-              %img(src="img/payment/discover.svg" alt="Discover")/
+              %img.crypto-image(src="img/payment/btc.svg" alt="Bitcoin")/
+              %img.crypto-image(src="img/payment/bch.jpg" alt="Bitcoin Cash")/
+              %img.crypto-image(src="img/payment/eth.png" alt="Visa")/
+              %img.crypto-image(src="img/payment/ltc.png" alt="Discover")/
           .tickets__buttons
             .btn.green.fill#order Order now
             .btn.yellow.empty 
@@ -1206,8 +1202,6 @@
       ]
     });
 
-
-
     $(document).ready(function(){
       $('#sponsorsSlider4').slick({
         slidesToShow: 1,
@@ -1285,8 +1279,6 @@
     });
   / End Sponsor slider code
 
-  //qr code
-  //dolar -> euro
   // discount code
   // pitat samo mail -> nakon potvrde se salje link na tito sa prefilled ticket quantity i discount code
   // cetri ikone - btc, bch, eth, ltc

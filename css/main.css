@@ -465,6 +465,16 @@ input::placeholder {
   margin: 0 auto 35px auto;
   line-height: 1.5;
 }
+.crypto-image {
+  width: 25px;
+  height: 25px;
+}
+.crypto-qr {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 5px auto 25px auto;
+}
 /* import elements styl */
 .btn {
   display: -webkit-box;
