@@ -1715,6 +1715,9 @@ a.social:hover {
       -ms-flex-align: center;
           align-items: center;
 }
+.location .location__desc:hover .location__details span {
+  color: #ff697e;
+}
 .location .location__desc .location__icon {
   width: 52px;
   height: 52px;
@@ -1735,6 +1738,8 @@ a.social:hover {
   font-family: 'Maison Mono', sans-serif;
   color: #0fd895;
   line-height: 24px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .location__map {
   max-width: 700px;
