@@ -782,11 +782,42 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/paybear.png": {
+		"ft": 32768,
+		"iS": 20692,
+		"oA": 0,
+		"oAP": "\/img\/paybear.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
 	"\/img\/payment\/american-express.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/payment\/american-express.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/payment\/bch.jpg": {
+		"ft": 16384,
+		"iS": 12754,
+		"oA": 0,
+		"oAP": "\/img\/payment\/bch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/payment\/btc.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/payment\/btc.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -801,6 +832,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/payment\/eth.png": {
+		"ft": 32768,
+		"iS": 153223,
+		"oA": 0,
+		"oAP": "\/img\/payment\/eth.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/payment\/ltc.png": {
+		"ft": 32768,
+		"iS": 11037,
+		"oA": 0,
+		"oAP": "\/img\/payment\/ltc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
 		},
 	"\/img\/payment\/mastercard.svg": {
 		"ft": 2097152,
@@ -4583,6 +4636,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/about.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"\/stylus\/sections\/cryptoPayment.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/cryptoPayment.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
