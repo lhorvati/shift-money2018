@@ -205,7 +205,18 @@ input {
 .section#speakers,
 .section#schedule,
 .section#sponsors {
-  padding-top: 50px;
+  padding-top: 100px;
+}
+.sectionFiller {
+  width: 100%;
+}
+.sectionFiller.sectionFiller--darkBlue {
+  background: #092e82;
+  height: 170px;
+}
+.sectionFiller.sectionFiller--white {
+  background: #fafafa;
+  height: 280px;
 }
 .container {
   width: 1180px;
@@ -219,317 +230,6 @@ input {
   width: 100%;
   position: relative;
   clear: both;
-}
-#crypto-payment {
-  display: none;
-}
-body.crypto-payment #crypto-payment {
-  display: block;
-}
-body.crypto-payment .navBar,
-body.crypto-payment #hero,
-body.crypto-payment #about,
-body.crypto-payment #who,
-body.crypto-payment #speakers,
-body.crypto-payment #schedule,
-body.crypto-payment #tickets,
-body.crypto-payment #previous,
-body.crypto-payment #newsletter,
-body.crypto-payment #location,
-body.crypto-payment #howto,
-body.crypto-payment #testimonials,
-body.crypto-payment #sponsors,
-body.crypto-payment #footer {
-  display: none;
-}
-#crypto-payment {
-  position: fixed;
-  background-color: #092e82;
-  width: 100%;
-  height: 100%;
-}
-.crypto__title {
-  font-size: 42px;
-  text-align: center;
-  margin-top: 40px;
-  color: #fff;
-  font-weight: 600;
-  margin-bottom: 40px;
-}
-#crypto-summary {
-  max-width: 400px;
-  margin: 10px auto 40px auto;
-}
-.crypto__summary {
-  font-size: 18px;
-  color: #fff;
-  line-height: 2;
-  margin-bottom: 5px;
-}
-.crypto__total {
-  border-top: 1px solid #fff;
-  padding-top: 10px;
-}
-.crypto__total:after {
-  content: " ";
-  display: table;
-  clear: both;
-}
-.crypto__prefix {
-  float: left;
-  font-size: 18px;
-  color: #fff;
-}
-.crypto__value {
-  float: right;
-  font-size: 18px;
-  color: #fff;
-}
-form {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  max-width: 400px;
-  margin: 20px auto;
-}
-input {
-  display: block;
-  width: 100%;
-  border: none;
-  background-image: none;
-  background-color: transparent;
-  -webkit-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  margin-bottom: 5px;
-  border-bottom: 1px solid #fff;
-  color: #fff;
-  font-size: 22px;
-  padding: 8px 6px;
-  margin-bottom: 25px;
-}
-input::-webkit-input-placeholder {
-  color: rgba(255,255,255,0.5);
-}
-input:-ms-input-placeholder {
-  color: rgba(255,255,255,0.5);
-}
-input::-ms-input-placeholder {
-  color: rgba(255,255,255,0.5);
-}
-input::placeholder {
-  color: rgba(255,255,255,0.5);
-}
-.summary__title,
-.form__title {
-  padding-left: 5px;
-  letter-spacing: 0.5px;
-  font-size: 14px;
-  font-weight: 800;
-  text-transform: uppercase;
-  color: #fff;
-  max-width: 400px;
-  margin: 0 auto;
-}
-.currencies__title {
-  display: none;
-  padding-left: 5px;
-  letter-spacing: 0.5px;
-  font-size: 14px;
-  font-weight: 800;
-  text-transform: uppercase;
-  color: #fff;
-  margin-bottom: 20px;
-  max-width: 540px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#crypto-payment * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-#crypto-currencies {
-  display: none;
-  width: 540px;
-  margin: 0 auto;
-}
-#crypto-currencies:after {
-  content: " ";
-  display: table;
-  clear: both;
-}
-.currencies {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-.currency {
-  cursor: pointer;
-  float: left;
-  width: 120px;
-  height: 120px;
-  background-color: #fff;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16);
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
-  position: relative;
-  text-align: center;
-  margin-right: 20px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.currency:hover {
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19);
-  -webkit-transform: translateY(-1px);
-          transform: translateY(-1px);
-}
-.currency:last-child {
-  margin-right: 0;
-}
-.price {
-  position: absolute;
-  font-weight: 800;
-  bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-}
-.currency img {
-  width: 54px;
-  height: 54px;
-  margin-top: 20px;
-}
-.crypto-checkout {
-  display: none;
-  background-color: #fff;
-  border-radius: 8px;
-  max-width: 600px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16);
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
-}
-.crypto-icon {
-  display: block;
-  margin: 0 auto 20px auto;
-  width: 100px;
-  height: 100px;
-}
-.crypto-amount {
-  text-align: center;
-  font-size: 28px;
-  font-weight: 600;
-  padding: 0 25px;
-}
-.crypto-fiat {
-  text-align: center;
-  font-size: 20px;
-  margin-top: 10px;
-  padding: 0 25px;
-}
-.crypto-info {
-  font-size: 18px;
-  margin-top: 30px;
-  text-align: center;
-  margin-bottom: 10px;
-  padding: 0 25px;
-}
-#crypto-wallet {
-  font-size: 20px;
-  font-weight: 600;
-  padding: 0 25px 25px 25px;
-  text-align: center;
-}
-.crypto-header {
-  background-color: #ebebeb;
-  padding: 20px;
-  margin-bottom: 35px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  text-align: center;
-  font-weight: 500;
-  font-size: 20px;
-}
-.crypto-result {
-  text-align: center;
-  max-width: 500px;
-  padding: 0 25px;
-  margin: 0 auto 35px auto;
-  line-height: 1.5;
-}
-.crypto-image {
-  width: 25px;
-  height: 25px;
-}
-.crypto-qr {
-  display: block;
-  width: 100px;
-  height: 100px;
-  margin: 5px auto 25px auto;
-}
-.lds-ring {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 64px;
-  height: 64px;
-}
-.lds-ring div {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: block;
-  position: absolute;
-  width: 51px;
-  height: 51px;
-  margin: 6px;
-  border: 6px solid #fff;
-  border-radius: 50%;
-  -webkit-animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-          animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #fff transparent transparent transparent;
-}
-.lds-ring div:nth-child(1) {
-  -webkit-animation-delay: -0.45s;
-          animation-delay: -0.45s;
-}
-.lds-ring div:nth-child(2) {
-  -webkit-animation-delay: -0.3s;
-          animation-delay: -0.3s;
-}
-.lds-ring div:nth-child(3) {
-  -webkit-animation-delay: -0.15s;
-          animation-delay: -0.15s;
-}
-@-webkit-keyframes lds-ring {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-@keyframes lds-ring {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
 }
 /* import elements styl */
 .btn {
@@ -1127,10 +827,6 @@ a.social:hover {
           flex-flow: column nowrap;
   position: relative;
 }
-#about .aboutFiller {
-  background: #092e82;
-  height: 170px;
-}
 #about .about {
   position: relative;
   background: #fafafa;
@@ -1239,6 +935,8 @@ a.social:hover {
   opacity: 0.8;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  max-width: 110px;
+  max-height: 50px;
 }
 .who__listExpanded {
   display: none;
@@ -1581,9 +1279,13 @@ a.social:hover {
 }
 .ticketsBot .tickets__cards img {
   max-width: 50px;
+  max-height: 30px;
 }
 .ticketsBot .tickets__cards:first-child {
   margin-bottom: 15px;
+}
+.ticketsBot .tickets__cards:last-child {
+  max-width: 300px;
 }
 .ticketsBot .tickets__buttons {
   min-width: 205px;
@@ -1736,6 +1438,14 @@ a.social:hover {
   height: auto;
   overflow: hidden;
   height: 400px;
+  z-index: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.previous .previousItem:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 2;
 }
 .previous .previousItem:nth-child(odd) {
   -ms-flex-item-align: start;
@@ -1894,7 +1604,7 @@ a.social:hover {
 }
 #location {
   background: #092e82;
-  padding: 20px 0 50px 0;
+  padding: 100px 0 0 0;
   min-height: 720px;
   display: -webkit-box;
   display: -moz-flex;
@@ -1903,8 +1613,15 @@ a.social:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  overflow: visible;
+  z-index: 2;
 }
 #location .container {
+  position: relative;
   display: -webkit-box;
   display: -moz-flex;
   display: -ms-flexbox;
@@ -1998,6 +1715,9 @@ a.social:hover {
       -ms-flex-align: center;
           align-items: center;
 }
+.location .location__desc:hover .location__details span {
+  color: #ff697e;
+}
 .location .location__desc .location__icon {
   width: 52px;
   height: 52px;
@@ -2018,14 +1738,34 @@ a.social:hover {
   font-family: 'Maison Mono', sans-serif;
   color: #0fd895;
   line-height: 24px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .location__map {
   max-width: 700px;
   max-height: 720px;
+  margin-left: 50px;
 }
 .location__map img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+.location__img1,
+.location__img2 {
+  position: absolute;
+  overflow: hidden;
+}
+.location__img1 {
+  max-width: 480px;
+  max-height: 320px;
+  bottom: -260px;
+  right: 220px;
+}
+.location__img2 {
+  max-width: 360px;
+  max-height: 420px;
+  bottom: -260px;
+  left: 0;
 }
 #howto {
   padding: 50px 0;
@@ -2034,6 +1774,10 @@ a.social:hover {
 }
 #howto .container {
   position: relative;
+}
+#howto .howto {
+  position: relative;
+  z-index: 2;
 }
 #howto .howto p {
   font-family: 'Maison Mono', sans-serif;
@@ -2218,7 +1962,7 @@ a.social:hover {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   position: relative;
   z-index: 2;
 }
@@ -2243,6 +1987,9 @@ a.social:hover {
   font-size: 15px;
   font-family: 'Maison Mono', sans-serif;
   color: #000;
+}
+#testimonials .testimonials-item .testimonials__image--mobile {
+  display: none;
 }
 #testimonials .testimonials-item .testimonials__image {
   width: 680px;
@@ -2282,7 +2029,7 @@ a.social:hover {
   top: -48px;
 }
 #sponsors {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 #sponsors h1 {
   font-size: 41px;
@@ -2582,16 +2329,277 @@ a.social:hover {
 #footer .contact a:hover {
   color: #0fd895;
 }
+#crypto-payment {
+  display: none;
+}
+body.crypto-payment #crypto-payment {
+  display: block;
+}
+body.crypto-payment .navBar,
+body.crypto-payment #hero,
+body.crypto-payment #about,
+body.crypto-payment #who,
+body.crypto-payment #speakers,
+body.crypto-payment #schedule,
+body.crypto-payment #tickets,
+body.crypto-payment #previous,
+body.crypto-payment #newsletter,
+body.crypto-payment #location,
+body.crypto-payment #howto,
+body.crypto-payment #testimonials,
+body.crypto-payment #sponsors,
+body.crypto-payment #footer {
+  display: none;
+}
+#crypto-payment {
+  position: fixed;
+  background-color: #092e82;
+  width: 100%;
+  height: 100%;
+}
+#crypto-payment * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#crypto-payment .crypto__title {
+  font-size: 42px;
+  text-align: center;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+#crypto-payment #crypto-summary {
+  max-width: 400px;
+  margin: 10px auto 40px auto;
+}
+#crypto-payment .crypto__summary {
+  font-size: 18px;
+  color: #fff;
+  line-height: 2;
+  margin-bottom: 5px;
+}
+#crypto-payment .crypto__total {
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+}
+#crypto-payment .crypto__total:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+#crypto-payment .crypto__prefix {
+  float: left;
+  font-size: 18px;
+  color: #fff;
+}
+#crypto-payment .crypto__value {
+  float: right;
+  font-size: 18px;
+  color: #fff;
+}
+#crypto-payment form {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 400px;
+  margin: 20px auto;
+}
+#crypto-payment input {
+  display: block;
+  width: 100%;
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 22px;
+  padding: 8px 6px;
+  margin-bottom: 25px;
+}
+#crypto-payment input::-webkit-input-placeholder {
+  color: rgba(255,255,255,0.5);
+}
+#crypto-payment input:-ms-input-placeholder {
+  color: rgba(255,255,255,0.5);
+}
+#crypto-payment input::-ms-input-placeholder {
+  color: rgba(255,255,255,0.5);
+}
+#crypto-payment input::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+#crypto-payment .summary__title,
+#crypto-payment .form__title {
+  padding-left: 5px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#crypto-payment .currencies__title {
+  display: none;
+  padding-left: 5px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#crypto-payment #crypto-currencies {
+  display: none;
+  width: 540px;
+  margin: 0 auto;
+}
+#crypto-payment #crypto-currencies:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+#crypto-payment .currencies {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+#crypto-payment .currency {
+  cursor: pointer;
+  float: left;
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  position: relative;
+  text-align: center;
+  margin-right: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#crypto-payment .currency:hover {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+#crypto-payment .currency:last-child {
+  margin-right: 0;
+}
+#crypto-payment .price {
+  position: absolute;
+  font-weight: 800;
+  bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+#crypto-payment .currency img {
+  width: 54px;
+  height: 54px;
+  margin-top: 20px;
+}
+#crypto-payment .crypto-checkout {
+  display: none;
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+#crypto-payment .crypto-icon {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 100px;
+  height: 100px;
+}
+#crypto-payment .crypto-amount {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 0 25px;
+}
+#crypto-payment .crypto-fiat {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 0 25px;
+}
+#crypto-payment .crypto-info {
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 0 25px;
+}
+#crypto-payment #crypto-wallet {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 25px 25px 25px;
+  text-align: center;
+}
+#crypto-payment .crypto-header {
+  background-color: #ebebeb;
+  padding: 20px;
+  margin-bottom: 35px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+#crypto-payment .crypto-result {
+  text-align: center;
+  max-width: 500px;
+  padding: 0 25px;
+  margin: 0 auto 35px auto;
+  line-height: 1.5;
+}
+#crypto-payment .crypto-image {
+  width: 25px;
+  height: 25px;
+}
+#crypto-payment .crypto-qr {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 5px auto 25px auto;
+}
 /* import query styl */
 @media only screen and (max-width: 1401px), only screen and (max-device-width: 1401px) {
   .heroDate {
     font-size: 20px;
     margin: 0px 120px 200px 0;
   }
+  .sponsors-wrap .container {
+    width: 1100px;
+  }
 }
 @media only screen and (max-width: 1201px), only screen and (max-device-width: 1201px) {
   .container {
     width: 960px;
+  }
+  .sponsors-wrap .container {
+    width: 880px;
   }
   #about .about__event img {
     left: -120px;
@@ -2602,6 +2610,9 @@ a.social:hover {
   .heroDate {
     font-size: 20px;
     margin: 0px 90px 200px 0;
+  }
+  #location .location__img1 {
+    right: 0;
   }
 }
 @media only screen and (max-width: 981px), only screen and (max-device-width: 981px) {
@@ -2655,6 +2666,10 @@ a.social:hover {
     height: 34px;
     position: relative;
     z-index: 5;
+  }
+  .navBar .navBar__logo svg {
+    width: 40px;
+    height: 34px;
   }
   .navBar .navBar__nav ul {
     -webkit-box-orient: vertical;
@@ -2712,51 +2727,47 @@ a.social:hover {
   .title-desc {
     font-size: 10px;
   }
-  #about .about__event {
+  #about {
+    background: #092e82;
+    background: -webkit-gradient(linear, left top, left bottom, from(#092e82), color-stop(12%, #092e82), color-stop(12%, #fafafa), to(#fafafa));
+    background: linear-gradient(to bottom, #092e82 0%, #092e82 12%, #fafafa 12%, #fafafa 100%);
+  }
+  #about .about {
+    width: 100%;
+    padding: 300px 0 200px 0;
+    margin: 0;
+    background: transparent;
+  }
+  #about .about h1,
+  #about .about p {
+    position: relative;
+    z-index: 6;
+  }
+  #about .about .about__img1 {
     width: 100%;
     height: auto;
-    padding: 15% 0 20px 0;
-    border: none;
-    border-top: 8px solid #005df2;
-    border-bottom: 8px solid #005df2;
-    position: relative;
+    top: 0;
+    left: -30px;
   }
-  #about .about__event img {
-    width: 60%;
-    left: auto;
-    right: -46px;
-    top: -120px;
-  }
-  #about .about__wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column nowrap;
-            flex-flow: column nowrap;
-  }
-  #about .about__wrap .about__talks,
-  #about .about__wrap .about__workshops {
+  #about .about .about__img2 {
     width: 100%;
-    margin: 20px 0;
+    height: auto;
+    bottom: -120px;
+    left: -30px;
   }
-  #numbers .numbers {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+  #about .about .about__arrow {
+    left: auto;
+    right: 0;
+    bottom: -120px;
   }
-  #numbers .numbers .numbers__item {
-    margin: 0;
-    text-align: center;
-    font-size: 20px;
-    display: -webkit-box;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
+  #about .about .about__bg {
+    width: 150px;
+    height: 150px;
+    background: url("../img/about-bg-mobile.svg") center no-repeat;
+    background-size: 150px;
+    top: 150px;
+    right: 0;
+    left: auto;
   }
   #speakers .speakers-wrap {
     -webkit-box-orient: vertical;
@@ -2840,33 +2851,167 @@ a.social:hover {
     width: 100%;
     height: 450px;
   }
+  #who {
+    background: #fafafa;
+  }
+  #who .who {
+    width: 100%;
+    padding: 60px 0;
+  }
+  #who .who__list,
+  #who .who__listExpanded,
+  #who .who__listRow {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 0;
+  }
+  #who .who__list {
+    margin-top: 40px;
+  }
+  #who .who__list-item {
+    margin: 0 10px 30px 10px;
+  }
+  #who .who__list-btn {
+    bottom: 0;
+  }
+  #howto .howtoBg {
+    margin-top: -260px;
+  }
+  #howto .howto {
+    position: relative;
+    z-index: 2;
+  }
+  #howto .howto .howto__buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  #howto .howto .howto__buttons .howtoBtn {
+    margin: 0 auto;
+  }
+  #howto .howto .howto__buttons .howtoBtn:first-child {
+    margin-bottom: 15px;
+  }
+  #testimonials .container {
+    margin: 0;
+    width: 100%;
+    background-image: none;
+  }
+  #testimonials .testimonials-item .testimonials__image {
+    display: none;
+  }
+  #testimonials .testimonials-item .testimonials__image--mobile {
+    display: block;
+    margin: 0 auto;
+  }
+  #testimonials .testimonialsBox {
+    width: 100%;
+    margin-top: -10px;
+  }
+  #testimonials .testimonials .testimonials-item:nth-child(odd) .testimonials__top,
+  #testimonials .testimonials .testimonials-item:nth-child(even) .testimonials__top {
+    margin: 0 16px 16px 16px;
+    text-align: center;
+  }
+  #testimonials .testimonials-item:last-child .testimonials__comment,
+  #testimonials .testimonials-item:last-child {
+    margin-bottom: 0;
+  }
+  #location {
+    padding: 250px 0 0 0 !important;
+    overflow: visible;
+  }
   #location .location {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-flow: column-reverse nowrap;
-            flex-flow: column-reverse nowrap;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
-  .location .location__map,
-  .location .location__details {
+  #location .location:before {
+    width: 100%;
+    background-size: cover;
+    top: -260px;
+    left: 0;
+  }
+  #location .location .location__map,
+  #location .location .location__details {
     width: 100%;
   }
-  .location .location__map {
-    margin-top: 30px;
+  #location .location__map {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+  #location .location__img1,
+  #location .location__img2 {
+    position: relative;
+  }
+  #location .location__img1 {
+    max-width: 100%;
+    right: 0;
+    bottom: -30px;
+  }
+  #location .location__img2 {
+    max-width: 200px;
+    max-height: 420px;
+    left: 0;
+    bottom: -60px;
+  }
+  .sectionFiller.sectionFiller--white {
+    display: none;
+  }
+  .location .location__title span:last-child:before {
+    width: 130px;
   }
   #footer .container {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-flow: column-reverse nowrap;
-            flex-flow: column-reverse nowrap;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
   }
   #footer .footer__col,
   #footer .footer__col:first-child,
   #footer .footer__col:last-child,
   #footer .footer__col:nth-child(2) {
     width: 100%;
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-  #footer .footer__col:nth-child(2) {
-    margin: 50px 0;
+  #footer .footer__col:nth-child(2),
+  #footer .footer__col:nth-child(3),
+  #footer .footer__col:nth-child(4) {
+    margin: 35px 0;
+  }
+  #footer .footer__logo {
+    margin: 0 auto;
+  }
+  #footer .footer__logo-bg {
+    top: -80px;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+  }
+  #footer .footer-social {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    max-width: 400px;
+    margin: 30px auto 0 auto;
+  }
+  #footer .footer-social a {
+    margin: 0;
   }
   #codeOfconduct,
   #attendees {
@@ -2921,6 +3066,45 @@ a.social:hover {
   .sponsorsSlider .sponsorsSlider__btn {
     display: none;
   }
+  #sponsors {
+    background: #092e82;
+  }
+  #sponsors .title-desc {
+    color: #fff;
+  }
+  #sponsors .sponsors-wrap {
+    background: #fafafa;
+    margin-top: 50px;
+  }
+  #sponsors .sponsors-wrap .sponsors-row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sponsors .sponsors-wrap .sponsors-row .sponsors {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #sponsors .sponsorsSlider {
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #sponsors .sponsorsSlider .sponsors__item {
+    margin: 10px;
+  }
   #jobs {
     padding: 20px 0;
   }
@@ -2937,6 +3121,10 @@ a.social:hover {
     left: auto;
     bottom: 0px;
     width: 100%;
+  }
+  .heroBox .heroBox__date .heroBox__date--line {
+    background: url("../img/date-bg-mobile.svg") center no-repeat;
+    background-size: contain;
   }
   .heroBox .heroBox__date .heroBox__date--text {
     font-size: 12px;
@@ -2975,93 +3163,8 @@ a.social:hover {
   .title-desc {
     font-size: 10px;
   }
-  #about {
-    background: #092e82;
-    background: -webkit-gradient(linear, left top, left bottom, from(#092e82), color-stop(12%, #092e82), color-stop(12%, #fafafa), to(#fafafa));
-    background: linear-gradient(to bottom, #092e82 0%, #092e82 12%, #fafafa 12%, #fafafa 100%);
-  }
-  #about .about {
-    width: 100%;
-    padding: 200px 0;
-    margin: 0;
-    background: transparent;
-  }
-  #about .about h1,
-  #about .about p {
-    position: relative;
-    z-index: 6;
-  }
-  #about .about .about__img1 {
-    width: 100%;
-    height: auto;
-    top: 0;
-    left: -30px;
-  }
-  #about .about .about__img2 {
-    width: 100%;
-    height: auto;
-    bottom: -120px;
-    left: -30px;
-  }
-  #about .about .about__arrow {
-    left: auto;
-    right: 0;
-    bottom: -120px;
-  }
-  #about .about .about__bg {
-    width: 150px;
-    height: 150px;
-    background: url("../img/about-bg-mobile.svg") center no-repeat;
-    background-size: 150px;
-    top: 150px;
-    right: 0;
-    left: auto;
-  }
-  #who {
-    background: #fafafa;
-  }
-  #who .who {
-    width: 100%;
-    padding: 60px 0;
-  }
-  #who .who__list,
-  #who .who__listExpanded,
-  #who .who__listRow {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    margin-top: 0;
-  }
-  #who .who__list {
-    margin-top: 40px;
-  }
-  #who .who__list-item {
-    margin-bottom: 30px;
-  }
-  #who .who__list-btn {
-    bottom: 0;
-  }
   #tickets .tickets iframe {
     height: 487px;
-  }
-  #about .about__event {
-    padding: 20px 0;
-    margin: 50px 0 0 0;
-    border-top: none;
-  }
-  #about .about__event img {
-    position: relative;
-    width: 100%;
-    left: auto;
-    right: auto;
-    top: auto;
-    margin-bottom: 20px;
-  }
-  #numbers .numbers .numbers__item {
-    font-size: 14px;
   }
   #previous .previous .slideshow {
     height: 250px;
@@ -3134,6 +3237,7 @@ a.social:hover {
         justify-content: space-around;
     max-width: 100%;
     padding: 0;
+    height: auto;
   }
   #tickets .ticketsBot .tickets__cards img {
     max-width: 70px;
@@ -3147,6 +3251,9 @@ a.social:hover {
   }
   #newsletter .container h1 {
     font-size: 30px;
+  }
+  .location .location__title span:last-child:before {
+    width: 70px;
   }
   #attendee__list td {
     font-size: 14px !important;
@@ -3166,5 +3273,10 @@ a.social:hover {
   }
   #note .container h2.job-title {
     font-size: 30px;
+  }
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  #about .about {
+    padding: 200px 0;
   }
 }

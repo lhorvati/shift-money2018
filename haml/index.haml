@@ -103,7 +103,7 @@
           .heroBox__buttons
             %a.btn.green.empty(href="#tickets") Get Tickets
             .heroBox__buttons-spacer or
-            %a.btn.link.white(href="https://www.youtube.com/watch?time_continue=1&v=YOMcSbT82Ks" target="_blenk") Watch our Video Review
+            %a.btn.link.white(href="https://www.youtube.com/watch?v=6QuD43OQo38" target="_blenk") Watch our Video Review
             /.heroBox__buttons-spacer or
             /%a.btn.link.white(href="https://play.rtl.hr/digitalshapers/uzivo" target="_blenk") Watch Live Stream
 
@@ -122,7 +122,7 @@
           .about__bg
           .about__arrow
 
-      .aboutFiller
+      .sectionFiller.sectionFiller--darkBlue
 
 
 
@@ -133,40 +133,29 @@
           %h1.small Who is attending?
           %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including attendents from these companies.
           .who__list
-            .who__list-item
-              %img(src="img/sponsors/five.svg" alt="Five")/
-            .who__list-item
-              %img(src="img/sponsors/splitskabanka.svg" alt="Splitska Banka")/
-            .who__list-item
-              %img(src="img/sponsors/reversinglabs.svg" alt="Reversing Labs")/
-            .who__list-item
-              %img(src="img/sponsors/hamag.svg" alt="Hamag Bicro")/
-            .who__list-item
-              %img(src="img/sponsors/autodesk.svg" alt="Autodesk")/
+            %a.who__list-item(href="https://www.ey.com/hr/en/home" target="_blank")
+              %img(src="img/sponsors/ey.svg" alt="Ernst & Young")/
+            %a.who__list-item(href="https://www.currencycloud.com/" target="_blank")
+              %img(src="img/sponsors/currencycloud.svg" alt="CurrencyCloud")/
+            %a.who__list-item(href="https://www.microsoft.com/" target="_blank")
+              %img(src="img/sponsors/microsoft.svg" alt="Microsoft")/
+            %a.who__list-item(href="https://www.google.com/" target="_blank")
+              %img(src="img/sponsors/google.svg" alt="Google")/
+            %a.who__list-item(href="https://www.allianz.hr/" target="_blank")
+              %img(src="img/sponsors/allianz.svg" alt="Allianz")/
 
-          .who__listExpanded
+          .who__listExpanded.hide
             .who__listRow
-              .who__list-item
-                %img(src="img/sponsors/five.svg" alt="Five")/
-              .who__list-item
-                %img(src="img/sponsors/splitskabanka.svg" alt="Splitska Banka")/
-              .who__list-item
-                %img(src="img/sponsors/reversinglabs.svg" alt="Reversing Labs")/
-              .who__list-item
-                %img(src="img/sponsors/hamag.svg" alt="Hamag Bicro")/
-              .who__list-item
-                %img(src="img/sponsors/autodesk.svg" alt="Autodesk")/
-            .who__listRow
-              .who__list-item
-                %img(src="img/sponsors/five.svg" alt="Five")/
-              .who__list-item
-                %img(src="img/sponsors/splitskabanka.svg" alt="Splitska Banka")/
-              .who__list-item
-                %img(src="img/sponsors/reversinglabs.svg" alt="Reversing Labs")/
-              .who__list-item
-                %img(src="img/sponsors/hamag.svg" alt="Hamag Bicro")/
-              .who__list-item
-                %img(src="img/sponsors/autodesk.svg" alt="Autodesk")/
+              %a.who__list-item(href="https://www.ey.com/hr/en/home" target="_blank")
+                %img(src="img/sponsors/ey.svg" alt="Ernst & Young")/
+              %a.who__list-item(href="https://www.currencycloud.com/" target="_blank")
+                %img(src="img/sponsors/currencycloud.svg" alt="CurrencyCloud")/
+              %a.who__list-item(href="https://www.microsoft.com/" target="_blank")
+                %img(src="img/sponsors/microsoft.svg" alt="Microsoft")/
+              %a.who__list-item(href="https://www.google.com/" target="_blank")
+                %img(src="img/sponsors/google.svg" alt="Google")/
+              %a.who__list-item(href="https://www.allianz.hr/" target="_blank")
+                %img(src="img/sponsors/allianz.svg" alt="Allianz")/
 
 
           .who__list-btn
@@ -190,22 +179,61 @@
 
             .speaker
               .speaker__image
-                %img(srcset="img/speakers/ivanBurazin@1x.jpg 1x, img/speakers/ivanBurazin@2x.jpg 2x" src="img/speakers/ivanBurazin@1x.jpg" alt="Ivan Burazin")/
-              .speaker__name Rasmus Lerdorf
+                %img(srcset="img/speakers/tonVanNoordende@1x.jpg 1x, img/speakers/tonVanNoordende@2x.jpg 2x" src="img/speakers/tonVanNoordende@1x.jpg" alt="Ton Van 't Noordende")/
+              .speaker__name Ton Van 't Noordende
               .speaker__title
-                Creator of
+                CEO of
                 %br/
-                %span PHP
+                %span 01 Ventures
               .speaker__social
-                %a.social.linkedin(href="" target="_blank")
+                %a.social.linkedin(href="https://www.linkedin.com/in/tonvantnoordende/" target="_blank")
                   %svg(height="18" viewbox="0 0 17 18" width="17" xmlns="http://www.w3.org/2000/svg")
                     %path(d="M1.624.95h13.794c.465 0 .814.28 1.047.838l.042.377v13.654c0 .559-.256.94-.768 1.145-.112.047-.219.07-.321.07H1.624c-.494 0-.857-.289-1.09-.866l-.027-.251V2.053c0-.512.302-.875.907-1.089l.21-.014zM2.81 4.845v.056c0 .587.303.987.908 1.2l.307.043h.251c.587 0 .992-.321 1.215-.964l.028-.279c0-.596-.321-1-.963-1.215l-.42-.041c-.632 0-1.06.302-1.284.907l-.042.293zm6.311 3.31h-.028V7.148H6.706v7.26h2.387v-3.742c0-.716.112-1.15.335-1.298.27-.326.573-.489.908-.489h.167c.54 0 .903.321 1.09.964.036.25.055.474.055.67v3.895h2.415v-3.98c0-1.758-.581-2.852-1.745-3.28-.39-.112-.754-.168-1.089-.168-.865 0-1.568.391-2.108 1.173zM2.964 7.148v7.26H5.35v-7.26H2.964z" fill="" fill-rule="evenodd")
-                %a.social.twitter(href="" target="_blank")
+                %a.social.twitter(href="https://twitter.com/noordende" target="_blank")
                   %svg(height="14" viewbox="0 0 18 14" width="18" xmlns="http://www.w3.org/2000/svg")
                     %path(d="M5.733 14c6.633 0 10.262-5.388 10.262-10.052 0-.152 0-.303-.007-.455.704-.496 1.316-1.123 1.8-1.833-.646.283-1.343.469-2.074.559.745-.435 1.315-1.13 1.59-1.957-.697.406-1.47.696-2.294.854C14.35.427 13.414 0 12.38 0 10.39 0 8.77 1.585 8.77 3.534c0 .276.036.545.092.807C5.866 4.196 3.208 2.783 1.428.648c-.31.523-.485 1.13-.485 1.777 0 1.227.64 2.308 1.603 2.942-.59-.02-1.146-.179-1.631-.44v.047c0 1.71 1.245 3.142 2.89 3.466-.302.083-.619.124-.95.124-.231 0-.456-.02-.674-.062.457 1.405 1.793 2.425 3.369 2.453-1.238.95-2.793 1.515-4.48 1.515-.29 0-.578-.013-.859-.048C1.801 13.414 3.7 14 5.733 14" fill="" fill-rule="nonzero")
               .speaker__more-btn.btn.text(target="1") Read more
               #sm1.speaker__more
-                .social__bio Rasmus Lerdorf is known for having gotten the PHP project off the ground in 1995 and has contributed to a number of other open source projects over the years. He was an infrastructure architect at Yahoo! for more than 7 years and joined Etsy in 2012. He was born in Greenland, grew up in Denmark and Canada and has a Systems Design engineering degree from the University of Waterloo.
+                .social__bio Ton is CEO of 01Ventures - European early and growth stage deep tech VC. Next to that, he's the Investor In Residence at StartupDelta working closely together with HRH Prince Constantijn of Oranje. Founded the E/D/T Global Foundation in 2017 to support the pioneers in emerging technologies that are fundamentally changing the way our world operates. He's also the initiator of angelisland.co - a grassroots unconference held in September, on an island near Amsterdam.
+
+            .speaker.hide
+              .speaker__image
+                %img(srcset="img/speakers/emilProtalinski@1x.jpg 1x, img/speakers/emilProtalinski@2x.jpg 2x" src="img/speakers/emilProtalinski@1x.jpg" alt="Emil Protalinski")/
+              .speaker__name Emil Protalinski
+              .speaker__title
+                News Editor at
+                %br/
+                %span VentureBeat
+              .speaker__social
+                %a.social.linkedin(href="https://www.linkedin.com/in/emilprotalinski/" target="_blank")
+                  %svg(height="18" viewbox="0 0 17 18" width="17" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M1.624.95h13.794c.465 0 .814.28 1.047.838l.042.377v13.654c0 .559-.256.94-.768 1.145-.112.047-.219.07-.321.07H1.624c-.494 0-.857-.289-1.09-.866l-.027-.251V2.053c0-.512.302-.875.907-1.089l.21-.014zM2.81 4.845v.056c0 .587.303.987.908 1.2l.307.043h.251c.587 0 .992-.321 1.215-.964l.028-.279c0-.596-.321-1-.963-1.215l-.42-.041c-.632 0-1.06.302-1.284.907l-.042.293zm6.311 3.31h-.028V7.148H6.706v7.26h2.387v-3.742c0-.716.112-1.15.335-1.298.27-.326.573-.489.908-.489h.167c.54 0 .903.321 1.09.964.036.25.055.474.055.67v3.895h2.415v-3.98c0-1.758-.581-2.852-1.745-3.28-.39-.112-.754-.168-1.089-.168-.865 0-1.568.391-2.108 1.173zM2.964 7.148v7.26H5.35v-7.26H2.964z" fill="" fill-rule="evenodd")
+                %a.social.twitter(href="https://twitter.com/epro" target="_blank")
+                  %svg(height="14" viewbox="0 0 18 14" width="18" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M5.733 14c6.633 0 10.262-5.388 10.262-10.052 0-.152 0-.303-.007-.455.704-.496 1.316-1.123 1.8-1.833-.646.283-1.343.469-2.074.559.745-.435 1.315-1.13 1.59-1.957-.697.406-1.47.696-2.294.854C14.35.427 13.414 0 12.38 0 10.39 0 8.77 1.585 8.77 3.534c0 .276.036.545.092.807C5.866 4.196 3.208 2.783 1.428.648c-.31.523-.485 1.13-.485 1.777 0 1.227.64 2.308 1.603 2.942-.59-.02-1.146-.179-1.631-.44v.047c0 1.71 1.245 3.142 2.89 3.466-.302.083-.619.124-.95.124-.231 0-.456-.02-.674-.062.457 1.405 1.793 2.425 3.369 2.453-1.238.95-2.793 1.515-4.48 1.515-.29 0-.578-.013-.859-.048C1.801 13.414 3.7 14 5.733 14" fill="" fill-rule="nonzero")
+              .speaker__more-btn.btn.text(target="2") Read more
+              #sm2.speaker__more
+                .social__bio 
+
+            .speaker
+              .speaker__image
+                %img(srcset="img/speakers/stanSchroeder@1x.jpg 1x, img/speakers/stanSchroeder@2x.jpg 2x" src="img/speakers/stanSchroeder@1x.jpg" alt="Stan Schroeder")/
+              .speaker__name Stan Schroeder
+              .speaker__title
+                Senior Editor of
+                %br/
+                %span Mashable
+              .speaker__social
+                %a.social.linkedin(href="https://www.linkedin.com/in/stanschroeder/" target="_blank")
+                  %svg(height="18" viewbox="0 0 17 18" width="17" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M1.624.95h13.794c.465 0 .814.28 1.047.838l.042.377v13.654c0 .559-.256.94-.768 1.145-.112.047-.219.07-.321.07H1.624c-.494 0-.857-.289-1.09-.866l-.027-.251V2.053c0-.512.302-.875.907-1.089l.21-.014zM2.81 4.845v.056c0 .587.303.987.908 1.2l.307.043h.251c.587 0 .992-.321 1.215-.964l.028-.279c0-.596-.321-1-.963-1.215l-.42-.041c-.632 0-1.06.302-1.284.907l-.042.293zm6.311 3.31h-.028V7.148H6.706v7.26h2.387v-3.742c0-.716.112-1.15.335-1.298.27-.326.573-.489.908-.489h.167c.54 0 .903.321 1.09.964.036.25.055.474.055.67v3.895h2.415v-3.98c0-1.758-.581-2.852-1.745-3.28-.39-.112-.754-.168-1.089-.168-.865 0-1.568.391-2.108 1.173zM2.964 7.148v7.26H5.35v-7.26H2.964z" fill="" fill-rule="evenodd")
+                %a.social.twitter(href="https://twitter.com/franticnews" target="_blank")
+                  %svg(height="14" viewbox="0 0 18 14" width="18" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M5.733 14c6.633 0 10.262-5.388 10.262-10.052 0-.152 0-.303-.007-.455.704-.496 1.316-1.123 1.8-1.833-.646.283-1.343.469-2.074.559.745-.435 1.315-1.13 1.59-1.957-.697.406-1.47.696-2.294.854C14.35.427 13.414 0 12.38 0 10.39 0 8.77 1.585 8.77 3.534c0 .276.036.545.092.807C5.866 4.196 3.208 2.783 1.428.648c-.31.523-.485 1.13-.485 1.777 0 1.227.64 2.308 1.603 2.942-.59-.02-1.146-.179-1.631-.44v.047c0 1.71 1.245 3.142 2.89 3.466-.302.083-.619.124-.95.124-.231 0-.456-.02-.674-.062.457 1.405 1.793 2.425 3.369 2.453-1.238.95-2.793 1.515-4.48 1.515-.29 0-.578-.013-.859-.048C1.801 13.414 3.7 14 5.733 14" fill="" fill-rule="nonzero")
+              .speaker__more-btn.btn.text(target="3") Read more
+              #sm3.speaker__more
+                .social__bio Stan is a journalist and entrepreneur. He's been writing for Mashable for more than eleven years and is one of the company's first employees. He's covered blockchain tech for more than five years and interviewed some of the most prominent people in the space. In Croatia, he's run a short-lived but popular blockchain newsletter.
+
 
 
 
@@ -376,9 +404,7 @@
                     .agenda__time 21:00 - 03:00
                     .agenda__desc
                       %span.al-title
-                        After Party powered by 
-                        %a(href="" target="_blank")
-                          TBA
+                        After Party
                       %span.al-name 
                       %span.al-company 
 
@@ -501,7 +527,7 @@
                     .agenda__time 23:00 - 05:00
                     .agenda__desc
                       %span.al-title After Party
-                      %span.al-name @ Central club
+                      %span.al-name 
                       %span.al-company
 
 
@@ -643,7 +669,7 @@
             %span Location
           %p Where you can find us?
 
-          .location__desc 
+          %a.location__desc(href="https://www.google.hr/maps/place/Lauba/@45.8115675,15.9405932,15z/data=!4m5!3m4!1s0x0:0x255b84948e656854!8m2!3d45.8115675!4d15.9405932" target="_blank")
             .location__icon
               %svg(height="53" viewbox="0 0 53 53" width="53" xmlns="http://www.w3.org/2000/svg")
                 %g(fill="none" fill-rule="evenodd")
@@ -657,8 +683,16 @@
                 10 000 Zagreb,Croatia
 
 
-        .location__map
+        %a.location__map(href="https://www.google.hr/maps/place/Lauba/@45.8115675,15.9405932,15z/data=!4m5!3m4!1s0x0:0x255b84948e656854!8m2!3d45.8115675!4d15.9405932" target="_blank")
           %img(srcset="img/location/location-map@2x.jpg 2x, img/location/location-map@1x.jpg 1x," src="img/location/location-map@1x.jpg" alt="Shift Money location")/
+
+        .location__img1
+          %img(srcset="img/location/location-img1@2x.jpg 2x, img/location/location-img1@1x.jpg 1x," src="img/location/location-img1@1x.jpg" alt="Shift Money location")/
+        .location__img2
+          %img(srcset="img/location/location-img2@2x.jpg 2x, img/location/location-img2@1x.jpg 1x," src="img/location/location-img2@1x.jpg" alt="Shift Money location")/
+
+
+      .sectionFiller.sectionFiller--white
 
 
 
@@ -736,27 +770,32 @@
       .container
 
         .testimonials
-          .testimonials-item
-            .testimonials__comment
-              .testimonials__top
-                .testimonials__name John Doe
-                .testimonials__title UI Designer at Artefect
-              .testimonialsBox "Shift was a really exciting glance into the tech community of Split. I was really impressed with the venue, the people and conversations I had there, and feel really lucky that I had a chance to explore the city itself."
-
-            .testimonials__image
-              %img(srcset="img/testimonials/testimonials@2x.jpg 2x, img/testimonials/testimonials@1x.jpg 1x" src="img/testimonials/testimonials@1x.jpg" alt="")/
-
-
 
           .testimonials-item
             .testimonials__comment
               .testimonials__top
-                .testimonials__name John Doe
-                .testimonials__title UI Designer at Artefect
-              .testimonialsBox "Shift was a really exciting glance into the tech community of Split. I was really impressed with the venue, the people and conversations I had there, and feel really lucky that I had a chance to explore the city itself."
+                .testimonials__name Mete Atamel
+                .testimonials__title Developer Advocate at Google
+              .testimonials__image--mobile
+                %img(srcset="img/testimonials/mateAtamel@2x.jpg 2x, img/testimonials/mateAtamel@1x.jpg 1x" src="img/testimonials/mateAtamel@1x.jpg" alt="Mate Atamel")/
+              .testimonialsBox "Shift is an awesome conference in the beautiful city of Split with an amazing venue and an engaged technical audience. It was great to be part of such a great event!"
 
             .testimonials__image
-              %img(srcset="img/testimonials/testimonials@2x.jpg 2x, img/testimonials/testimonials@1x.jpg 1x" src="img/testimonials/testimonials@1x.jpg" alt="")/
+              %img(srcset="img/testimonials/mateAtamel@2x.jpg 2x, img/testimonials/mateAtamel@1x.jpg 1x" src="img/testimonials/mateAtamel@1x.jpg" alt="Mate Atamel")/
+
+
+
+          .testimonials-item
+            .testimonials__comment
+              .testimonials__top
+                .testimonials__name Mike Butcher
+                .testimonials__title Editor-at-large of TechCrunch
+              .testimonials__image--mobile
+                %img(srcset="img/testimonials/mikeButcher@2x.jpg 2x, img/testimonials/mikeButcher@1x.jpg 1x" src="img/testimonials/mikeButcher@1x.jpg" alt="Mike Butcher")/
+              .testimonialsBox "It's exciting to me when an event like Shift Split happens because it is usually the first sign that a new startup ecosystem is forming. To me I find that fascinating, because I know that in time we will see great tech products, Startups and entrepreneurs come from it. Plus, events like this are a key indicator to the press and investors that they will know where to look for the next big thing."
+
+            .testimonials__image
+              %img(srcset="img/testimonials/mikeButcher@2x.jpg 2x, img/testimonials/mikeButcher@1x.jpg 1x" src="img/testimonials/mikeButcher@1x.jpg" alt="Mike Butcher")/
 
 
 
@@ -1107,10 +1146,11 @@
       .ticket__icon.icon--green
         %svg(height="36" viewbox="0 0 40 36" width="40" xmlns="http://www.w3.org/2000/svg")
           %path(d="M39.333 23.774c.368 0 .667-.305.667-.68V17.66c0-.375-.299-.679-.667-.679h-8.39l4.195-4.274c.26-.266.26-.696 0-.96l-3.643-3.712c-.26-.265-.682-.265-.942 0-1.042 1.06-2.73 1.06-3.772 0-1.042-1.062-1.042-2.782 0-3.844.26-.265.26-.695 0-.96L23.805.199c-.26-.265-.683-.265-.943 0L6.391 16.98H.667c-.369 0-.667.304-.667.68v5.433c0 .375.298.68.667.68 1.472 0 2.666 1.216 2.666 2.717 0 1.5-1.194 2.717-2.666 2.717-.369 0-.667.304-.667.679v5.434c0 .375.298.679.667.679h38.666c.368 0 .667-.304.667-.68v-5.433c0-.375-.299-.68-.667-.68-1.472 0-2.666-1.216-2.666-2.716 0-1.501 1.194-2.717 2.666-2.717zm-16-22.134l2.072 2.11c-1.284 1.832-.868 4.377.93 5.686 1.39 1.013 3.26 1.013 4.65 0l2.739 2.79-4.667 4.755h-2.114l1.528-1.557c.26-.266.26-.696 0-.96L21.138 6.99c-.26-.265-.682-.265-.943 0l-9.804 9.99H8.276L23.333 1.64zm1.724 15.341H12.276l8.39-8.549 6.391 6.511-2 2.038zm10.328 10.185c.283 1.713 1.6 3.056 3.282 3.344v4.132h-5.334v-2.717H32v2.717H8v-.68H6.667v.68H1.333V30.51c2.179-.373 3.648-2.475 3.282-4.695-.283-1.713-1.6-3.056-3.282-3.344V18.34h5.334v2.037H8V18.34h30.667v4.131c-2.179.373-3.648 2.475-3.282 4.695zM32 20v3h1v-3h-1zm0 4v3h1v-3h-1zm0 4v3h1v-3h-1zM7 22v3h1v-3H7zm0 4v3h1v-3H7zm0 4v3h1v-3H7zm22.333-8.05c-.736 0-1.333-.582-1.333-1.3 0-.359-.298-.65-.667-.65H12.667c-.369 0-.667.291-.667.65 0 .718-.597 1.3-1.333 1.3-.369 0-.667.291-.667.65v7.8c0 .359.298.65.667.65.736 0 1.333.582 1.333 1.3 0 .359.298.65.667.65h14.666c.369 0 .667-.291.667-.65 0-.718.597-1.3 1.333-1.3.368 0 .667-.291.667-.65v-7.8c0-.359-.299-.65-.667-.65zm-.666 7.882c-.939.238-1.672.953-1.916 1.868H13.249c-.244-.915-.977-1.63-1.916-1.868v-6.664c.939-.238 1.672-.953 1.916-1.868h13.502c.244.915.977 1.63 1.916 1.868v6.664z" fill="" fill-rule="nonzero")
-      .ticket__name.ticket__name--green(data-content="name1")
-      .ticket__price
-        .ticket__price-top(data-content="humanPrice1")
-        .ticket__price-bot(data-content="time1")
+      .ticket__mid
+        .ticket__name.ticket__name--green(data-content="name1")
+        .ticket__price
+          .ticket__price-top(data-content="humanPrice1")
+          .ticket__price-bot(data-content="time1")
 
       .ticket__quantity
         .select
@@ -1131,10 +1171,11 @@
       .ticket__icon.icon--red
         %svg(height="36" viewbox="0 0 40 36" width="40" xmlns="http://www.w3.org/2000/svg")
           %path(d="M39.333 23.774c.368 0 .667-.305.667-.68V17.66c0-.375-.299-.679-.667-.679h-8.39l4.195-4.274c.26-.266.26-.696 0-.96l-3.643-3.712c-.26-.265-.682-.265-.942 0-1.042 1.06-2.73 1.06-3.772 0-1.042-1.062-1.042-2.782 0-3.844.26-.265.26-.695 0-.96L23.805.199c-.26-.265-.683-.265-.943 0L6.391 16.98H.667c-.369 0-.667.304-.667.68v5.433c0 .375.298.68.667.68 1.472 0 2.666 1.216 2.666 2.717 0 1.5-1.194 2.717-2.666 2.717-.369 0-.667.304-.667.679v5.434c0 .375.298.679.667.679h38.666c.368 0 .667-.304.667-.68v-5.433c0-.375-.299-.68-.667-.68-1.472 0-2.666-1.216-2.666-2.716 0-1.501 1.194-2.717 2.666-2.717zm-16-22.134l2.072 2.11c-1.284 1.832-.868 4.377.93 5.686 1.39 1.013 3.26 1.013 4.65 0l2.739 2.79-4.667 4.755h-2.114l1.528-1.557c.26-.266.26-.696 0-.96L21.138 6.99c-.26-.265-.682-.265-.943 0l-9.804 9.99H8.276L23.333 1.64zm1.724 15.341H12.276l8.39-8.549 6.391 6.511-2 2.038zm10.328 10.185c.283 1.713 1.6 3.056 3.282 3.344v4.132h-5.334v-2.717H32v2.717H8v-.68H6.667v.68H1.333V30.51c2.179-.373 3.648-2.475 3.282-4.695-.283-1.713-1.6-3.056-3.282-3.344V18.34h5.334v2.037H8V18.34h30.667v4.131c-2.179.373-3.648 2.475-3.282 4.695zM32 20v3h1v-3h-1zm0 4v3h1v-3h-1zm0 4v3h1v-3h-1zM7 22v3h1v-3H7zm0 4v3h1v-3H7zm0 4v3h1v-3H7zm22.333-8.05c-.736 0-1.333-.582-1.333-1.3 0-.359-.298-.65-.667-.65H12.667c-.369 0-.667.291-.667.65 0 .718-.597 1.3-1.333 1.3-.369 0-.667.291-.667.65v7.8c0 .359.298.65.667.65.736 0 1.333.582 1.333 1.3 0 .359.298.65.667.65h14.666c.369 0 .667-.291.667-.65 0-.718.597-1.3 1.333-1.3.368 0 .667-.291.667-.65v-7.8c0-.359-.299-.65-.667-.65zm-.666 7.882c-.939.238-1.672.953-1.916 1.868H13.249c-.244-.915-.977-1.63-1.916-1.868v-6.664c.939-.238 1.672-.953 1.916-1.868h13.502c.244.915.977 1.63 1.916 1.868v6.664z" fill="" fill-rule="nonzero")
-      .ticket__name.ticket__name--red(data-content="name2")
-      .ticket__price
-        .ticket__price-top(data-content="humanPrice2")
-        .ticket__price-bot(data-content="time2")
+      .ticket__mid
+        .ticket__name.ticket__name--red(data-content="name2")
+        .ticket__price
+          .ticket__price-top(data-content="humanPrice2")
+          .ticket__price-bot(data-content="time2")
   
       .ticket__quantity
         .select
@@ -1152,8 +1193,7 @@
             %option(value="10") 10
 
 
-  / Sponsor slider code
-  
+
   %script(type="text/html" id="summary")
     .crypto__summary(data-content="summary")
     .crypto__total
