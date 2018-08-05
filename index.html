@@ -23,26 +23,32 @@
     <link href='slick/slick.css' rel='stylesheet' type='text/css'>
     <link href='slick/slick-theme.css' rel='stylesheet' type='text/css'>
   </head>
-  <body class='crypto-payment'>
+  <body>
     <div id='crypto-payment'>
       <div class='crypto__title'>Crypto Payment</div>
       <div class='summary__title'>You selected:</div>
       <div id='crypto-summary'></div>
       <div class='form__title'>Information</div>
       <form>
-        <input placeholder='E-mail address' type='text'>
+        <input id='email' placeholder='E-mail address' type='text'>
         <a class='btn green fill' href='#' id='crypto-checkout'>Checkout</a>
       </form>
       <div class='currencies'>
         <div class='currencies__title'>Select your currency</div>
         <div id='crypto-currencies'></div>
       </div>
+      <div class='lds-ring'>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <div class='crypto-checkout'>
         <div class='crypto-header'>Thank you for your order!</div>
         <img class='crypto-icon'>
         <div class='crypto-amount'></div>
         <div class='crypto-fiat'></div>
-        <div class='crypto-info'>Please send the amount above to this Address</div>
+        <div class='crypto-info'>Please send the amount above to this address:</div>
         <div id='crypto-wallet'></div>
         <img class='crypto-qr'>
         <div class='crypto-result'>After we receive a confirmation for your payment, you will get a ticket to the provided e-mail address.</div>
@@ -1512,8 +1518,6 @@
         }
       ]
     });
-    
-    
     
     $(document).ready(function(){
       $('#sponsorsSlider4').slick({

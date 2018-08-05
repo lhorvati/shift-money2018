@@ -30,24 +30,29 @@
     %link(href="slick/slick-theme.css" rel="stylesheet" type="text/css")/
 
 
-  %body.crypto-payment
+  %body
     #crypto-payment
       .crypto__title Crypto Payment
       .summary__title You selected:
       #crypto-summary
       .form__title Information
       %form
-        %input(type="text" placeholder="E-mail address")/
+        %input(type="text" placeholder="E-mail address" id="email")/
         %a.btn.green.fill(href="#" id="crypto-checkout") Checkout
       .currencies
         .currencies__title Select your currency
         #crypto-currencies
+      .lds-ring
+        %div
+        %div
+        %div
+        %div
       .crypto-checkout
         .crypto-header Thank you for your order!
         %img.crypto-icon
         .crypto-amount
         .crypto-fiat
-        .crypto-info Please send the amount above to this Address
+        .crypto-info Please send the amount above to this address:
         #crypto-wallet
         %img.crypto-qr
         .crypto-result After we receive a confirmation for your payment, you will get a ticket to the provided e-mail address.

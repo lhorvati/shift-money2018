@@ -28,6 +28,12 @@ $(function() {
     'pointer-events': 'none'
   });
 
+  $('#crypto-checkout').css({
+    'opacity': '0.3',
+    'cursor': 'default',
+    'pointer-events': 'none'
+  });
+
   $("#ticket-info").loadTemplate($("#template"),
   {
     name1: tickets[0].name,
@@ -46,6 +52,11 @@ $(function() {
     }
 
     return false;
+  }
+
+  function validateEmail($email) {
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+    return emailReg.test( $email );
   }
 
   function constructQueryString() {
@@ -80,6 +91,22 @@ $(function() {
     }
   });
 
+  $('#email').on('keyup change keydown', function() {
+    if(validateEmail($('#email').val()) && $('#email').val().length > 0) {
+      $('#crypto-checkout').css({
+        'opacity': '1',
+        'cursor': 'pointer',
+        'pointer-events': 'auto'
+      });
+    } else {
+      $('#crypto-checkout').css({
+        'opacity': '0.3',
+        'cursor': 'default',
+        'pointer-events': 'none'
+      });
+    }
+  });
+
   $('select').change(function() {
     var id = $(this).attr('id');
     var quantity = $(this).val();
@@ -110,11 +137,17 @@ $(function() {
   $('#crypto-checkout').click(function(e) {
     e.preventDefault();
     $('.crypto__title, .summary__title, #crypto-summary, .form__title, form').css('display', 'none');
-    $('.currencies__title').css('display', 'block');
-    $('#crypto-currencies').css('display', 'block');
+    $('.lds-ring').css('display', 'table');
+
+    setTimeout(function() {
+      $('.lds-ring').css('display', 'none');
+      $('.currencies__title').css('display', 'block');
+      $('#crypto-currencies').css('display', 'block');  
+    }, 500)
   });
 
   $('.btn.yellow.empty').click(function() {
+    history.pushState(null, null, 'crypto-checkout');
     if(isValid()) {
       for (var i in tickets) {
         total += tickets[i].price * tickets[i].quantity
@@ -154,19 +187,22 @@ $(function() {
 
           $('.currency').on('click', function() {
             const currency = $(this).attr('id');
-            console.log(info);
+            $('.currencies').css('display', 'none');    
+            $('.lds-ring').css('display', 'table');
 
-            $('.crypto-qr').attr('src', 'https://chart.googleapis.com/chart?chl=' + info[currency].address + '&chs=200x200&cht=qr&chld=H%7C0');
-            $('.crypto-checkout').css('display', 'block');
-            $('.crypto-icon').attr('src', info[currency].icon);
-            $('.crypto-amount').text(info[currency].price + ' ' + currency.toUpperCase());
-            $('.crypto-fiat').text(total + ' EUR');
-            $('#crypto-wallet').text(info[currency].address);
-            $('.currencies').css('display', 'none');
-
-            apiRequest.get('https://api.paybear.io/v2/btc/payment/http%3A%2F%2Fputsreq.com%2FUv8u7ofxXDWVoaVawDWd/?token=secc75ccf1135cc62dd3a0455f4f4d8316a').then(function(response) {
-              console.log(response);
-            });
+            setTimeout(function() {
+              apiRequest.get('http://167.99.91.136/payment/' + currency).then(function(response) {
+                response.json().then(function(data) {
+                  $('.lds-ring').css('display', 'none');
+                  $('.crypto-qr').attr('src', 'https://chart.googleapis.com/chart?chl=' + data.address + '&chs=200x200&cht=qr&chld=H%7C0');
+                  $('.crypto-checkout').css('display', 'block');
+                  $('.crypto-icon').attr('src', info[currency].icon);
+                  $('.crypto-amount').text(info[currency].price + ' ' + currency.toUpperCase());
+                  $('.crypto-fiat').text(total + ' EUR');
+                  $('#crypto-wallet').text(data.address);
+                });
+              });
+            }, 1000);
           });
         });
       });  
