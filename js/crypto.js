@@ -170,7 +170,7 @@ $(function() {
         total: total + '€'
       });
   
-      apiRequest.get('http://167.99.91.136/info/' + total).then(function(response) {
+      apiRequest.get('http://localhost:3000/info/' + total).then(function(response) {
         response.json().then(function(info) {
           $("#crypto-currencies").loadTemplate($("#currencies"),
           {
@@ -187,11 +187,14 @@ $(function() {
 
           $('.currency').on('click', function() {
             const currency = $(this).attr('id');
+            const email = $('#email').val();
+            const order = tickets[0].name + ' x' + tickets[0].quantity + ', ' + tickets[1].name + ' x' + tickets[1].quantity;
+
             $('.currencies').css('display', 'none');    
             $('.lds-ring').css('display', 'table');
 
             setTimeout(function() {
-              apiRequest.get('http://167.99.91.136/payment/' + currency).then(function(response) {
+              apiRequest.post('http://localhost:3000/payment/' + currency, { email, order }).then(function(response) {
                 response.json().then(function(data) {
                   $('.lds-ring').css('display', 'none');
                   $('.crypto-qr').attr('src', 'https://chart.googleapis.com/chart?chl=' + data.address + '&chs=200x200&cht=qr&chld=H%7C0');
