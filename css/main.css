@@ -812,11 +812,15 @@ a.social:hover {
   margin: 0 10px 0 24px;
 }
 #about {
+  height: 100px;
+  background: #092e82;
+}
+#about-section {
   background: #092e82;
   background: -webkit-gradient(linear, left top, right top, from(#092e82), color-stop(53%, #092e82), color-stop(53%, #fafafa), to(#fafafa));
   background: linear-gradient(to right, #092e82 0%, #092e82 53%, #fafafa 53%, #fafafa 100%);
 }
-#about .container {
+#about-section .container {
   display: -webkit-box;
   display: -moz-flex;
   display: -ms-flexbox;
@@ -827,7 +831,7 @@ a.social:hover {
           flex-flow: column nowrap;
   position: relative;
 }
-#about .about {
+#about-section .about {
   position: relative;
   background: #fafafa;
   width: 60%;
@@ -836,12 +840,12 @@ a.social:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-#about .about p {
+#about-section .about p {
   font-size: 15px;
   font-family: 'Maison Mono', sans-serif;
   line-height: 30px;
 }
-#about .about .about__bg {
+#about-section .about .about__bg {
   position: absolute;
   left: -300px;
   top: 50px;
@@ -851,7 +855,7 @@ a.social:hover {
   background-size: 517px;
   z-index: 5;
 }
-#about .about .about__arrow {
+#about-section .about .about__arrow {
   position: absolute;
   left: 370px;
   bottom: -105px;
@@ -861,19 +865,19 @@ a.social:hover {
   background-size: 119px;
   z-index: 7;
 }
-#about .about .about__img1,
-#about .about .about__img2 {
+#about-section .about .about__img1,
+#about-section .about .about__img2 {
   position: absolute;
   overflow: hidden;
   z-index: 6;
 }
-#about .about .about__img1 {
+#about-section .about .about__img1 {
   width: 475px;
   height: 317px;
   top: 150px;
   left: -450px;
 }
-#about .about .about__img2 {
+#about-section .about .about__img2 {
   width: 401px;
   height: 261px;
   bottom: -100px;

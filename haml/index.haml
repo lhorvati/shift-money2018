@@ -111,7 +111,8 @@
 
 
     / ABOUT SECTION ***************************************
-    #about.section
+    #about
+    #about-section.section
       .container
         .about
           %h2.small Why Shift Money
@@ -132,7 +133,7 @@
       .container
         .who
           %h2.small Who is attending?
-          %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including attendents from these companies.
+          %p This year’s Shift Money is gathering representatives from the whole financial and technology sector, no matter their size or stage - check out the full list below.
           .who__list
             %a.who__list-item(href="https://www.ey.com/hr/en/home" target="_blank")
               %img(src="img/sponsors/ey.svg" alt="Ernst & Young")/
@@ -169,11 +170,7 @@
     / SPEAKERS SECTION ************************************
     #speakers.section
       .container
-        %h2 Speakers
-
-        .small-nav1
-          #speakers-mainLink.small-nav1__item.active
-            main track speakers
+        %h2 This year’s Speakers
 
         #speakers-main.speakers-content.show
           .speakers-wrap
@@ -288,7 +285,7 @@
     #schedule.section
       .container
         %h2 Schedule
-        .title-desc Vast number of different speeches and activities
+        .title-desc More than 20 speakers from all over the world, talking about the newest trends in payments, lending and blockchain
 
         .agenda-wrap
 
@@ -303,9 +300,7 @@
             .agenda__title
               %span.agenda__title--red Day 1
               &#45; 26/11/2018 - Monday
-            .small-nav2
-              #day1-mainLink.small-nav2__item.active
-                main track
+
 
             #day1-main.agenda-content1.show
               .agenda__list
@@ -418,9 +413,7 @@
             .agenda__title
               %span.agenda__title--tiel Day 2 
               &#45; 27/11/2018 - Tuesday
-            .small-nav3
-              #day2-mainLink.small-nav3__item.active
-                main track
+
 
             #day2-main.agenda-content2.show
               .agenda__list
@@ -648,7 +641,7 @@
     #newsletter.section
       .container
         %h2 Signup to newsletter
-        %p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        %p We love email, and you should too - to be up to speed with all the latest annoncements, subscribe to our newsletter.
         .newsletter
           %form(action="")
             %input.input(type="text" name="email" required)/
@@ -801,7 +794,7 @@
 
 
     / SPONSORS SECTION *************************************
-    #sponsors.section
+    #sponsors.section.hide
       .container
         %h2 Sponsors
         .title-desc Companies that support us
