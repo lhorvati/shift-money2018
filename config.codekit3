@@ -4547,19 +4547,6 @@
 		"oS": 0,
 		"rrU": 0
 		},
-	"\/stylus\/base\/global.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/global.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
 	"\/stylus\/base\/mixins.styl": {
 		"aP": 1,
 		"bl": 0,
@@ -4703,32 +4690,6 @@
 		"oS": 0,
 		"rrU": 0
 		},
-	"\/stylus\/sections\/footer.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/footer.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
-	"\/stylus\/sections\/hero.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/hero.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
 	"\/stylus\/sections\/howto.styl": {
 		"aP": 1,
 		"bl": 0,
@@ -4755,19 +4716,6 @@
 		"oS": 0,
 		"rrU": 0
 		},
-	"\/stylus\/sections\/newsletter.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/newsletter.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
 	"\/stylus\/sections\/previous.styl": {
 		"aP": 1,
 		"bl": 0,
@@ -4777,19 +4725,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/previous.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
-	"\/stylus\/sections\/schedule.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/schedule.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
