@@ -1,6 +1,6 @@
 - # encoding: UTF-8
 !!! 5
-%html(lang="hr")
+%html(lang="en")
   %head
     %title FinTech Conference : Shift Money 2018
 
@@ -15,12 +15,11 @@
     %meta(charset="UTF-8")/
     %meta(name="keywords" content="Shift, 2018, money, FinTech conference, conference, fintech, finencial, blockchain, crypto btc, bitcoin, payments")/
     %meta(name="description" content="Shift Money is a Financial Technology Conference, which purpose is to explore new ways to disrupt the world of Payments, Insurance, Lending & Blockchain. This event gathers the representatives of every sector of the industry, no matter their size or stage, in one place to find new partners, create connections and find new opportunities.")/
-    %meta(name="author" content="horvaticluka@gmail.com")/
     %meta(id="meta" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover")/
 
-    %meta(property="og:image" content="https://shift.codeanywhere.com/img/top-bg.svg" )/
+    %meta(property="og:image" content="https://fuzzy-puma-12.localtunnel.me/shiftMoney.jpg" )/
     %meta(property="og:title" content="FinTech Conference : Shift Money 2018")/
-    %meta(property="og:discription" content="Shift Money is a Financial Technology Conference, which purpose is to explore new ways to disrupt the world of Payments, Insurance, Lending & Blockchain. This event gathers the representatives of every sector of the industry, no matter their size or stage, in one place to find new partners, create connections and find new opportunities.")/
+    %meta(property="og:description" content="Shift Money is a Financial Technology Conference, which purpose is to explore new ways to disrupt the world of Payments, Insurance, Lending & Blockchain. This event gathers the representatives of every sector of the industry, no matter their size or stage, in one place to find new partners, create connections and find new opportunities.")/
     %meta(property="og:url" content="https://money.shiftconf.co/" )/
 
     %link(rel="stylesheet" href="css/main.css")/
@@ -93,7 +92,7 @@
           .heroBox__date
             .heroBox__date--line
             .heroBox__date--text 26 & 27 November
-          .heroBox__heading
+          %h1.heroBox__heading
             .heroBox__wrap
               Welcome
               .heroBox__heading--line
@@ -113,7 +112,7 @@
     #about.section
       .container
         .about
-          %h1.small Why Shift Money
+          %h2.small Why Shift Money
           %p The biggest Developer Conference in Southeast Europe. This event, Shift 2019 is the eight and will bring together more than 1300 attendees. During the two conference days, Shift becomes a meeting place for developers in the most beautiful city in the world.
           .about__img1
             %img(srcset="img/about-img1@2x.jpg 2x, img/about-img1@1x.jpg 1x" src="img/about-img1@1x.jpg" alt="Ivan Burazin - CEO Codeanywhere")/
@@ -130,7 +129,7 @@
     #who.section
       .container
         .who
-          %h1.small Who is attending?
+          %h2.small Who is attending?
           %p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including attendents from these companies.
           .who__list
             %a.who__list-item(href="https://www.ey.com/hr/en/home" target="_blank")
@@ -168,7 +167,7 @@
     / SPEAKERS SECTION ************************************
     #speakers.section
       .container
-        %h1 Speakers
+        %h2 Speakers
 
         .small-nav1
           #speakers-mainLink.small-nav1__item.active
@@ -286,7 +285,7 @@
     / SCHEDULE SECTION ************************************
     #schedule.section
       .container
-        %h1 Schedule
+        %h2 Schedule
         .title-desc Vast number of different speeches and activities
 
         .agenda-wrap
@@ -540,7 +539,7 @@
     / TICKETS SECTION *************************************
     #tickets.section
       .container
-        %h1 Tickets
+        %h2 Tickets
         .title-desc THU, MAY 2019 10:00 AM - FRI, MAY 31 2019 7:00 PM CEST
 
         #ticket-info.tickets
@@ -572,7 +571,7 @@
     / PREVIOUS SECTION ************************************
     #previous.section
       .container
-        %h1 Be on track
+        %h2 Be on track
         .title-desc See what we did lately
 
       .previous
@@ -646,7 +645,7 @@
     / NEWSLETTER SECTION ***********************************
     #newsletter.section
       .container
-        %h1 Signup to newsletter
+        %h2 Signup to newsletter
         %p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         .newsletter
           %form(action="")
@@ -664,7 +663,7 @@
       .container
 
         .location
-          .location__title
+          %h2.location__title
             %span Shift
             %span Location
           %p Where you can find us?
@@ -705,7 +704,7 @@
       .container
 
         .howto
-          %h1 Accomodation Transport
+          %h3 Accomodation Transport
           %p Checkout our partner Booking for the best possible accommodation for your stay
 
           .howto__buttons
@@ -800,9 +799,9 @@
 
 
     / SPONSORS SECTION *************************************
-    #sponsors.section.hide
+    #sponsors.section
       .container
-        %h1 Sponsors
+        %h2 Sponsors
         .title-desc Companies that support us
       .sponsors-wrap
         .container
