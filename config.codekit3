@@ -268,8 +268,8 @@
 		"oA": 0,
 		"oAP": "\/img\/about-img1@1x.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 81
 		},
 	"\/img\/about-img1@2x.jpg": {
@@ -684,7 +684,7 @@
 		},
 	"\/img\/location\/location-img1@1x.jpg": {
 		"ft": 16384,
-		"iS": 67403,
+		"iS": 46355,
 		"oA": 0,
 		"oAP": "\/img\/location\/location-img1@1x.jpg",
 		"oF": 0,
@@ -846,7 +846,7 @@
 		},
 	"\/img\/payment\/ltc.png": {
 		"ft": 32768,
-		"iS": 11037,
+		"iS": 2670,
 		"oA": 0,
 		"oAP": "\/img\/payment\/ltc.png",
 		"oF": 0,
@@ -937,7 +937,7 @@
 		},
 	"\/img\/slideshow\/previous1.jpg": {
 		"ft": 16384,
-		"iS": 202708,
+		"iS": 27651,
 		"oA": 0,
 		"oAP": "\/img\/slideshow\/previous1.jpg",
 		"oF": 0,
@@ -947,7 +947,7 @@
 		},
 	"\/img\/slideshow\/previous2.jpg": {
 		"ft": 16384,
-		"iS": 278726,
+		"iS": 26859,
 		"oA": 0,
 		"oAP": "\/img\/slideshow\/previous2.jpg",
 		"oF": 0,
@@ -971,8 +971,8 @@
 		"oA": 0,
 		"oAP": "\/img\/speakers\/emilProtalinski@1x.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 81
 		},
 	"\/img\/speakers\/emilProtalinski@2x.jpg": {
@@ -981,8 +981,8 @@
 		"oA": 0,
 		"oAP": "\/img\/speakers\/emilProtalinski@2x.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 81
 		},
 	"\/img\/speakers\/ivanBurazin@1x.jpg": {
@@ -1031,8 +1031,8 @@
 		"oA": 0,
 		"oAP": "\/img\/speakers\/stanSchroeder@1x.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 81
 		},
 	"\/img\/speakers\/stanSchroeder@2x.jpg": {
@@ -1041,8 +1041,8 @@
 		"oA": 0,
 		"oAP": "\/img\/speakers\/stanSchroeder@2x.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 81
 		},
 	"\/img\/speakers\/tonVanNoordende@1x.jpg": {
@@ -1051,8 +1051,8 @@
 		"oA": 0,
 		"oAP": "\/img\/speakers\/tonVanNoordende@1x.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 81
 		},
 	"\/img\/speakers\/tonVanNoordende@2x.jpg": {
@@ -1061,8 +1061,8 @@
 		"oA": 0,
 		"oAP": "\/img\/speakers\/tonVanNoordende@2x.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 81
 		},
 	"\/img\/sponsors\/allianz.svg": {
@@ -1131,8 +1131,8 @@
 		"oA": 0,
 		"oAP": "\/img\/testimonials\/mateAtamel@1x.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 81
 		},
 	"\/img\/testimonials\/mateAtamel@2x.jpg": {
@@ -1151,8 +1151,8 @@
 		"oA": 0,
 		"oAP": "\/img\/testimonials\/mikeButcher@1x.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 81
 		},
 	"\/img\/testimonials\/mikeButcher@2x.jpg": {
@@ -1161,8 +1161,8 @@
 		"oA": 0,
 		"oAP": "\/img\/testimonials\/mikeButcher@2x.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 81
 		},
 	"\/img\/testimonialsQuote-bg.svg": {
@@ -4547,6 +4547,19 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"\/stylus\/base\/global.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/global.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"\/stylus\/base\/mixins.styl": {
 		"aP": 1,
 		"bl": 0,
@@ -4690,6 +4703,32 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"\/stylus\/sections\/footer.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"\/stylus\/sections\/hero.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/hero.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"\/stylus\/sections\/howto.styl": {
 		"aP": 1,
 		"bl": 0,
@@ -4716,6 +4755,19 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"\/stylus\/sections\/newsletter.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/newsletter.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"\/stylus\/sections\/previous.styl": {
 		"aP": 1,
 		"bl": 0,
@@ -4725,6 +4777,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/previous.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"\/stylus\/sections\/schedule.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/schedule.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
