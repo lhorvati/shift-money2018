@@ -124,7 +124,7 @@ img {
   src: url("../fonts/Maison_Mono/MaisonMonoBold.otf");
   font-weight: 700;
 }
-h1 {
+h2 {
   font-family: 'Averta', sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -132,22 +132,22 @@ h1 {
   position: relative;
   margin: 60px 0 20px 0;
 }
-h1.small {
+h2.small {
   color: #017fff;
   font-size: 30px;
 }
-h2 {
+h4 {
   font-family: 'Averta', sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: #017fff;
 }
-h2.small {
+h4.small {
   font-size: 21px;
   color: #000;
   margin-bottom: 15px;
 }
-h2.small span {
+h4.small span {
   color: #017fff;
 }
 h3 {
@@ -1212,7 +1212,7 @@ a.social:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-#tickets h1 {
+#tickets h2 {
   margin-top: 0;
 }
 #tickets .title-desc {
@@ -2872,6 +2872,9 @@ body.crypto-payment #footer {
     bottom: 50px;
     text-align: center;
   }
+  #tickets .ticketsBot .tickets__cardWrap {
+    margin-top: 20px;
+  }
   #testimonials .testimonials {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2888,7 +2891,7 @@ body.crypto-payment #footer {
   #previous .container {
     width: 100%;
   }
-  #previous h1 {
+  #previous h2 {
     margin-left: 5%;
     margin-right: 5%;
   }
