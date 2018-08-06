@@ -210,9 +210,6 @@ body {
 .section#sponsors {
   padding-top: 100px;
 }
-.section.schedule {
-  padding-top: 30px;
-}
 .sectionFiller {
   width: 100%;
 }
@@ -1118,8 +1115,14 @@ a.social:hover {
   font-family: 'Maison Mono', sans-serif;
   color: #fff;
 }
+#schedule {
+  height: 150px;
+}
 .schedule {
   background: #fafafa;
+}
+.schedule h2 {
+  margin-top: 0;
 }
 .schedule .title-desc {
   max-width: 550px;
@@ -1222,7 +1225,7 @@ a.social:hover {
   top: 0;
 }
 #tickets {
-  padding-top: 100px;
+  padding: 100px 0;
   background: #fafafa;
 }
 #tickets .container {
@@ -1682,7 +1685,7 @@ a.social:hover {
   background: url("../img/location-bg.svg") center no-repeat;
   background-size: 450px;
   position: absolute;
-  top: -110%;
+  top: -210px;
   left: -120px;
 }
 .location .location__title {
@@ -2549,6 +2552,7 @@ body.crypto-payment #footer {
   display: none;
   background-color: #fff;
   border-radius: 8px;
+  width: 100%;
   max-width: 600px;
   position: absolute;
   left: 50%;
@@ -2557,6 +2561,7 @@ body.crypto-payment #footer {
           transform: translate(-50%, -50%);
   -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16);
   box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  word-break: break-word;
 }
 #crypto-payment .crypto-icon {
   display: block;
@@ -2710,6 +2715,12 @@ body.crypto-payment #footer {
   #location .location__img1 {
     right: 0;
   }
+  #location .location__img2 {
+    bottom: -340px;
+  }
+  .sectionFiller.sectionFiller--white {
+    height: 280px;
+  }
 }
 @media only screen and (max-width: 981px), only screen and (max-device-width: 981px) {
   .mobile-hide {
@@ -2824,39 +2835,42 @@ body.crypto-payment #footer {
     font-size: 10px;
   }
   #about {
+    display: none;
+  }
+  #about-section {
     background: #092e82;
     background: -webkit-gradient(linear, left top, left bottom, from(#092e82), color-stop(12%, #092e82), color-stop(12%, #fafafa), to(#fafafa));
     background: linear-gradient(to bottom, #092e82 0%, #092e82 12%, #fafafa 12%, #fafafa 100%);
   }
-  #about .about {
+  #about-section .about {
     width: 100%;
     padding: 300px 0 200px 0;
     margin: 0;
     background: transparent;
   }
-  #about .about h1,
-  #about .about p {
+  #about-section .about h1,
+  #about-section .about p {
     position: relative;
     z-index: 6;
   }
-  #about .about .about__img1 {
+  #about-section .about .about__img1 {
     width: 100%;
     height: auto;
     top: 0;
     left: -30px;
   }
-  #about .about .about__img2 {
+  #about-section .about .about__img2 {
     width: 100%;
     height: auto;
     bottom: -120px;
     left: -30px;
   }
-  #about .about .about__arrow {
+  #about-section .about .about__arrow {
     left: auto;
     right: 0;
     bottom: -120px;
   }
-  #about .about .about__bg {
+  #about-section .about .about__bg {
     width: 150px;
     height: 150px;
     background: url("../img/about-bg-mobile.svg") center no-repeat;
@@ -3065,6 +3079,43 @@ body.crypto-payment #footer {
   }
   .location .location__title span:last-child:before {
     width: 130px;
+  }
+  body.crypto-payment #crypto-payment {
+    width: 100%;
+    overflow: auto;
+  }
+  #crypto-payment .crypto__wrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+  #crypto-payment .currencies {
+    position: relative;
+  }
+  #crypto-payment #crypto-currencies {
+    width: 320px;
+    margin: 0 auto;
+  }
+  #crypto-payment .currencies__title {
+    text-align: center;
+    padding-left: 0;
+  }
+  #crypto-payment .currency {
+    margin-right: 0;
+    margin: 10px 20px;
+  }
+  #crypto-payment .crypto-result {
+    margin: 0 auto;
+    padding-bottom: 35px;
+  }
+  #crypto-payment .crypto-checkout {
+    -webkit-transform: none;
+            transform: none;
+    left: auto;
+    right: auto;
+    top: 15px;
+    position: relative;
+    width: calc(100% - 20px);
+    margin: 0 auto 15px auto;
   }
   #footer .container {
     -webkit-box-orient: vertical;
@@ -3375,7 +3426,7 @@ body.crypto-payment #footer {
   }
 }
 @media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
-  #about .about {
+  #about-section .about {
     padding: 200px 0;
   }
 }
