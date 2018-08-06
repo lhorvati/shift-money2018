@@ -661,13 +661,13 @@
     / NEWSLETTER SECTION ***********************************
     #newsletter.section
       .container
-        %h2 Sign up for newsletter
+        %h2.newsletterText Sign up for newsletter
         %p.newsletter__text We love email, and you should too - subscribe to our newsletter to be up to speed with the latest announcements.
         .newsletter
-          %form(action="")
-            %input.input(type="text" name="email" required)/
-            %label.inputLabel(for="search") Enter your Email
-            %input(type="submit" value="")/
+          %form#newsletter-form
+            %input.input(type="text" name="email" id="emailSubscription")/
+            %label.inputLabel(for="email") Enter your Email
+            %input(type="submit" value="" id="subscribe")/
 
 
 
@@ -992,6 +992,7 @@
   %script(src="js/templating.js" type="text/javascript")
   %script(src="js/script.js" type="text/javascript")
   %script(src="js/crypto.js" type="text/javascript")
+  %script(src="js/newsletter.js" type="text/javascript")
   %script(src="slick/slick.min.js" type="text/javascript")
 
   %script(type="text/html" id="template")

@@ -1,1 +1,1 @@
-var apiRequest={get:function(t){return fetch(t,{method:"GET",headers:{Accept:"application/json","Content-Type":"application/json"}})},post:function(t,e){return fetch(t,{method:"POST",headers:{Accept:"application/json","Content-Type":"application/json"},body:JSON.stringify(e)})}};
+var apiRequest={get:function(t){return fetch(t,{method:"GET",headers:{Accept:"application/json","Content-Type":"application/json"}})},post:function(t,e,n){return fetch(t,{method:"POST",headers:{Accept:"application/json","Content-Type":"application/json"},body:JSON.stringify(e)})}};

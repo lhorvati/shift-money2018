@@ -8,7 +8,7 @@ var apiRequest = {
       }
     });
   },
-  post: function(url, body) {
+  post: function(url, body, auth) {
     return fetch(url, {
       method: 'POST',
       headers: {

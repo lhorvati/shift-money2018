@@ -694,7 +694,7 @@
 		},
 	"\/img\/location\/location-img1@1x.jpg": {
 		"ft": 16384,
-		"iS": 46355,
+		"iS": 67403,
 		"oA": 0,
 		"oAP": "\/img\/location\/location-img1@1x.jpg",
 		"oF": 0,
@@ -856,7 +856,7 @@
 		},
 	"\/img\/payment\/ltc.png": {
 		"ft": 32768,
-		"iS": 2670,
+		"iS": 11037,
 		"oA": 0,
 		"oAP": "\/img\/payment\/ltc.png",
 		"oF": 0,
@@ -947,7 +947,7 @@
 		},
 	"\/img\/slideshow\/previous1.jpg": {
 		"ft": 16384,
-		"iS": 27651,
+		"iS": 202708,
 		"oA": 0,
 		"oAP": "\/img\/slideshow\/previous1.jpg",
 		"oF": 0,
@@ -957,7 +957,7 @@
 		},
 	"\/img\/slideshow\/previous2.jpg": {
 		"ft": 16384,
-		"iS": 26859,
+		"iS": 278726,
 		"oA": 0,
 		"oAP": "\/img\/slideshow\/previous2.jpg",
 		"oF": 0,
@@ -1228,6 +1228,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/min\/crypto-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/newsletter.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/newsletter-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
