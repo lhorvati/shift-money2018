@@ -1,6 +1,6 @@
 $(function() {
   var total = 0;
-
+  
   var tickets = [
     {
       id: 1,
