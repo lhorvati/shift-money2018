@@ -2367,10 +2367,11 @@ body.crypto-payment #crypto-payment {
 }
 body.crypto-payment .navBar,
 body.crypto-payment #hero,
-body.crypto-payment #about,
+body.crypto-payment #about-section,
 body.crypto-payment #who,
 body.crypto-payment #speakers,
 body.crypto-payment #schedule,
+body.crypto-payment .schedule,
 body.crypto-payment #tickets,
 body.crypto-payment #previous,
 body.crypto-payment #newsletter,
@@ -2649,6 +2650,14 @@ body.crypto-payment #footer {
 .lds-ring div:nth-child(3) {
   -webkit-animation-delay: -0.15s;
           animation-delay: -0.15s;
+}
+.crypto__wrapper {
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 @-webkit-keyframes lds-ring {
   0% {

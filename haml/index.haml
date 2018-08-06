@@ -31,13 +31,14 @@
 
   %body
     #crypto-payment
-      .crypto__title Crypto Payment
-      .summary__title You selected:
-      #crypto-summary
-      .form__title Information
-      %form
-        %input(type="text" placeholder="E-mail address" id="email")/
-        %a.btn.green.fill(href="#" id="crypto-checkout") Checkout
+      .crypto__wrapper
+        .crypto__title Crypto Payment
+        .summary__title You selected:
+        #crypto-summary
+        .form__title Information
+        %form
+          %input(type="text" placeholder="E-mail address" id="email")/
+          %a.btn.green.fill(href="#" id="crypto-checkout") Checkout
       .currencies
         .currencies__title Select your currency
         #crypto-currencies
