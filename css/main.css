@@ -2912,6 +2912,9 @@ body.crypto-payment #footer {
   #schedule .agenda .agenda__title {
     font-size: 18px;
   }
+  .schedule .agenda {
+    width: 100%;
+  }
   #download .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
