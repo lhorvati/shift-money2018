@@ -694,7 +694,7 @@
 		},
 	"\/img\/location\/location-img1@1x.jpg": {
 		"ft": 16384,
-		"iS": 67403,
+		"iS": 46355,
 		"oA": 0,
 		"oAP": "\/img\/location\/location-img1@1x.jpg",
 		"oF": 0,
@@ -856,7 +856,7 @@
 		},
 	"\/img\/payment\/ltc.png": {
 		"ft": 32768,
-		"iS": 11037,
+		"iS": 2670,
 		"oA": 0,
 		"oAP": "\/img\/payment\/ltc.png",
 		"oF": 0,
@@ -945,21 +945,181 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/slideshow\/previous1.jpg": {
+	"\/img\/slideshow\/previous1@1x.jpg": {
 		"ft": 16384,
-		"iS": 202708,
+		"iS": 64934,
 		"oA": 0,
-		"oAP": "\/img\/slideshow\/previous1.jpg",
+		"oAP": "\/img\/slideshow\/previous1@1x.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous1@2x.jpg": {
+		"ft": 16384,
+		"iS": 209240,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous1@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 81
 		},
-	"\/img\/slideshow\/previous2.jpg": {
+	"\/img\/slideshow\/previous2@1x.jpg": {
 		"ft": 16384,
-		"iS": 278726,
+		"iS": 59949,
 		"oA": 0,
-		"oAP": "\/img\/slideshow\/previous2.jpg",
+		"oAP": "\/img\/slideshow\/previous2@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous2@2x.jpg": {
+		"ft": 16384,
+		"iS": 180412,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous2@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous3@1x.jpg": {
+		"ft": 16384,
+		"iS": 65414,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous3@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous3@2x.jpg": {
+		"ft": 16384,
+		"iS": 193669,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous3@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous4@1x.jpg": {
+		"ft": 16384,
+		"iS": 57134,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous4@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous4@2x.jpg": {
+		"ft": 16384,
+		"iS": 158706,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous4@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous5@1x.jpg": {
+		"ft": 16384,
+		"iS": 40602,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous5@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous5@2x.jpg": {
+		"ft": 16384,
+		"iS": 131010,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous5@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous6@1x.jpg": {
+		"ft": 16384,
+		"iS": 61353,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous6@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous6@2x.jpg": {
+		"ft": 16384,
+		"iS": 177077,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous6@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous7@1x.jpg": {
+		"ft": 16384,
+		"iS": 43425,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous7@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous7@2x.jpg": {
+		"ft": 16384,
+		"iS": 128944,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous7@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous8@1x.jpg": {
+		"ft": 16384,
+		"iS": 71483,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous8@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous8@2x.jpg": {
+		"ft": 16384,
+		"iS": 218651,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous8@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous9@1x.jpg": {
+		"ft": 16384,
+		"iS": 85267,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous9@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/slideshow\/previous9@2x.jpg": {
+		"ft": 16384,
+		"iS": 265074,
+		"oA": 0,
+		"oAP": "\/img\/slideshow\/previous9@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1296,6 +1456,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/min\/crypto-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/min\/newsletter-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/newsletter-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

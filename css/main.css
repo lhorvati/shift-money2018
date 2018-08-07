@@ -671,6 +671,7 @@ a.social:hover {
   left: 0;
   width: 100%;
   display: none;
+  z-index: 1;
 }
 .agenda-nav-wrap .agenda-nav {
   display: -webkit-box;
@@ -2808,9 +2809,11 @@ body.crypto-payment #footer {
   .section#location,
   .section#schedule,
   .section#speakers,
-  .section#sponsors,
-  .section#tickets {
+  .section#sponsors {
     padding-top: 10px;
+  }
+  .section#tickets {
+    padding: 50px 0;
   }
   .heroBox .heroBox__date .heroBox__date--text {
     font-size: 12px;
@@ -2898,6 +2901,9 @@ body.crypto-payment #footer {
   .small-nav3 .small-nav2__item,
   .small-nav3 .small-nav3__item {
     font-size: 13px;
+  }
+  #schedule {
+    height: 80px;
   }
   #schedule .agenda {
     width: 100%;
