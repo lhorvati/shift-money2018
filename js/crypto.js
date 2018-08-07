@@ -194,7 +194,7 @@ $(function() {
             $('.lds-ring').css('display', 'table');
 
             setTimeout(function() {
-              apiRequest.post('http://167.99.91.136/payment/' + currency, { email, order }).then(function(response) {
+              apiRequest.post('http://167.99.91.136/payment/' + currency, { email, order, total: info[currency].price + ' ' + currency.toUpperCase() }).then(function(response) {
                 response.json().then(function(data) {
                   $('.lds-ring').css('display', 'none');
                   $('.crypto-qr').attr('src', 'https://chart.googleapis.com/chart?chl=' + data.address + '&chs=200x200&cht=qr&chld=H%7C0');
