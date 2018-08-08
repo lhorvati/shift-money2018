@@ -1553,7 +1553,7 @@ a.social:hover {
   fill: #fff;
 }
 #newsletter {
-  padding: 90px 0 160px 0;
+  padding: 100px 0;
   background: #092e82;
 }
 #newsletter .newsletter__text {
@@ -1564,7 +1564,7 @@ a.social:hover {
 #newsletter .container {
   text-align: center;
 }
-#newsletter .container h1 {
+#newsletter .container h2 {
   font-size: 40px;
   margin: 0 0 40px 0;
   color: #fff;
@@ -1573,6 +1573,34 @@ a.social:hover {
   font-family: 'Maison Mono', sans-serif;
   font-size: 15px;
   color: #fff;
+}
+#newsletter .newsletterBox {
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+#newsletter .newsletterBox .newsletterBox__text {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+  color: #017fff;
+}
+#newsletter .newsletterBox .newsletterBox__icon,
+#newsletter .newsletterBox .newsletterBox__icon svg {
+  width: 105px;
+  height: 105px;
 }
 #newsletter .newsletter {
   display: -webkit-box;
@@ -1637,7 +1665,7 @@ a.social:hover {
 }
 #location {
   background: #092e82;
-  padding: 100px 0 0 0;
+  padding: 50px 0 0 0;
   min-height: 720px;
   display: -webkit-box;
   display: -moz-flex;
@@ -2320,6 +2348,10 @@ a.social:hover {
 #footer .footer-social a {
   margin: 0 25px;
 }
+#footer .footer-social a svg {
+  width: auto;
+  height: 22px;
+}
 #footer .footer-social a svg path {
   fill: #fff;
   -webkit-transition: all 0.3s ease;
@@ -2915,26 +2947,6 @@ body.crypto-payment #footer {
   .schedule .agenda {
     width: 100%;
   }
-  #download .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-flow: column-reverse nowrap;
-            flex-flow: column-reverse nowrap;
-    padding-bottom: 100px;
-  }
-  #download .download__video,
-  #download .heroBox {
-    width: 100%;
-  }
-  #download .download__video {
-    height: auto;
-    margin-top: 20px;
-  }
-  #download .download__row {
-    position: absolute;
-    bottom: 50px;
-    text-align: center;
-  }
   #tickets .ticketsBot .tickets__cardWrap {
     margin-top: 20px;
   }
@@ -3014,10 +3026,13 @@ body.crypto-payment #footer {
             flex-flow: column nowrap;
   }
   #howto .howto .howto__buttons .howtoBtn {
-    margin: 0 auto;
+    margin: 0 auto 15px auto;
   }
-  #howto .howto .howto__buttons .howtoBtn:first-child {
-    margin-bottom: 15px;
+  #howto .howto .howto__buttons .howtoBtn:last-child {
+    margin-bottom: 0;
+  }
+  #newsletter .container h2 {
+    font-size: 30px;
   }
   #testimonials .container {
     margin: 0;

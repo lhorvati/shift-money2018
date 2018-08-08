@@ -18,7 +18,8 @@ $(function() {
       }
   
       subscribe(subscribeData).then(function(response) {
-        $('.newsletterText').text('Thank you for subscribing!');
+        $('.newsletterBox').removeClass('hide');
+        $('.newsletterText').addClass('hide');
         $('#emailSubscription').css('display', 'none');
         $('.newsletter__text').css('display', 'none');
         $('#subscribe').css('display', 'none');

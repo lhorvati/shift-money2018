@@ -1,7 +1,7 @@
 /* NEWSLETTER.STYL ======================================= */
 
 #newsletter
-    padding: 90px 0 160px 0
+    padding: 100px 0
     background: darkBlue
 
     .newsletter__text
@@ -12,7 +12,7 @@
     .container
         text-align: center
 
-        h1
+        h2
             font-size: 40px
             margin: 0 0 40px 0
             color: white
@@ -21,6 +21,24 @@
             font-family: font2
             font-size: 15px
             color: white
+
+    .newsletterBox
+        flexbox()
+        flex-center()
+        flex-flow: column nowrap
+
+        .newsletterBox__text
+            text-align: center
+            font-size: 40px
+            font-weight: 700
+            margin: 0 0 40px 0
+            color: blue
+
+        .newsletterBox__icon,
+        .newsletterBox__icon svg
+            width: 105px
+            height 105px
+
 
 
     .newsletter

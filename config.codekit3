@@ -482,11 +482,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/icons\/icon-car.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/icon-car.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/icons\/icon-chat.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/icons\/icon-chat.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/icons\/icon-check.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/icon-check.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -694,7 +714,7 @@
 		},
 	"\/img\/location\/location-img1@1x.jpg": {
 		"ft": 16384,
-		"iS": 67403,
+		"iS": 46355,
 		"oA": 0,
 		"oAP": "\/img\/location\/location-img1@1x.jpg",
 		"oF": 0,
@@ -856,7 +876,7 @@
 		},
 	"\/img\/payment\/ltc.png": {
 		"ft": 32768,
-		"iS": 11037,
+		"iS": 2670,
 		"oA": 0,
 		"oAP": "\/img\/payment\/ltc.png",
 		"oF": 0,
@@ -1285,6 +1305,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/sponsors\/rentalcars.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/rentalcars.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/testimonials-bg.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1297,7 +1327,7 @@
 		},
 	"\/img\/testimonials\/mateAtamel@1x.jpg": {
 		"ft": 16384,
-		"iS": 53988,
+		"iS": 42207,
 		"oA": 0,
 		"oAP": "\/img\/testimonials\/mateAtamel@1x.jpg",
 		"oF": 0,
@@ -1307,7 +1337,7 @@
 		},
 	"\/img\/testimonials\/mateAtamel@2x.jpg": {
 		"ft": 16384,
-		"iS": 224985,
+		"iS": 183300,
 		"oA": 0,
 		"oAP": "\/img\/testimonials\/mateAtamel@2x.jpg",
 		"oF": 0,
@@ -1315,24 +1345,44 @@
 		"opt": 1,
 		"q": 81
 		},
-	"\/img\/testimonials\/mikeButcher@1x.jpg": {
+	"\/img\/testimonials\/mikeButcher1@1x.jpg": {
 		"ft": 16384,
 		"iS": 50777,
 		"oA": 0,
-		"oAP": "\/img\/testimonials\/mikeButcher@1x.jpg",
+		"oAP": "\/img\/testimonials\/mikeButcher1@1x.jpg",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"q": 81
 		},
-	"\/img\/testimonials\/mikeButcher@2x.jpg": {
+	"\/img\/testimonials\/mikeButcher1@2x.jpg": {
 		"ft": 16384,
 		"iS": 147998,
 		"oA": 0,
-		"oAP": "\/img\/testimonials\/mikeButcher@2x.jpg",
+		"oAP": "\/img\/testimonials\/mikeButcher1@2x.jpg",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"q": 81
+		},
+	"\/img\/testimonials\/mikeButcher@1x.jpg": {
+		"ft": 16384,
+		"iS": 40977,
+		"oA": 0,
+		"oAP": "\/img\/testimonials\/mikeButcher@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/testimonials\/mikeButcher@2x.jpg": {
+		"ft": 16384,
+		"iS": 151222,
+		"oA": 0,
+		"oAP": "\/img\/testimonials\/mikeButcher@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/testimonialsQuote-bg.svg": {
