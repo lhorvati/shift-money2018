@@ -2049,6 +2049,21 @@ a.social:hover {
   font-size: 15px;
   font-family: 'Maison Mono', sans-serif;
   color: #000;
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#testimonials .testimonials-item .testimonials__top .testimonials__company,
+#testimonials .testimonials-item .testimonials__top .testimonials__company img {
+  width: auto;
+  height: 20px;
+}
+#testimonials .testimonials-item .testimonials__top .testimonials__company {
+  margin-left: 10px;
 }
 #testimonials .testimonials-item .testimonials__image--mobile {
   display: none;
@@ -3058,6 +3073,11 @@ body.crypto-payment #footer {
   #testimonials .testimonials-item:last-child .testimonials__comment,
   #testimonials .testimonials-item:last-child {
     margin-bottom: 0;
+  }
+  #testimonials .testimonials-item .testimonials__top .testimonials__title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #location {
     padding: 250px 0 0 0 !important;
