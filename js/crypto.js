@@ -21,6 +21,90 @@ $(function() {
       slug: 'fn4uss8b90m'
     },
   ];
+  
+  $('#complete').click(function() {
+    window.close();
+  });
+
+  if(window.location.href.includes('/#/crypto-checkout')) {
+    var first = getParameterByName('1');
+    var second = getParameterByName('2');
+
+    var firstTicket = tickets[0];
+    var secondTicket = tickets[1];
+
+    firstTicket.quantity = first;
+    secondTicket.quantity = second;
+
+    tickets[0] = firstTicket;
+    tickets[1] = secondTicket;
+
+    if(isValid()) {
+      for (var i in tickets) {
+        total += tickets[i].price * tickets[i].quantity
+      }
+  
+      $('body').addClass('crypto-payment');
+  
+      var boughtTickets = tickets.filter(ticket => ticket.quantity > 0);
+      var summary = '';
+      var total = 0;
+  
+      for(var i in boughtTickets) {
+        total += boughtTickets[i].quantity * boughtTickets[i].price;
+        summary += boughtTickets[i].name + ' x' + boughtTickets[i].quantity + ' - ' + boughtTickets[i].price * boughtTickets[i].quantity + '€' + '<br>';
+      }
+  
+      $("#crypto-summary").loadTemplate($("#summary"),
+      {
+        summary: summary,
+        total: total + '€'
+      });
+  
+      apiRequest.get('http://167.99.91.136/info/' + total).then(function(response) {
+        response.json().then(function(info) {
+          $("#crypto-currencies").loadTemplate($("#currencies"),
+          {
+            'ltc-price': info.ltc.price,
+            'btc-price': info.btc.price,
+            'bch-price': info.bch.price,
+            'eth-price': info.eth.price,
+          });
+          
+          $('.ltc-icon').attr('src', info.ltc.icon);
+          $('.btc-icon').attr('src', info.btc.icon);
+          $('.bch-icon').attr('src', info.bch.icon);
+          $('.eth-icon').attr('src', info.eth.icon);
+
+          $('.currency').on('click', function() {
+            const currency = $(this).attr('id');
+            const email = $('#email').val();
+            const order = tickets[0].name + ' x' + tickets[0].quantity + ', ' + tickets[1].name + ' x' + tickets[1].quantity;
+
+            $('.currencies').css('display', 'none');    
+            $('.lds-ring').css('display', 'table');
+
+            console.warn(order, info[currency].price);
+
+            setTimeout(function() {
+              apiRequest.post('http://167.99.91.136/payment/' + currency, { email, order, total: info[currency].price + ' ' + currency.toUpperCase() }).then(function(response) {
+                response.json().then(function(data) {
+                  $('.lds-ring').css('display', 'none');
+                  $('.crypto-qr').attr('src', 'https://chart.googleapis.com/chart?chl=' + data.address + '&chs=200x200&cht=qr&chld=H%7C0');
+                  $('.crypto-checkout').css('display', 'block');
+                  $('.crypto-icon').attr('src', info[currency].icon);
+                  $('.crypto-amount').text(info[currency].price + ' ' + currency.toUpperCase());
+                  $('.crypto-fiat').text(total + ' EUR');
+                  $('#crypto-wallet').text(data.address);
+                });
+              });
+            }, 1000);
+          });
+        });
+      });  
+    }
+  }
+
 
   $('#order, .btn.yellow.empty').css({
     'opacity': '0.3',
@@ -43,6 +127,16 @@ $(function() {
     humanPrice2: tickets[1].humanPrice,
     time2: tickets[1].time,
   });
+
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  } 
 
   function isValid() {
     for(var i in tickets) {
@@ -147,68 +241,6 @@ $(function() {
   });
 
   $('.btn.yellow.empty').click(function() {
-    history.pushState(null, null, 'crypto-checkout');
-    if(isValid()) {
-      for (var i in tickets) {
-        total += tickets[i].price * tickets[i].quantity
-      }
-  
-      $('body').addClass('crypto-payment');
-  
-      var boughtTickets = tickets.filter(ticket => ticket.quantity > 0);
-      var summary = '';
-      var total = 0;
-  
-      for(var i in boughtTickets) {
-        total += boughtTickets[i].quantity * boughtTickets[i].price;
-        summary += boughtTickets[i].name + ' x' + boughtTickets[i].quantity + ' - ' + boughtTickets[i].price * boughtTickets[i].quantity + '€' + '<br>';
-      }
-  
-      $("#crypto-summary").loadTemplate($("#summary"),
-      {
-        summary: summary,
-        total: total + '€'
-      });
-  
-      apiRequest.get('http://167.99.91.136/info/' + total).then(function(response) {
-        response.json().then(function(info) {
-          $("#crypto-currencies").loadTemplate($("#currencies"),
-          {
-            'ltc-price': info.ltc.price,
-            'btc-price': info.btc.price,
-            'bch-price': info.bch.price,
-            'eth-price': info.eth.price,
-          });
-          
-          $('.ltc-icon').attr('src', info.ltc.icon);
-          $('.btc-icon').attr('src', info.btc.icon);
-          $('.bch-icon').attr('src', info.bch.icon);
-          $('.eth-icon').attr('src', info.eth.icon);
-
-          $('.currency').on('click', function() {
-            const currency = $(this).attr('id');
-            const email = $('#email').val();
-            const order = tickets[0].name + ' x' + tickets[0].quantity + ', ' + tickets[1].name + ' x' + tickets[1].quantity;
-
-            $('.currencies').css('display', 'none');    
-            $('.lds-ring').css('display', 'table');
-
-            setTimeout(function() {
-              apiRequest.post('http://167.99.91.136/payment/' + currency, { email, order, total: info[currency].price + ' ' + currency.toUpperCase() }).then(function(response) {
-                response.json().then(function(data) {
-                  $('.lds-ring').css('display', 'none');
-                  $('.crypto-qr').attr('src', 'https://chart.googleapis.com/chart?chl=' + data.address + '&chs=200x200&cht=qr&chld=H%7C0');
-                  $('.crypto-checkout').css('display', 'block');
-                  $('.crypto-icon').attr('src', info[currency].icon);
-                  $('.crypto-amount').text(info[currency].price + ' ' + currency.toUpperCase());
-                  $('.crypto-fiat').text(total + ' EUR');
-                  $('#crypto-wallet').text(data.address);
-                });
-              });
-            }, 1000);
-          });
-        });
-      });  
-    }
+    window.open('http://localhost:3474/#/crypto-checkout?1=' + tickets[0].quantity + '&2=' + tickets[1].quantity);
   });  
 });
