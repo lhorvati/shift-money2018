@@ -1,6 +1,6 @@
 $(function() {
   function subscribe(subscribeData) {
-    return apiRequest.post('https://167.99.91.136/subscribe', subscribeData);
+    return apiRequest.post('http://167.99.91.136/subscribe', subscribeData);
   }
 
   function validateEmail($email) {
