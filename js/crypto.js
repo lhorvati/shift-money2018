@@ -241,6 +241,6 @@ $(function() {
   });
 
   $('.btn.yellow.empty').click(function() {
-    window.open('http://localhost:3474/#/crypto-checkout?1=' + tickets[0].quantity + '&2=' + tickets[1].quantity);
+    window.open('http://money.shiftconf.co/#/crypto-checkout?1=' + tickets[0].quantity + '&2=' + tickets[1].quantity);
   });  
 });
