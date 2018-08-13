@@ -181,7 +181,7 @@ input {
   font-size: 14px;
 }
 body {
-  background-color: #fafafa;
+  background-color: #092e82;
 }
 .show {
   display: block !important;
@@ -263,10 +263,10 @@ body {
   text-transform: uppercase;
   color: #fff;
   background: transparent;
-  border: 1px solid #017fff;
+  border: 1px solid colorBlue;
 }
 .btn.blue.fill {
-  background: #017fff;
+  background: colorBlue;
   font-size: 11px;
   font-weight: 600;
 }
@@ -277,15 +277,15 @@ body {
 .btn.blue.small {
   font-size: 10px;
   font-weight: 600;
-  color: #017fff;
+  color: colorBlue;
 }
 .btn.blue.small:hover {
   color: #fff;
-  background: #017fff;
+  background: colorBlue;
 }
 .btn.blue:hover {
   background: #fff;
-  color: #017fff;
+  color: colorBlue;
 }
 .btn.green {
   text-transform: uppercase;
@@ -353,7 +353,7 @@ body {
   color: #fff;
 }
 .btn.link:hover {
-  color: #017fff;
+  color: colorBlue;
 }
 .btn.text {
   padding: 0 0 2px 0;
@@ -689,7 +689,7 @@ a.social:hover {
 .agenda-nav-wrap .agenda-nav .agenda-nav__btn {
   width: 33px;
   height: 33px;
-  background: #017fff;
+  background: colorBlue;
   display: -webkit-box;
   display: -moz-flex;
   display: -ms-flexbox;
@@ -707,7 +707,7 @@ a.social:hover {
   transition: all 0.2s ease;
 }
 .agenda-nav-wrap .agenda-nav .agenda-nav__btn:active {
-  background: #2e88ed;
+  background: colorBlueLight;
 }
 /* import sections styl */
 #hero {
@@ -1118,6 +1118,7 @@ a.social:hover {
 }
 #schedule {
   height: 150px;
+  background: #fafafa;
 }
 .schedule {
   background: #fafafa;
@@ -1176,7 +1177,7 @@ a.social:hover {
   margin: 30px 0;
 }
 .schedule .agenda .agenda__list .agenda__list-item a {
-  color: #017fff;
+  color: colorBlue;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -1198,7 +1199,7 @@ a.social:hover {
   font-size: 14px;
 }
 .schedule .agenda .agenda__list .agenda__list-item .agenda__desc .al-title {
-  color: #017fff;
+  color: colorBlue;
 }
 .schedule .agenda .agenda__list .agenda__list-item .agenda__desc .al-name {
   color: #000;
@@ -1946,11 +1947,11 @@ a.social:hover {
   z-index: 1;
 }
 #testimonials {
-  margin-top: 40px;
+  padding-top: 40px;
   overflow-x: hidden;
   background: #092e82;
-  background: -webkit-gradient(linear, left bottom, left top, from(#092e82), color-stop(75%, #092e82), color-stop(75%, #fafafa), to(#fafafa));
-  background: linear-gradient(to top, #092e82 0%, #092e82 75%, #fafafa 75%, #fafafa 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#092e82), color-stop(70%, #092e82), color-stop(70%, #fafafa), to(#fafafa));
+  background: linear-gradient(to top, #092e82 0%, #092e82 70%, #fafafa 70%, #fafafa 100%);
 }
 #testimonials .container {
   position: relative;
