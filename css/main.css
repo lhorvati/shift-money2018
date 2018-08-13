@@ -957,6 +957,15 @@ a.social:hover {
 }
 .who__listExpanded .who__listRow {
   width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.who__listExpanded .who__listRow .who__list-item {
+  margin-right: 50px;
+}
+.who__listExpanded .who__listRow .who__list-item:last-child {
+  margin-right: 0;
 }
 .who__list-btn {
   display: -webkit-box;
@@ -971,11 +980,6 @@ a.social:hover {
           align-items: center;
   position: relative;
   bottom: -50px;
-}
-.who__list-btn .btn:hover {
-  color: #fff;
-  background: #0fd895;
-  cursor: default;
 }
 #speakers {
   background: #092e82 url("../img/speakers-bg.svg") top 230px center no-repeat;

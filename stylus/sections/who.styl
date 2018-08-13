@@ -51,6 +51,15 @@
     .who__listRow
         width: 100%
 
+        //remove when 5 sponsors in row
+        justify-content: flex-start
+        .who__list-item
+            margin-right: 50px
+
+            &:last-child
+                margin-right: 0
+                //remove when 5 sponsors in row
+
 
 
 
@@ -61,8 +70,3 @@
     position relative
     bottom: -50px
 
-    //hover disabled
-    .btn:hover
-        color: white
-        background: green
-        cursor default
