@@ -61,7 +61,7 @@ $(function() {
         total: total + '€'
       });
   
-      apiRequest.get('http://167.99.91.136/info/' + total).then(function(response) {
+      apiRequest.get('https://crypto-payment.shiftconf.co/info/' + total).then(function(response) {
         response.json().then(function(info) {
           $("#crypto-currencies").loadTemplate($("#currencies"),
           {
@@ -87,7 +87,7 @@ $(function() {
             console.warn(order, info[currency].price);
 
             setTimeout(function() {
-              apiRequest.post('http://167.99.91.136/payment/' + currency, { email, order, total: info[currency].price + ' ' + currency.toUpperCase() }).then(function(response) {
+              apiRequest.post('https://crypto-payment.shiftconf.co/payment/' + currency, { email, order, total: info[currency].price + ' ' + currency.toUpperCase() }).then(function(response) {
                 response.json().then(function(data) {
                   $('.lds-ring').css('display', 'none');
                   $('.crypto-qr').attr('src', 'https://chart.googleapis.com/chart?chl=' + data.address + '&chs=200x200&cht=qr&chld=H%7C0');
