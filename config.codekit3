@@ -1171,8 +1171,8 @@
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andrewRollins@2x.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 81
 		},
 	"\/img\/speakers\/emilProtalinski@1x.jpg": {
@@ -1250,6 +1250,26 @@
 		"iS": 24719,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/peter-hopwood@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/robertWiecko@1x.jpg": {
+		"ft": 16384,
+		"iS": 7107,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/robertWiecko@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/robertWiecko@2x.jpg": {
+		"ft": 16384,
+		"iS": 17200,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/robertWiecko@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
