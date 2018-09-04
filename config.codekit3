@@ -874,14 +874,25 @@
 		"oT": 1,
 		"q": 81
 		},
+	"\/img\/payment\/iop.png": {
+		"ft": 32768,
+		"iS": 101343,
+		"oA": 0,
+		"oAP": "\/img\/payment\/iop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
 	"\/img\/payment\/ltc.png": {
 		"ft": 32768,
 		"iS": 2670,
 		"oA": 0,
 		"oAP": "\/img\/payment\/ltc.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 81
 		},
@@ -1240,6 +1251,16 @@
 		"iS": 5709,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/helenJoyce@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/helenJoyce@2x.jpg": {
+		"ft": 16384,
+		"iS": 12848,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/helenJoyce@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
