@@ -1175,6 +1175,26 @@
 		"opt": 1,
 		"q": 81
 		},
+	"\/img\/speakers\/chrisAdelsbach@1x.jpg": {
+		"ft": 16384,
+		"iS": 7862,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/chrisAdelsbach@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/chrisAdelsbach@2x.jpg": {
+		"ft": 16384,
+		"iS": 27171,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/chrisAdelsbach@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/speakers\/emilProtalinski@1x.jpg": {
 		"ft": 16384,
 		"iS": 7844,
@@ -1210,6 +1230,26 @@
 		"iS": 20572,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/garyConroy@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/helenJoyce@1x.jpg": {
+		"ft": 16384,
+		"iS": 9349,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/helenJoyce@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/helenJoyce@2x.jpg": {
+		"ft": 16384,
+		"iS": 24831,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/helenJoyce@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

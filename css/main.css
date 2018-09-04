@@ -981,6 +981,13 @@ a.social:hover {
   position: relative;
   bottom: -50px;
 }
+.who__list-btn #who__list-btn {
+  cursor: default;
+}
+.who__list-btn #who__list-btn:hover {
+  background: #0fd895;
+  color: #fff;
+}
 #speakers {
   background: #092e82 url("../img/speakers-bg.svg") top 230px center no-repeat;
   background-size: 907px;

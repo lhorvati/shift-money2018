@@ -82,18 +82,6 @@ $(function() {
     });
 
 
-    /* WHO ATTENDING LIST */
-    $("#who__list-btn").click(function() {
-        $(".who__listExpanded").toggle("show");
-
-        $(this).toggleClass("active");
-        if ($(this).hasClass("active")) {
-            $(this).text("More Companies coming soon")
-        } else {
-            $(this).text("View more Companies");
-        };
-    });
-
 
 
     /* SLIDESHOW */
