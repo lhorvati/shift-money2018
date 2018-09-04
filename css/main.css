@@ -940,7 +940,7 @@ a.social:hover {
 .who__listRow .who__list-item img {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
-  opacity: 0.8;
+  opacity: 0.7;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   max-width: 110px;
