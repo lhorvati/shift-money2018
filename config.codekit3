@@ -1306,6 +1306,46 @@
 		"opt": 0,
 		"q": 81
 		},
+	"\/img\/speakers\/kristianSchmid@1x.jpg": {
+		"ft": 16384,
+		"iS": 7321,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/kristianSchmid@1x.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
+	"\/img\/speakers\/kristianSchmid@2x.jpg": {
+		"ft": 16384,
+		"iS": 17385,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/kristianSchmid@2x.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
+	"\/img\/speakers\/pavelMatveev@1x.jpg": {
+		"ft": 16384,
+		"iS": 6647,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/pavelMatveev@1x.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
+	"\/img\/speakers\/pavelMatveev@2x.jpg": {
+		"ft": 16384,
+		"iS": 14520,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/pavelMatveev@2x.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
 	"\/img\/speakers\/peter-hopwood@1x.jpg": {
 		"ft": 16384,
 		"iS": 9040,
