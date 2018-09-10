@@ -1,0 +1,60 @@
+/* LANDING.STYL ======================================= */
+html,
+body
+    height 100%
+
+#landing,
+#landing .container
+    height 100%
+
+#landing .container
+    flexbox()
+    flex-center()
+
+#landing
+    background: darkBlue url(../img/landing-bg.svg) center no-repeat
+    background-size: contain
+
+    .heroBox
+        color: white
+
+        .heroBox__text
+            margin: 0 auto 20px auto
+            text-align: center
+
+.landing
+    flexbox()
+    flex-flow: column nowrap
+    flex-center()
+    transform: translate3d(0, -60px, 0)
+
+    .landing__menu
+        flexbox()
+        align-items: flex-start
+        justify-content: center
+
+    .landing__item
+        flexbox()
+        flex-center()
+        margin: 0 25px
+        width: 200px
+        height: 200px
+        box-sizing()
+        padding: 20px
+        border-radius: 100%
+        border: 10px solid green
+        overflow hidden
+        background: white
+        transition(.3s)
+
+        &:hover
+            transform-scale(1.05)
+            box-shadow(0 0 30px colorBlack03)
+
+        &:first-child
+            border-color: blue
+
+        img
+            width: 80%
+
+

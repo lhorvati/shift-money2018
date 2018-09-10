@@ -242,6 +242,20 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
+	"\/haml\/landing.haml": {
+		"cB": 0,
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/landing.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
 	"\/img\/about-bg-mobile.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -662,6 +676,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/landing-bg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/landing-bg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/location-bg.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -951,6 +975,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/shift-logo-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/Shift_dev_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/Shift_dev_logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1266,6 +1300,26 @@
 		"opt": 0,
 		"q": 81
 		},
+	"\/img\/speakers\/ivanBrkan@1x.jpg": {
+		"ft": 16384,
+		"iS": 7850,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/ivanBrkan@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/ivanBrkan@2x.jpg": {
+		"ft": 16384,
+		"iS": 19613,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/ivanBrkan@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/speakers\/ivanBurazin@1x.jpg": {
 		"ft": 16384,
 		"iS": 7031,
@@ -1328,12 +1382,12 @@
 		},
 	"\/img\/speakers\/pavelMatveev@1x.jpg": {
 		"ft": 16384,
-		"iS": 6647,
+		"iS": 6232,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/pavelMatveev@1x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/pavelMatveev@2x.jpg": {
@@ -1682,6 +1736,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/landing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/landing.html",
+		"oF": 0
 		},
 	"\/manifest.json": {
 		"ft": 524288,
@@ -2140,6 +2201,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/howto.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"\/stylus\/sections\/landing.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/landing.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
