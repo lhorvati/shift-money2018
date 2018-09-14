@@ -1202,7 +1202,7 @@
 		},
 	"\/img\/speakers\/andrewRollins@1x.jpg": {
 		"ft": 16384,
-		"iS": 7976,
+		"iS": 6818,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andrewRollins@1x.jpg",
 		"oF": 0,
@@ -1212,22 +1212,22 @@
 		},
 	"\/img\/speakers\/andrewRollins@2x.jpg": {
 		"ft": 16384,
-		"iS": 20549,
+		"iS": 15780,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andrewRollins@2x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/chrisAdelsbach@1x.jpg": {
 		"ft": 16384,
-		"iS": 7862,
+		"iS": 5456,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/chrisAdelsbach@1x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/chrisAdelsbach@2x.jpg": {
@@ -1242,27 +1242,27 @@
 		},
 	"\/img\/speakers\/emilProtalinski@1x.jpg": {
 		"ft": 16384,
-		"iS": 7844,
+		"iS": 5638,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/emilProtalinski@1x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/emilProtalinski@2x.jpg": {
 		"ft": 16384,
-		"iS": 19706,
+		"iS": 15269,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/emilProtalinski@2x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/garyConroy@1x.jpg": {
 		"ft": 16384,
-		"iS": 7775,
+		"iS": 6646,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/garyConroy@1x.jpg",
 		"oF": 0,
@@ -1272,7 +1272,7 @@
 		},
 	"\/img\/speakers\/garyConroy@2x.jpg": {
 		"ft": 16384,
-		"iS": 20572,
+		"iS": 19170,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/garyConroy@2x.jpg",
 		"oF": 0,
@@ -1292,7 +1292,7 @@
 		},
 	"\/img\/speakers\/helenJoyce@2x.jpg": {
 		"ft": 16384,
-		"iS": 12848,
+		"iS": 12646,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/helenJoyce@2x.jpg",
 		"oF": 0,
@@ -1302,7 +1302,7 @@
 		},
 	"\/img\/speakers\/ivanBrkan@1x.jpg": {
 		"ft": 16384,
-		"iS": 7850,
+		"iS": 5305,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/ivanBrkan@1x.jpg",
 		"oF": 0,
@@ -1312,7 +1312,7 @@
 		},
 	"\/img\/speakers\/ivanBrkan@2x.jpg": {
 		"ft": 16384,
-		"iS": 19613,
+		"iS": 14512,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/ivanBrkan@2x.jpg",
 		"oF": 0,
@@ -1332,17 +1332,17 @@
 		},
 	"\/img\/speakers\/ivanBurazin@2x.jpg": {
 		"ft": 16384,
-		"iS": 20216,
+		"iS": 18679,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/ivanBurazin@2x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/jureMikuz@1x.jpg": {
 		"ft": 16384,
-		"iS": 6464,
+		"iS": 5362,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/jureMikuz@1x.jpg",
 		"oF": 0,
@@ -1352,7 +1352,7 @@
 		},
 	"\/img\/speakers\/jureMikuz@2x.jpg": {
 		"ft": 16384,
-		"iS": 15805,
+		"iS": 14244,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/jureMikuz@2x.jpg",
 		"oF": 0,
@@ -1362,22 +1362,22 @@
 		},
 	"\/img\/speakers\/kristianSchmid@1x.jpg": {
 		"ft": 16384,
-		"iS": 7321,
+		"iS": 5249,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/kristianSchmid@1x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/kristianSchmid@2x.jpg": {
 		"ft": 16384,
-		"iS": 17385,
+		"iS": 13415,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/kristianSchmid@2x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/pavelMatveev@1x.jpg": {
@@ -1392,12 +1392,32 @@
 		},
 	"\/img\/speakers\/pavelMatveev@2x.jpg": {
 		"ft": 16384,
-		"iS": 14520,
+		"iS": 13358,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/pavelMatveev@2x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/pedroFonseca@1x.jpg": {
+		"ft": 16384,
+		"iS": 6797,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/pedroFonseca@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/pedroFonseca@2x.jpg": {
+		"ft": 16384,
+		"iS": 18622,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/pedroFonseca@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/peter-hopwood@1x.jpg": {
@@ -1422,7 +1442,7 @@
 		},
 	"\/img\/speakers\/robertWiecko@1x.jpg": {
 		"ft": 16384,
-		"iS": 7107,
+		"iS": 5991,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/robertWiecko@1x.jpg",
 		"oF": 0,
@@ -1432,7 +1452,7 @@
 		},
 	"\/img\/speakers\/robertWiecko@2x.jpg": {
 		"ft": 16384,
-		"iS": 17200,
+		"iS": 15838,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/robertWiecko@2x.jpg",
 		"oF": 0,
@@ -1442,42 +1462,42 @@
 		},
 	"\/img\/speakers\/stanSchroeder@1x.jpg": {
 		"ft": 16384,
-		"iS": 9756,
+		"iS": 6667,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/stanSchroeder@1x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/stanSchroeder@2x.jpg": {
 		"ft": 16384,
-		"iS": 25083,
+		"iS": 18870,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/stanSchroeder@2x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/tonVanNoordende@1x.jpg": {
 		"ft": 16384,
-		"iS": 10299,
+		"iS": 7151,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/tonVanNoordende@1x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/tonVanNoordende@2x.jpg": {
 		"ft": 16384,
-		"iS": 25516,
+		"iS": 19081,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/tonVanNoordende@2x.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/sponsors\/allianz.svg": {
