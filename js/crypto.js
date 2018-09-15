@@ -5,7 +5,7 @@ $(function() {
     {
       id: 1,
       name: 'Super Early Bird Student',
-      price: '20',
+      price: '25',
       humanPrice: '20€ + VAT',
       time: 'Sales end on September 1',
       quantity: 0,
@@ -14,7 +14,7 @@ $(function() {
     {
       id: 2,
       name: 'Super Early Bird Standard',
-      price: '100',
+      price: '125',
       humanPrice: '100€ + VAT',
       time: 'Sales end on May 30',
       quantity: 0,
