@@ -1208,9 +1208,10 @@ a.social:hover {
 .schedule .agenda .agenda__list .agenda__list-item .agenda__desc .al-name,
 .schedule .agenda .agenda__list .agenda__list-item .agenda__desc .al-company {
   font-size: 14px;
+  line-height: 1.4;
 }
 .schedule .agenda .agenda__list .agenda__list-item .agenda__desc .al-title {
-  color: colorBlue;
+  color: #017fff;
 }
 .schedule .agenda .agenda__list .agenda__list-item .agenda__desc .al-name {
   color: #000;
