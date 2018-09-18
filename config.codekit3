@@ -1220,6 +1220,16 @@
 		"opt": 0,
 		"q": 81
 		},
+	"\/img\/speakers\/anthonyDanon@1x.jpg": {
+		"ft": 16384,
+		"iS": 5688,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/anthonyDanon@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/speakers\/anthonyDanon@2x.jpg": {
 		"ft": 16384,
 		"iS": 18915,
@@ -1390,6 +1400,16 @@
 		"opt": 0,
 		"q": 81
 		},
+	"\/img\/speakers\/lubaChudnovets@1x.jpg": {
+		"ft": 16384,
+		"iS": 7261,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/lubaChudnovets@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/speakers\/lubaChudnovets@2x.jpg": {
 		"ft": 16384,
 		"iS": 26900,
@@ -1442,7 +1462,7 @@
 		},
 	"\/img\/speakers\/pedroFonseca@1x.jpg": {
 		"ft": 16384,
-		"iS": 6797,
+		"iS": 4946,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/pedroFonseca@1x.jpg",
 		"oF": 0,
@@ -1452,7 +1472,7 @@
 		},
 	"\/img\/speakers\/pedroFonseca@2x.jpg": {
 		"ft": 16384,
-		"iS": 18622,
+		"iS": 16310,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/pedroFonseca@2x.jpg",
 		"oF": 0,

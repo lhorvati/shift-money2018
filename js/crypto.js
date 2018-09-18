@@ -7,7 +7,7 @@ $(function() {
       name: 'Super Early Bird Student',
       price: '25',
       humanPrice: '20€ + VAT',
-      time: 'Sales end on September 1',
+      time: 'Sales end on October 1',
       quantity: 0,
       slug: 'jam5hfm5bjq'
     },
@@ -16,7 +16,7 @@ $(function() {
       name: 'Super Early Bird Standard',
       price: '125',
       humanPrice: '100€ + VAT',
-      time: 'Sales end on May 30',
+      time: 'Sales end on October 1',
       quantity: 0,
       slug: 'fn4uss8b90m'
     },
