@@ -1047,19 +1047,19 @@ a.social:hover {
   padding: 50px 20px;
   text-align: center;
 }
-#speakers .speaker:nth-child(1n) .speaker__image {
+#speakers .speaker:nth-child(5n+1) .speaker__image {
   border: 10px solid #017fff;
 }
-#speakers .speaker:nth-child(2n) .speaker__image {
+#speakers .speaker:nth-child(5n+2) .speaker__image {
   border: 10px solid #0fd895;
 }
-#speakers .speaker:nth-child(3n) .speaker__image {
+#speakers .speaker:nth-child(5n+3) .speaker__image {
   border: 10px solid #16cad8;
 }
-#speakers .speaker:nth-child(4n) .speaker__image {
+#speakers .speaker:nth-child(5n+4) .speaker__image {
   border: 10px solid #ff697e;
 }
-#speakers .speaker:nth-child(5n) .speaker__image {
+#speakers .speaker:nth-child(5n+5) .speaker__image {
   border: 10px solid #ffcf6e;
 }
 #speakers .speaker .speaker__image {
