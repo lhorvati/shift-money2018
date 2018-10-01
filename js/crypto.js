@@ -4,21 +4,21 @@ $(function() {
   var tickets = [
     {
       id: 1,
-      name: 'Super Early Bird Student',
-      price: '25',
-      humanPrice: '20€ + VAT',
-      time: 'Sales end on October 1',
+      name: 'Standard Student',
+      price: '37.5',
+      humanPrice: '30€ + VAT',
+      time: 'Sales end on November 26th',
       quantity: 0,
-      slug: 'jam5hfm5bjq'
+      slug: 'daf1ksryc3s'
     },
     {
       id: 2,
-      name: 'Super Early Bird Standard',
-      price: '125',
-      humanPrice: '100€ + VAT',
-      time: 'Sales end on October 1',
+      name: 'Standard',
+      price: '187.5',
+      humanPrice: '150€ + VAT',
+      time: 'Sales end on November 26th',
       quantity: 0,
-      slug: 'fn4uss8b90m'
+      slug: 'cpe1eg4r2t8'
     },
   ];
   
