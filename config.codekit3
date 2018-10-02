@@ -1287,6 +1287,26 @@
 		"opt": 0,
 		"q": 81
 		},
+	"\/img\/speakers\/darioBoros@1x.jpg": {
+		"ft": 16384,
+		"iS": 4619,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/darioBoros@1x.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
+	"\/img\/speakers\/darioBoros@2x.jpg": {
+		"ft": 16384,
+		"iS": 14765,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/darioBoros@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/speakers\/emilProtalinski@1x.jpg": {
 		"ft": 16384,
 		"iS": 5638,
@@ -1402,6 +1422,26 @@
 		"iS": 14244,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/jureMikuz@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/kaidiRuusalepp@1x.jpg": {
+		"ft": 16384,
+		"iS": 9048,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/kaidiRuusalepp@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/kaidiRuusalepp@2x.jpg": {
+		"ft": 16384,
+		"iS": 22284,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/kaidiRuusalepp@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
