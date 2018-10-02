@@ -666,6 +666,11 @@ a.social:hover {
 .small-nav3 .small-nav3__item.active {
   color: #000;
 }
+.small-nav1 .small-nav2__item,
+.small-nav2 .small-nav2__item,
+.small-nav3 .small-nav2__item {
+  cursor: text;
+}
 .agenda-nav-wrap {
   position: absolute;
   left: 0;

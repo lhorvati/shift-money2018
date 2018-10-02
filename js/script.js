@@ -49,7 +49,7 @@ $(function() {
     });
 
     /* SMALL NAV2 */
-    $(".small-nav2__item").click(function() {
+    /*$(".small-nav2__item").click(function() {
         $(".small-nav2__item").removeClass("active");
         $(this).addClass("active");
 
@@ -59,7 +59,7 @@ $(function() {
         } else if (this.id === "day1-areaLink") {
             $("#day1-area").addClass("show");
         }
-    });
+    });*/
 
     /* SMALL NAV3 */
     $(".small-nav3__item").click(function() {
