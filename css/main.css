@@ -2561,13 +2561,12 @@ body.crypto-payment #footer {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 20px;
-  max-width: 540px;
-  margin-left: auto;
+  max-width: 680px;
   margin-right: auto;
 }
 #crypto-payment #crypto-currencies {
   display: none;
-  width: 540px;
+  width: 680px;
   margin: 0 auto;
 }
 #crypto-payment #crypto-currencies:after {
