@@ -106,7 +106,7 @@
               %a.nav__link(href="#tickets") Tickets
             %li
               %a.nav__link(href="#location") Location
-            %li.hide
+            %li
               %a.nav__link(href="#sponsors") Sponsors
             %li
               %a.nav__link(href="#footer") Contact
@@ -1206,13 +1206,14 @@
 
 
     / SPONSORS SECTION *************************************
-    #sponsors.section.hide
+    #sponsors.section
       .container
         %h2 Sponsors
         .title-desc Companies that support us
       .sponsors-wrap
         .container
-          .sponsors-row
+
+          .sponsors-row.hide
             .sponsors
               %h3 
                 5 star
@@ -1234,8 +1235,7 @@
                     %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
 
 
-
-          .sponsors-row.sponsorsSlider
+          .sponsors-row.sponsorsSlider.hide
             %h3
               4 star
               .stars.stars4
@@ -1256,10 +1256,7 @@
                   %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
 
 
-
-
-
-          .sponsors-row.sponsorsSlider
+          .sponsors-row.sponsorsSlider.hide
             %h3
               3 star
               .stars.stars3
@@ -1278,8 +1275,7 @@
                   %img(src="img/sponsors/jana.svg" alt="Jana" style="width: 50px; margin-top: 10px;")/
 
 
-
-          .sponsors-row.sponsorsSlider
+          .sponsors-row.sponsorsSlider.hide
             %h3
               2 star
               .stars.stars2
@@ -1295,8 +1291,8 @@
                 %a(href="http://www.jana-water.com/hr" target="_blank")
                   %img(src="img/sponsors/jana.svg" alt="Jana" style="width: 50px; margin-top: 10px;")/
 
-          
-          .sponsors-row.sponsorsSlider
+
+          .sponsors-row.sponsorsSlider.hide
             %h3
               1 star
               .stars.stars1
@@ -1309,6 +1305,92 @@
               .sponsors__item
                 %a(href="http://www.jana-water.com/hr" target="_blank")
                   %img(src="img/sponsors/jana.svg" alt="Jana" style="width: 50px; margin-top: 10px;")/
+
+
+          .sponsors-row.sponsorsSlider
+            %h3
+              Media Sponsors
+            %button.sponsorsSlider__btn.btn-left6
+            %button.sponsorsSlider__btn.btn-right6
+            #sponsorsSlider6.sponsorsSlider
+              .sponsors__item
+                %a(href="https://www.netokracija.com/" target="_blank")
+                  %img(srcset="img/sponsors/media/netokracija@2x.png 2x, img/sponsors/media/netokracija@1x.png 1x" src="img/sponsors/media/netokracija@1x.png" alt="Netokracija" style="width: 100px;")/
+              .sponsors__item
+                %a(href="https://www.index.hr/" target="_blank")
+                  %img(src="img/sponsors/media/index.svg" alt="Index.hr" style="width: 90px;")/
+              .sponsors__item
+                %a(href="https://dnevnik.hr/" target="_blank")
+                  %img(src="img/sponsors/media/dnevnik.svg" alt="Dnevnik.hr" style="width: 90px;")/
+              .sponsors__item
+                %a(href="https://poslovnipuls.com/" target="_blank")
+                  %img(src="img/sponsors/media/poslovniPlus.svg" alt="Poslovni Puls" style="width: 100px;")/
+              .sponsors__item
+                %a(href="http://rep.hr/" target="_blank")
+                  %img(srcset="img/sponsors/media/rep-hr@2x.png 2x, img/sponsors/media/rep-hr@1x.png 1x" src="img/sponsors/media/rep-hr@1x.png" alt="Rep.hr" style="width: 45px;")/
+              .sponsors__item
+                %a(href="https://crobitcoin.com/" target="_blank")
+                  %img(srcset="img/sponsors/media/hrvBitcoinPortal@2x.png 2x, img/sponsors/media/hrvBitcoinPortal@1x.png 1x" src="img/sponsors/media/hrvBitcoinPortal@1x.png" alt="Crobitcoin.com" style="width: 90px;")/
+              .sponsors__item
+                %a(href="https://cryptoverze.com/" target="_blank")
+                  %img(srcset="img/sponsors/media/cryptoverze@2x.png 2x, img/sponsors/media/cryptoverze@1x.png 1x" src="img/sponsors/media/cryptoverze@1x.png" alt="Cryptoverze" style="width: 90px")/
+              .sponsors__item
+                %a(href="https://investfuture.ru/" target="_blank")
+                  %img(src="img/sponsors/media/investFuture.svg" alt="investfuture" style="width: 90px;")/
+              .sponsors__item
+                %a(href="https://www.coingecko.com/en" target="_blank")
+                  %img(srcset="img/sponsors/media/coinGecko@2x.png 2x, img/sponsors/media/coinGecko@1x.png 1x" src="img/sponsors/media/coinGecko@1x.png" alt="Coingecko" style="width: 100px")/
+              .sponsors__item
+                %a(href="https://www.bitcoinnews.ch/" target="_blank")
+                  %img(srcset="img/sponsors/media/bitcoinnews@2x.png 2x, img/sponsors/media/bitcoinnews@1x.png 1x" src="img/sponsors/media/bitcoinnews@1x.png" alt="Bitcoinnews")/
+              .sponsors__item
+                %a(href="https://hype.codes/" target="_blank")
+                  %img(srcset="img/sponsors/media/hypeCodes@2x.png 2x, img/sponsors/media/hypeCodes@1x.png 1x" src="img/sponsors/media/hypeCodes@1x.png" alt="hype.codes" style="width: 80px;")/
+              .sponsors__item
+                %a(href="https://icofinch.com/" target="_blank")
+                  %img(src="img/sponsors/media/icoFinch.svg" alt="icofinch" style="width: 90px;")/
+              .sponsors__item
+                %a(href="https://coinidol.com/" target="_blank")
+                  %img(src="img/sponsors/media/coinIdol.svg" alt="Coin Idol" style="width: 90px")/
+              .sponsors__item
+                %a(href="https://www.fintech.finance/" target="_blank")
+                  %img(srcset="img/sponsors/media/fintechFinance@2x.png 2x, img/sponsors/media/fintechFinance@1x.png 1x" src="img/sponsors/media/fintechFinance@1x.png" alt="Fintech Finance")/
+              .sponsors__item
+                %a(href="https://financialit.net/" target="_blank")
+                  %img(srcset="img/sponsors/media/financialIT@2x.png 2x, img/sponsors/media/financialIT@1x.png 1x" src="img/sponsors/media/financialIT@1x.png" alt="Financial IT" style="width: 80px;")/
+              .sponsors__item
+                %a(href="https://bitcoinchaser.com/" target="_blank")
+                  %img(srcset="img/sponsors/media/bitcoinChaser@2x.png 2x, img/sponsors/media/bitcoinChaser@1x.png 1x" src="img/sponsors/media/bitcoinChaser@1x.png" alt="Bitcoin Chaser")/
+              .sponsors__item
+                %a(href="https://www.currencytimes.co.in/" target="_blank")
+                  %img(srcset="img/sponsors/media/currencyTimes@2x.png 2x, img/sponsors/media/currencyTimes@1x.png 1x" src="img/sponsors/media/currencyTimes@1x.png" alt="Currency Times" style="width: 100px;")/
+              .sponsors__item
+                %a(href="https://www.cointelligence.com/" target="_blank")
+                  %img(srcset="img/sponsors/media/cointelligence@2x.png 2x, img/sponsors/media/cointelligence@1x.png 1x" src="img/sponsors/media/cointelligence@1x.png" alt="Cointelligence" style="width: 120px")/
+              .sponsors__item
+                %a(href="https://www.today.com/" target="_blank")
+                  %img(src="img/sponsors/media/today.svg" alt="Today.com" style="width: 70px;")/
+              .sponsors__item
+                %a(href="https://evrone.com/" target="_blank")
+                  %img(src="img/sponsors/media/evrone.svg" alt="Evrone.com" style="width: 80px;")/
+              .sponsors__item
+                %a(href="http://cryptonomist.ch/en/" target="_blank")
+                  %img(src="img/sponsors/media/cryptonomist.svg" alt="Cryptonomist" style="width: 120px;")/
+              .sponsors__item
+                %a(href="http://www.techthisoutnews.com/" target="_blank")
+                  %img(srcset="img/sponsors/media/techThisOut@2x.png 2x, img/sponsors/media/techThisOut@1x.png 1x" src="img/sponsors/media/techThisOut@1x.png" alt="techthisoutnews.com" style="width: 30px;")/
+              .sponsors__item
+                %a(href="https://icoholder.com/" target="_blank")
+                  %img(src="img/sponsors/media/icoHolder.svg" alt="Icoholder.com" style="width: 70px;")/
+              .sponsors__item
+                %a(href="https://blockexplorer.com/" target="_blank")
+                  %img(srcset="img/sponsors/media/blockExplorer@2x.png 2x, img/sponsors/media/blockExplorer@1x.png 1x" src="img/sponsors/media/blockExplorer@1x.png" alt="Block Explorer" style="width: 110px;")/
+              .sponsors__item
+                %a(href="https://blockchainmagazine.net/" target="_blank")
+                  %img(srcset="img/sponsors/media/blockchainMagazine@2x.png 2x, img/sponsors/media/blockchainMagazine@1x.png 1x" src="img/sponsors/media/blockchainMagazine@1x.png" alt="Blockchain Magazine" style="width: 100px;")/
+
+
+
 
 
 
@@ -1557,6 +1639,25 @@
         prevArrow: $('.btn-left1'),
         nextArrow: $('.btn-right1'),
         speed: 2000,
+        responsive: [
+          {
+            breakpoint: 850,
+            settings: "unslick"
+          }
+        ]
+      });
+    });
+
+    $(document).ready(function(){
+      $('#sponsorsSlider6').slick({
+        slidesToShow: 1,
+        slidesToScroll: 3,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        variableWidth: true,
+        prevArrow: $('.btn-left6'),
+        nextArrow: $('.btn-right6'),
+        speed: 1000,
         responsive: [
           {
             breakpoint: 850,

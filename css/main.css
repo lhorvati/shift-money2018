@@ -2127,6 +2127,7 @@ a.social:hover {
 }
 #sponsors {
   padding-bottom: 50px;
+  background: #fff;
 }
 #sponsors h1 {
   font-size: 41px;
@@ -2203,6 +2204,9 @@ a.social:hover {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
 }
+#sponsorsSlider6 .sponsors__item img {
+  width: 50px;
+}
 .sponsorsSlider {
   width: 100%;
   position: relative;
@@ -2238,7 +2242,8 @@ a.social:hover {
 .sponsorsSlider .sponsorsSlider__btn.btn-left1,
 .sponsorsSlider .sponsorsSlider__btn.btn-left2,
 .sponsorsSlider .sponsorsSlider__btn.btn-left3,
-.sponsorsSlider .sponsorsSlider__btn.btn-left4 {
+.sponsorsSlider .sponsorsSlider__btn.btn-left4,
+.sponsorsSlider .sponsorsSlider__btn.btn-left6 {
   left: -42px;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -2246,7 +2251,8 @@ a.social:hover {
 .sponsorsSlider .sponsorsSlider__btn.btn-right1,
 .sponsorsSlider .sponsorsSlider__btn.btn-right2,
 .sponsorsSlider .sponsorsSlider__btn.btn-right3,
-.sponsorsSlider .sponsorsSlider__btn.btn-right4 {
+.sponsorsSlider .sponsorsSlider__btn.btn-right4,
+.sponsorsSlider .sponsorsSlider__btn.btn-right6 {
   right: -42px;
 }
 .stars {
