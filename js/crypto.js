@@ -69,12 +69,14 @@ $(function() {
             'btc-price': info.btc.price,
             'bch-price': info.bch.price,
             'eth-price': info.eth.price,
+            'iop-price': info.iop.price
           });
           
           $('.ltc-icon').attr('src', info.ltc.icon);
           $('.btc-icon').attr('src', info.btc.icon);
           $('.bch-icon').attr('src', info.bch.icon);
           $('.eth-icon').attr('src', info.eth.icon);
+          $('.iop-icon').attr('src', info.iop.icon);
 
           $('.currency').on('click', function() {
             const currency = $(this).attr('id');
@@ -83,8 +85,6 @@ $(function() {
 
             $('.currencies').css('display', 'none');    
             $('.lds-ring').css('display', 'table');
-
-            console.warn(order, info[currency].price);
 
             setTimeout(function() {
               apiRequest.post('https://crypto-payment.shiftconf.co/payment/' + currency, { email, order, total: info[currency].price + ' ' + currency.toUpperCase() }).then(function(response) {
