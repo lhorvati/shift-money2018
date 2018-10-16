@@ -561,6 +561,22 @@
 
             .speaker
               .speaker__image
+                %img(srcset="img/speakers/ivanMikic@1x.jpg 1x, img/speakers/ivanMikic@2x.jpg 2x" src="img/speakers/ivanMikic@1x.jpg" alt="Ivan Mikić")/
+              .speaker__name Ivan Mikić
+              .speaker__title
+                Key Account Manager at
+                %br/
+                %span Microblink
+              .speaker__social
+                %a.social.linkedin(href="https://www.linkedin.com/in/ivan-mikic-19137110" target="_blank")
+                  %svg(height="18" viewbox="0 0 17 18" width="17" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M1.624.95h13.794c.465 0 .814.28 1.047.838l.042.377v13.654c0 .559-.256.94-.768 1.145-.112.047-.219.07-.321.07H1.624c-.494 0-.857-.289-1.09-.866l-.027-.251V2.053c0-.512.302-.875.907-1.089l.21-.014zM2.81 4.845v.056c0 .587.303.987.908 1.2l.307.043h.251c.587 0 .992-.321 1.215-.964l.028-.279c0-.596-.321-1-.963-1.215l-.42-.041c-.632 0-1.06.302-1.284.907l-.042.293zm6.311 3.31h-.028V7.148H6.706v7.26h2.387v-3.742c0-.716.112-1.15.335-1.298.27-.326.573-.489.908-.489h.167c.54 0 .903.321 1.09.964.036.25.055.474.055.67v3.895h2.415v-3.98c0-1.758-.581-2.852-1.745-3.28-.39-.112-.754-.168-1.089-.168-.865 0-1.568.391-2.108 1.173zM2.964 7.148v7.26H5.35v-7.26H2.964z" fill="" fill-rule="evenodd")
+              .speaker__more-btn.btn.text(target="21") Read more
+              #sm21.speaker__more
+                .social__bio Ivan is the Key Account Manager at Microblink, an R&D company on a mission to simplify data entry in mobile and web apps using camera input. Ivan is focused on developing new business opportunities and establishing long-term relationships with clients, always with a goal to help them in business processes optimisation and enhancing their user journey.
+
+            .speaker
+              .speaker__image
                 %img(srcset="img/speakers/kristianSchmid@1x.jpg 1x, img/speakers/kristianSchmid@2x.jpg 2x" src="img/speakers/kristianSchmid@1x.jpg" alt="Kristian Schmid")/
               .speaker__name Kristian Schmid
               .speaker__title
@@ -572,6 +588,8 @@
               .speaker__more-btn.btn.text(target="11") Read more
               #sm11.speaker__more
                 .social__bio Kristian Schmid is a serial entrepreneur from Germany and describes himself as a crypto-anarchist.
+
+
 
 
 
@@ -594,8 +612,8 @@
                 %a.social.twitter(href="" target="_blank")
                   %svg(height="14" viewbox="0 0 18 14" width="18" xmlns="http://www.w3.org/2000/svg")
                     %path(d="M5.733 14c6.633 0 10.262-5.388 10.262-10.052 0-.152 0-.303-.007-.455.704-.496 1.316-1.123 1.8-1.833-.646.283-1.343.469-2.074.559.745-.435 1.315-1.13 1.59-1.957-.697.406-1.47.696-2.294.854C14.35.427 13.414 0 12.38 0 10.39 0 8.77 1.585 8.77 3.534c0 .276.036.545.092.807C5.866 4.196 3.208 2.783 1.428.648c-.31.523-.485 1.13-.485 1.777 0 1.227.64 2.308 1.603 2.942-.59-.02-1.146-.179-1.631-.44v.047c0 1.71 1.245 3.142 2.89 3.466-.302.083-.619.124-.95.124-.231 0-.456-.02-.674-.062.457 1.405 1.793 2.425 3.369 2.453-1.238.95-2.793 1.515-4.48 1.515-.29 0-.578-.013-.859-.048C1.801 13.414 3.7 14 5.733 14" fill="" fill-rule="nonzero")
-              .speaker__more-btn.btn.text(target="21") Read more
-              #sm21.speaker__more
+              .speaker__more-btn.btn.text(target="22") Read more
+              #sm22.speaker__more
                 .social__bio 
 
 
@@ -851,7 +869,7 @@
                       .agenda__desc
                         %span.al-title Disruption in the Industry of Cross-Border Payments -
                         %span.al-name Gary Conroy
-                        %span.al-company (Trasnfermate)
+                        %span.al-company (Transfermate)
 
                   .agenda__list-item
                     .agenda__time 15:05 - 15:35
@@ -1220,7 +1238,7 @@
       .sponsors-wrap
         .container
 
-          .sponsors-row.hide
+          .sponsors-row
             .sponsors
               %h3 
                 5 star
@@ -1237,81 +1255,107 @@
                     %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
                 Sponsor
               .sponsors__group
+                .sponsors__item.hide
+                  %a(href="" target="_blank")
+                    %img(src="img/sponsors/sponsor.jpg" alt="sponsor" style="width: 50px;")/
+
+
+          .sponsors-row
+            .sponsors
+              %h3
+                4 star
+                .stars.stars4
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                Sponsor
+              /%button.sponsorsSlider__btn.btn-left4
+              /%button.sponsorsSlider__btn.btn-right4
+              /#sponsorsSlider4.sponsorsSlider
+              .sponsors__group
                 .sponsors__item
-                  %a(href="http://www.split.hr/" target="_blank")
-                    %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
+                  %a(href="https://iop.global/" target="_blank")
+                    %img(src="img/sponsors/iop.png" alt="Internet of People" style="width: 50px;")/
+                .sponsors__item
+                  %a(href="https://www.auka.io/" target="_blank")
+                    %img(src="img/sponsors/auka.png" alt="Auka" style="width: 40px;")/
 
 
-          .sponsors-row.sponsorsSlider.hide
-            %h3
-              4 star
-              .stars.stars4
-                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
-                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
-                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
-                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
-                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
-                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
-                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
-                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
-              Sponsor
-            %button.sponsorsSlider__btn.btn-left4
-            %button.sponsorsSlider__btn.btn-right4
-            #sponsorsSlider4.sponsorsSlider
-              .sponsors__item
-                %a(href="http://www.split.hr/" target="_blank")
-                  %img(src="img/sponsors/gradSplit.jpg" alt="Grad Split" style="width: 40px;")/
+          .sponsors-row
+            .sponsors
+              %h3
+                3 star
+                .stars.stars3
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                Sponsor
+              /%button.sponsorsSlider__btn.btn-left3
+              /%button.sponsorsSlider__btn.btn-right3
+              /#sponsorsSlider3.sponsorsSlider
+              .sponsors__group
+                .sponsors__item
+                  %a(href="https://www.instantor.com/" target="_blank")
+                    %img(src="img/sponsors/instantor.svg" alt="Instantor" style="width: 70px; margin-top: 10px;")/
+                .sponsors__item
+                  %a(href="https://www.hgk.hr/" target="_blank")
+                    %img(src="img/sponsors/hgk.svg" alt="HGK" style="width: 50px; margin-top: 10px;")/
 
 
-          .sponsors-row.sponsorsSlider.hide
-            %h3
-              3 star
-              .stars.stars3
-                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
-                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
-                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
-                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
-                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
-                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
-              Sponsor
-            %button.sponsorsSlider__btn.btn-left3
-            %button.sponsorsSlider__btn.btn-right3
-            #sponsorsSlider3.sponsorsSlider
-              .sponsors__item
-                %a(href="http://www.jana-water.com/hr" target="_blank")
-                  %img(src="img/sponsors/jana.svg" alt="Jana" style="width: 50px; margin-top: 10px;")/
+          .sponsors-row
+            .sponsors
+              %h3
+                2 star
+                .stars.stars2
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                Sponsor
+              /%button.sponsorsSlider__btn.btn-left2
+              /%button.sponsorsSlider__btn.btn-right2
+              /#sponsorsSlider2.sponsorsSlider
+              .sponsors__group
+                .sponsors__item
+                  %a(href="https://microblink.com/" target="_blank")
+                    %img(src="img/sponsors/microblink.svg" alt="Microblink" style="width: 70px; margin-top: 10px;")/
+                .sponsors__item
+                  %a(href="https://www.bitcoin-store.hr/" target="_blank")
+                    %img(src="img/sponsors/bitcoinStore.svg" alt="Bitcoin Store" style="width: 70px; margin-top: 10px;")/
 
 
-          .sponsors-row.sponsorsSlider.hide
-            %h3
-              2 star
-              .stars.stars2
-                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
-                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
-                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
-                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
-              Sponsor
-            %button.sponsorsSlider__btn.btn-left2
-            %button.sponsorsSlider__btn.btn-right2
-            #sponsorsSlider2.sponsorsSlider
-              .sponsors__item
-                %a(href="http://www.jana-water.com/hr" target="_blank")
-                  %img(src="img/sponsors/jana.svg" alt="Jana" style="width: 50px; margin-top: 10px;")/
-
-
-          .sponsors-row.sponsorsSlider.hide
-            %h3
-              1 star
-              .stars.stars1
-                %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
-                  %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
-              Sponsor
-            %button.sponsorsSlider__btn.btn-left1
-            %button.sponsorsSlider__btn.btn-right1
-            #sponsorsSlider1.sponsorsSlider
-              .sponsors__item
-                %a(href="http://www.jana-water.com/hr" target="_blank")
-                  %img(src="img/sponsors/jana.svg" alt="Jana" style="width: 50px; margin-top: 10px;")/
+          .sponsors-row
+            .sponsors
+              %h3
+                1 star
+                .stars.stars1
+                  %svg(height="9" viewbox="0 0 10 9" width="10" xmlns="http://www.w3.org/2000/svg")
+                    %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
+                Sponsor
+              /%button.sponsorsSlider__btn.btn-left1
+              /%button.sponsorsSlider__btn.btn-right1
+              /#sponsorsSlider1.sponsorsSlider
+              .sponsors__group
+                .sponsors__item
+                  %a(href="https://www.nodefactory.io/" target="_blank")
+                    %img(src="img/sponsors/nodeFactory.svg" alt="NodeFactory" style="width: 80px; margin-top: 10px;")/
+                .sponsors__item
+                  %a(href="https://bitlucky.io/" target="_blank")
+                    %img(src="img/sponsors/bitLucky.svg" alt="Bitlucky" style="width: 80px; margin-top: 10px;")/
+                .sponsors__item
+                  %a(href="https://positive.ie/" target="_blank")
+                    %img(srcset="img/sponsors/positiveEquity@2x.png 2x, img/sponsors/positiveEquity@1x.png 1x" src="img/sponsors/positiveEquity@1x.png" alt="Positive Equity" style="width: 40px; margin-top: 10px;")/
+                .sponsors__item
+                  %a(href="http://www.pbzco-fond.hr/" target="_blank")
+                    %img(src="img/sponsors/pbz.svg" alt="PBZ Croatia Insurance" style="width: 90px; margin-top: 10px;")/
 
 
           .sponsors-row.sponsorsSlider
@@ -1436,19 +1480,19 @@
         .container
           .footer__row
             .footer-social
-              %a(href="https://twitter.com/shiftsplit")
+              %a(href="https://twitter.com/shiftconf_co" target="_blank")
                 %svg(height="18" viewbox="0 0 22 18" width="22" xmlns="http://www.w3.org/2000/svg")
                   %path(d="M6.749 18c8.107 0 12.543-6.927 12.543-12.924 0-.195 0-.39-.009-.585.86-.638 1.608-1.444 2.2-2.356-.79.363-1.641.602-2.535.717.911-.558 1.607-1.452 1.943-2.515-.851.522-1.797.894-2.803 1.098C17.28.549 16.137 0 14.873 0c-2.433 0-4.41 2.037-4.41 4.544 0 .355.043.7.111 1.037C6.912 5.395 3.662 3.579 1.487.833 1.11 1.506.894 2.285.894 3.118c0 1.577.782 2.968 1.96 3.783-.722-.027-1.401-.23-1.994-.567v.062c0 2.197 1.521 4.039 3.533 4.455-.37.107-.756.16-1.16.16-.284 0-.56-.027-.826-.08.559 1.807 2.192 3.118 4.118 3.154-1.513 1.222-3.413 1.948-5.476 1.948-.353 0-.705-.017-1.049-.062C1.943 17.247 4.264 18 6.749 18" fill="#FFF" fill-rule="nonzero")
-              %a(href="https://www.facebook.com/shiftsplit")
+              %a(href="https://www.facebook.com/shiftsplit" target="_blank")
                 %svg(height="21" viewbox="0 0 22 21" width="22" xmlns="http://www.w3.org/2000/svg")
                   %path(d="M22 3.5C22 1.661 20.26 0 18.333 0H3.667C1.739 0 0 1.661 0 3.5v14C0 19.339 1.74 21 3.667 21H11v-7.933H8.311v-3.5H11V8.203c0-2.352 1.85-4.47 4.125-4.47h2.964v3.5h-2.964c-.324 0-.703.376-.703.94v1.394h3.667v3.5h-3.667V21h3.911C20.261 21 22 19.339 22 17.5v-14z" fill="#FFF" fill-rule="nonzero")
-              %a(href="https://www.youtube.com/user/TheShiftConference")
+              %a(href="https://www.youtube.com/user/TheShiftConference" target="_blank")
                 %svg(height="21" viewbox="0 0 32 21" width="32" xmlns="http://www.w3.org/2000/svg")
                   %path(d="M30.64 2.024C29.772.55 28.83.279 26.912.176 24.996.052 20.178 0 16.004 0 11.822 0 7.002.052 5.088.174 3.174.279 2.23.548 1.354 2.024.46 3.496 0 6.03 0 10.494v.016c0 4.444.46 6.998 1.354 8.455.876 1.474 1.818 1.741 3.732 1.865 1.916.107 6.736.17 10.918.17 4.174 0 8.992-.063 10.91-.168 1.918-.124 2.86-.391 3.728-1.865C31.544 17.51 32 14.956 32 10.51v-.01-.005c0-4.465-.456-7-1.36-8.472zM12 16.227V4.773L22 10.5l-10 5.727z" fill="#FFF" fill-rule="nonzero")
-              %a(href="https://www.flickr.com/photos/shiftsplit/sets/")
+              %a(href="https://www.flickr.com/photos/shiftsplit/sets/" target="_blank")
                 %svg(height="21" viewbox="0 0 22 21" width="22" xmlns="http://www.w3.org/2000/svg")
                   %path(d="M20.79 1.155C19.983.385 19.012 0 17.875 0H4.125C2.989 0 2.017.385 1.21 1.155.403 1.925 0 2.853 0 3.937v13.125c0 1.085.403 2.012 1.21 2.783C2.017 20.615 2.99 21 4.125 21h13.75c1.136 0 2.108-.385 2.915-1.155.807-.77 1.21-1.698 1.21-2.783V3.937c0-1.084-.403-2.012-1.21-2.782zM9.11 12.551c-.593.565-1.309.848-2.149.848-.84 0-1.556-.283-2.148-.848-.592-.565-.888-1.249-.888-2.051s.295-1.486.888-2.05C5.404 7.883 6.12 7.6 6.96 7.6c.84 0 1.556.283 2.149.848.591.565.887 1.249.887 2.05 0 .803-.296 1.487-.887 2.052zm8.077 0c-.591.565-1.307.848-2.148.848-.84 0-1.556-.283-2.149-.848-.591-.565-.888-1.249-.888-2.051s.297-1.486.888-2.05c.593-.566 1.309-.849 2.149-.849.84 0 1.556.283 2.148.848.592.565.889 1.249.889 2.05 0 .803-.297 1.487-.889 2.052z" fill="#FFF" fill-rule="nonzero")
-              %a(href="https://www.instagram.com/shiftconf.co/")
+              %a(href="https://www.instagram.com/shiftconf.co/" target="_blank")
                 %svg(height="18" viewbox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg")
                   %g(fill="none" fill-rule="nonzero")
                     %path(d="M12.638 0H5.362C2.406 0 0 2.406 0 5.362v7.276C0 15.594 2.406 18 5.362 18h7.276C15.594 18 18 15.594 18 12.638V5.362C18 2.406 15.594 0 12.638 0zm3.551 12.638c0 1.961-1.59 3.551-3.551 3.551H5.362c-1.961 0-3.551-1.59-3.551-3.551V5.362c0-1.961 1.59-3.551 3.551-3.551h7.276c1.961 0 3.551 1.59 3.551 3.551v7.276z" fill="url(#a)")
@@ -1612,6 +1656,7 @@
       ]
     });
 
+    /*
     $(document).ready(function(){
       $('#sponsorsSlider4').slick({
         slidesToShow: 1,
@@ -1687,6 +1732,7 @@
         ]
       });
     });
+    */
 
     $(document).ready(function(){
       $('#sponsorsSlider6').slick({

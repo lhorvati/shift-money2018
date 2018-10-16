@@ -49,6 +49,16 @@
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
+	"\/css\/about.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/about-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1407,6 +1417,26 @@
 		"opt": 0,
 		"q": 81
 		},
+	"\/img\/speakers\/ivanMikic@1x.jpg": {
+		"ft": 16384,
+		"iS": 7611,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/ivanMikic@1x.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
+	"\/img\/speakers\/ivanMikic@2x.jpg": {
+		"ft": 16384,
+		"iS": 18083,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/ivanMikic@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/speakers\/jureMikuz@1x.jpg": {
 		"ft": 16384,
 		"iS": 5362,
@@ -1657,6 +1687,37 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/sponsors\/auka.png": {
+		"ft": 32768,
+		"iS": 4815,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/auka.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/sponsors\/bitcoinStore.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/bitcoinStore.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/bitLucky.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/bitLucky.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/sponsors\/currencycloud.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1707,6 +1768,37 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/sponsors\/hgk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/hgk.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/instantor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/instantor.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/iop.png": {
+		"ft": 32768,
+		"iS": 76017,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/iop.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 81
+		},
 	"\/img\/sponsors\/kpmg.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1716,70 +1808,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/img\/sponsors\/media-src\/instantor@1x.png": {
-		"ft": 32768,
-		"iS": 5676,
-		"oA": 0,
-		"oAP": "\/img\/sponsors\/media-src\/instantor@1x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 81
-		},
-	"\/img\/sponsors\/media-src\/instantor@2x.png": {
-		"ft": 32768,
-		"iS": 13153,
-		"oA": 0,
-		"oAP": "\/img\/sponsors\/media-src\/instantor@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 81
-		},
-	"\/img\/sponsors\/media-src\/microblink.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/sponsors\/media-src\/microblink.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/sponsors\/media-src\/nodeFactory.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/sponsors\/media-src\/nodeFactory.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/sponsors\/media-src\/positiveequity@1x.png": {
-		"ft": 32768,
-		"iS": 5482,
-		"oA": 0,
-		"oAP": "\/img\/sponsors\/media-src\/positiveequity@1x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 81
-		},
-	"\/img\/sponsors\/media-src\/positiveequity@2x.png": {
-		"ft": 32768,
-		"iS": 2092,
-		"oA": 0,
-		"oAP": "\/img\/sponsors\/media-src\/positiveequity@2x.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 81
 		},
 	"\/img\/sponsors\/media\/bitcoinChaser@1x.png": {
 		"ft": 32768,
@@ -2298,6 +2326,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/sponsors\/microblink.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/microblink.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/sponsors\/microsoft.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2307,6 +2345,59 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/sponsors\/nodeFactory.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/nodeFactory.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/pbz.png": {
+		"ft": 32768,
+		"iS": 9073,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/pbz.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/sponsors\/pbz.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/pbz.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/positiveequity@1x.png": {
+		"ft": 32768,
+		"iS": 5482,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/positiveequity@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/sponsors\/positiveequity@2x.png": {
+		"ft": 32768,
+		"iS": 2092,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/positiveequity@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 81
 		},
 	"\/img\/sponsors\/rentalcars.svg": {
 		"ft": 2097152,
