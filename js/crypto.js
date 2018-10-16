@@ -25,7 +25,7 @@ $(function() {
       name: 'Standard 2 for 1',
       price: '93.75',
       humanPrice: '150€ + VAT',
-      time: 'Sales end on October 27th',
+      time: 'Sales end on October 16th',
       quantity: 0,
       slug: 'cabfz9eejyc'
     },
@@ -34,7 +34,7 @@ $(function() {
       name: 'Standard Student 2 for 1',
       price: '18.75',
       humanPrice: '30€ + VAT',
-      time: 'Sales end on October 27th',
+      time: 'Sales end on October 16th',
       quantity: 0,
       slug: 'xltbfqfuv8g'
     },
