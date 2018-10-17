@@ -19,25 +19,7 @@ $(function() {
       time: 'Sales end on November 26th',
       quantity: 0,
       slug: 'daf1ksryc3s'
-    },
-    {
-      id: 3,
-      name: 'Standard 2 for 1',
-      price: '93.75',
-      humanPrice: '150€ + VAT',
-      time: 'Sales end on October 16th',
-      quantity: 0,
-      slug: 'cabfz9eejyc'
-    },
-    {
-      id: 4,
-      name: 'Standard Student 2 for 1',
-      price: '18.75',
-      humanPrice: '30€ + VAT',
-      time: 'Sales end on October 16th',
-      quantity: 0,
-      slug: 'xltbfqfuv8g'
-    },
+    }
   ];
   
   $('#complete').click(function() {
@@ -47,23 +29,15 @@ $(function() {
   if(window.location.href.includes('/#/crypto-checkout')) {
     var first = getParameterByName('1');
     var second = getParameterByName('2');
-    var third = getParameterByName('3');
-    var fourth = getParameterByName('4');
 
     var firstTicket = tickets[0];
     var secondTicket = tickets[1];
-    var thirdTicket = tickets[2];
-    var fourthTicket = tickets[3];
 
     firstTicket.quantity = first;
     secondTicket.quantity = second;
-    thirdTicket.quantity = third;
-    fourthTicket.quantity = fourth;
 
     tickets[0] = firstTicket;
     tickets[1] = secondTicket;
-    tickets[2] = thirdTicket;
-    tickets[3] = fourthTicket;
 
     if(isValid()) {
       for (var i in tickets) {
@@ -152,12 +126,6 @@ $(function() {
     name2: tickets[1].name,
     humanPrice2: tickets[1].humanPrice,
     time2: tickets[1].time,
-    name3: tickets[2].name,
-    humanPrice3: tickets[2].humanPrice,
-    time3: tickets[2].time,
-    name4: tickets[3].name,
-    humanPrice4: tickets[3].humanPrice,
-    time4: tickets[3].time
   });
 
   function getParameterByName(name, url) {
@@ -273,6 +241,6 @@ $(function() {
   });
 
   $('.btn.yellow.empty').click(function() {
-    window.open('http://money.shiftconf.co/#/crypto-checkout?1=' + tickets[0].quantity + '&2=' + tickets[1].quantity + '&3=' + tickets[2].quantity + '&4=' + tickets[3].quantity);
+    window.open('http://money.shiftconf.co/#/crypto-checkout?1=' + tickets[0].quantity + '&2=' + tickets[1].quantity);
   });  
 });
