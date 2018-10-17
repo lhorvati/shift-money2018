@@ -1238,7 +1238,7 @@
       .sponsors-wrap
         .container
 
-          .sponsors-row
+          .sponsors-row-all
             .sponsors
               %h3 
                 5 star
@@ -1255,12 +1255,11 @@
                     %path(d="M9.605 4.079c.193-.18.262-.445.178-.69-.083-.247-.301-.422-.568-.46L6.837 2.6c-.1-.014-.188-.075-.234-.163L5.541.376C5.42.143 5.179 0 4.909 0s-.512.144-.631.375L3.215 2.437c-.045.087-.133.148-.234.162l-2.377.33c-.268.038-.485.213-.569.46-.083.245-.015.51.178.69l1.72 1.604c.073.068.107.167.09.263l-.406 2.265c-.036.2.019.394.154.547.21.238.575.31.867.164l2.126-1.07c.09-.045.201-.044.29 0l2.126 1.07c.103.052.214.078.328.078.207 0 .404-.088.54-.242.135-.153.19-.348.153-.547l-.406-2.265c-.017-.096.017-.195.09-.263l1.72-1.604z" fill="" fill-rule="nonzero")
                 Sponsor
               .sponsors__group
-                .sponsors__item.hide
-                  %a(href="" target="_blank")
-                    %img(src="img/sponsors/sponsor.jpg" alt="sponsor" style="width: 50px;")/
+                .sponsors__item
+                  %a(href="https://www.datarobot.com/" target="_blank")
+                    %img(src="img/sponsors/dataRobot.svg" alt="Data Robot" style="width: 100px;")/
 
 
-          .sponsors-row
             .sponsors
               %h3
                 4 star
@@ -1283,10 +1282,9 @@
                     %img(src="img/sponsors/iop.png" alt="Internet of People" style="width: 50px;")/
                 .sponsors__item
                   %a(href="https://www.auka.io/" target="_blank")
-                    %img(src="img/sponsors/auka.png" alt="Auka" style="width: 40px;")/
+                    %img(srcset="img/sponsors/auka@2x.png 2x, img/sponsors/auka@1x.png 1x" src="img/sponsors/auka@1x.png" alt="Auka" style="width: 90px;")/
 
 
-          .sponsors-row
             .sponsors
               %h3
                 3 star
@@ -1304,13 +1302,12 @@
               .sponsors__group
                 .sponsors__item
                   %a(href="https://www.instantor.com/" target="_blank")
-                    %img(src="img/sponsors/instantor.svg" alt="Instantor" style="width: 70px; margin-top: 10px;")/
+                    %img(src="img/sponsors/instantor.svg" alt="Instantor" style="width: 80px; margin-top: 10px;")/
                 .sponsors__item
                   %a(href="https://www.hgk.hr/" target="_blank")
-                    %img(src="img/sponsors/hgk.svg" alt="HGK" style="width: 50px; margin-top: 10px;")/
+                    %img(src="img/sponsors/hgk.svg" alt="HGK" style="width: 45px; margin-top: 10px;")/
 
 
-          .sponsors-row
             .sponsors
               %h3
                 2 star
@@ -1332,7 +1329,6 @@
                     %img(src="img/sponsors/bitcoinStore.svg" alt="Bitcoin Store" style="width: 70px; margin-top: 10px;")/
 
 
-          .sponsors-row
             .sponsors
               %h3
                 1 star
