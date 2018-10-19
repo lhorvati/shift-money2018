@@ -49,16 +49,6 @@
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/css\/about.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/about-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1960,7 +1950,7 @@
 		},
 	"\/img\/sponsors\/media\/blockExplorer@2x.png": {
 		"ft": 32768,
-		"iS": 2811,
+		"iS": 4613,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/media\/blockExplorer@2x.png",
 		"oF": 0,
