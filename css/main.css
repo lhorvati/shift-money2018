@@ -2285,6 +2285,8 @@ a.social:hover {
 }
 .stars svg {
   margin: 0 1px;
+  width: 12px;
+  height: 12px;
 }
 .stars.stars5 svg path {
   fill: #017fff;
