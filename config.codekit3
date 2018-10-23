@@ -1287,6 +1287,26 @@
 		"opt": 0,
 		"q": 81
 		},
+	"\/img\/speakers\/danielDoderlein@1x.jpg": {
+		"ft": 16384,
+		"iS": 5177,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/danielDoderlein@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/danielDoderlein@2x.jpg": {
+		"ft": 16384,
+		"iS": 14633,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/danielDoderlein@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/speakers\/darioBoros@1x.jpg": {
 		"ft": 16384,
 		"iS": 4619,
@@ -1422,6 +1442,26 @@
 		"iS": 18083,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/ivanMikic@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/jeremyAchin@1x.jpg": {
+		"ft": 16384,
+		"iS": 6445,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/jeremyAchin@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/jeremyAchin@2x.jpg": {
+		"ft": 16384,
+		"iS": 17591,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/jeremyAchin@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
