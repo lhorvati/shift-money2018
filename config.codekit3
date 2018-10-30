@@ -1207,6 +1207,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/speakers\/andreBalleyguier@1x.jpg": {
+		"ft": 16384,
+		"iS": 6979,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/andreBalleyguier@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/andreBalleyguier@2x.jpg": {
+		"ft": 16384,
+		"iS": 15979,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/andreBalleyguier@2x.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
 	"\/img\/speakers\/andrewRollins@1x.jpg": {
 		"ft": 16384,
 		"iS": 6818,
@@ -1702,6 +1722,26 @@
 		"iS": 19081,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/tonVanNoordende@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/tsafrirAttar@1x.jpg": {
+		"ft": 16384,
+		"iS": 5841,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/tsafrirAttar@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/tsafrirAttar@2x.jpg": {
+		"ft": 16384,
+		"iS": 12137,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/tsafrirAttar@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2294,6 +2334,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/sponsors\/media\/investFuture.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/media\/lider.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/media\/lider.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
