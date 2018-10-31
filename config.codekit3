@@ -1810,6 +1810,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/sponsors\/croatia-osiguranje.jpg": {
+		"ft": 16384,
+		"iS": 24551,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/croatia-osiguranje.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/sponsors\/currencycloud.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1941,6 +1951,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/sponsors\/locastic.png": {
+		"ft": 32768,
+		"iS": 7954,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/locastic.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
 	"\/img\/sponsors\/media\/bitcoinChaser@1x.png": {
 		"ft": 32768,
 		"iS": 1728,
@@ -2030,7 +2051,7 @@
 		},
 	"\/img\/sponsors\/media\/blockExplorer@2x.png": {
 		"ft": 32768,
-		"iS": 2811,
+		"iS": 4613,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/media\/blockExplorer@2x.png",
 		"oF": 0,
@@ -2231,6 +2252,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 81
+		},
+	"\/img\/sponsors\/media\/hollandFintech.jpg": {
+		"ft": 16384,
+		"iS": 12081,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/media\/hollandFintech.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/sponsors\/media\/hrvBitcoinPortal@1x.png": {
@@ -2541,6 +2572,17 @@
 		"oT": 1,
 		"q": 81
 		},
+	"\/img\/sponsors\/profico.png": {
+		"ft": 32768,
+		"iS": 15209,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/profico.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
 	"\/img\/sponsors\/rentalcars.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2550,6 +2592,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/sponsors\/svGroup.jpg": {
+		"ft": 16384,
+		"iS": 8026,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/svGroup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
 		},
 	"\/img\/sponsors\/techcrunch.svg": {
 		"ft": 2097152,
