@@ -1207,6 +1207,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/speakers\/.andreBalleyguier@2x~imageoptim.jpg": {
+		"ft": 16384,
+		"iS": 11782,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/.andreBalleyguier@2x~imageoptim.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/.dejanRoljic@1x~imageoptim.jpg": {
+		"ft": 16384,
+		"iS": 6476,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/.dejanRoljic@1x~imageoptim.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/speakers\/andreBalleyguier@1x.jpg": {
 		"ft": 16384,
 		"iS": 6979,
@@ -1347,6 +1367,26 @@
 		"opt": 0,
 		"q": 81
 		},
+	"\/img\/speakers\/dejanRoljic@1x.jpg": {
+		"ft": 16384,
+		"iS": 7502,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/dejanRoljic@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/dejanRoljic@2x.jpg": {
+		"ft": 16384,
+		"iS": 18955,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/dejanRoljic@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/speakers\/emilProtalinski@1x.jpg": {
 		"ft": 16384,
 		"iS": 5638,
@@ -1382,6 +1422,26 @@
 		"iS": 19170,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/garyConroy@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/gorazdOcvirk@1x.jpg": {
+		"ft": 16384,
+		"iS": 8077,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/gorazdOcvirk@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/gorazdOcvirk@2x.jpg": {
+		"ft": 16384,
+		"iS": 20815,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/gorazdOcvirk@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1702,6 +1762,26 @@
 		"iS": 18870,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/stanSchroeder@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/tanjaBivic@1x.jpg": {
+		"ft": 16384,
+		"iS": 8681,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/tanjaBivic@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/tanjaBivic@2x.jpg": {
+		"ft": 16384,
+		"iS": 23488,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/tanjaBivic@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
