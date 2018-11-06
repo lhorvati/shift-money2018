@@ -1219,7 +1219,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@2x.jpg": {
 		"ft": 16384,
-		"iS": 11782,
+		"iS": 15979,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@2x.jpg",
 		"oF": 0,
@@ -1349,7 +1349,7 @@
 		},
 	"\/img\/speakers\/dejanRoljic@1x.jpg": {
 		"ft": 16384,
-		"iS": 6476,
+		"iS": 7502,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/.dejanRoljic@1x~imageoptim.jpg",
 		"oF": 0,
@@ -1869,6 +1869,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/sponsors\/crib.png": {
+		"ft": 32768,
+		"iS": 14196,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/crib.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
 		},
 	"\/img\/sponsors\/croatia-osiguranje.jpg": {
 		"ft": 16384,
