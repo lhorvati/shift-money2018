@@ -2694,6 +2694,98 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/sponsors\/startup\/avr.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/startup\/avr.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/startup\/bankzee.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/startup\/bankzee.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/startup\/cashaa.png": {
+		"ft": 32768,
+		"iS": 9597,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/startup\/cashaa.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/sponsors\/startup\/citizen.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/startup\/citizen.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/startup\/coinstudio.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/startup\/coinstudio.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/startup\/enlightAid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/startup\/enlightAid.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/startup\/fractallabs.png": {
+		"ft": 32768,
+		"iS": 21435,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/startup\/fractallabs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/sponsors\/startup\/prive.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/startup\/prive.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/startup\/synswap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/startup\/synswap.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/sponsors\/svGroup.jpg": {
 		"ft": 16384,
 		"iS": 8026,
@@ -3470,6 +3562,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/sponsors.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"\/stylus\/sections\/startups.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/startups.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0

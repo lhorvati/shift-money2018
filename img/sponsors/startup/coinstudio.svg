@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="114px" viewBox="0 0 120 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>coinstudio-logo-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="coinstudio-logo-icon" fill-rule="nonzero">
+            <path d="M60.2,0 C26.9,0 0,17.9 0,40 L0,54 C0,76.1 26.9,94 60.2,94 C91.4,94 117,78.2 120,58 L120,36 C117,15.8 91.3,0 60.2,0 Z M60.2,44 C67.8,44 74.6,46.3 79,50 C79.2,49.8 79.2,49.8 79,50 C74.6,53.6 67.8,56 60.2,56 C52.6,56 45.8,53.7 41.4,50 C45.8,46.3 52.6,44 60.2,44 Z M19.8,15 C30.5,7.9 44.8,4 60.1,4 C74.4,4 88,7.5 98.5,13.8 C106.7,18.8 112.3,25.1 114.8,32 L85.9,32 C81.6,24.7 71.6,20 60.1,20 C44.4,20 32,28.8 32,40 C32,51.2 44.3,60 60.1,60 C71.6,60 81.5,55.3 85.9,48 L114.8,48 C112.3,54.9 106.7,61.2 98.5,66.2 C88.1,72.5 74.4,76 60.2,76 C44.9,76 30.6,72.1 19.9,65 C9.6,58.2 4,49.3 4,40 C4,30.7 9.6,21.8 19.8,15 Z" id="XMLID_47_" fill="#43BE4E"></path>
+            <path d="M60.2,98 C26.9,98 0,80.1 0,58 L0,74 C0,96.1 26.9,114 60.2,114 C91.4,114 117,98.2 120,78 L120,62 C117,82.2 91.3,98 60.2,98 Z" id="XMLID_46_" fill="#CA08CB"></path>
+        </g>
+    </g>
+</svg>

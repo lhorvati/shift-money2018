@@ -1,0 +1,36 @@
+/* STARTUPS.STYL ======================================= */
+
+#startups
+    background: lightGray
+    padding: 50px 0
+
+    .container
+        border-radius(10px)
+        background: colorWhite
+        padding: 10px 70px 10px 70px
+        box-sizing()
+
+.startups
+    flexbox()
+    flex-flow: row wrap
+
+.startup
+    flexbox()
+    justify-content: flex-start
+    align-items: center
+    width: 20%
+    box-sizing()
+    padding: 50px 20px
+    text-align: center
+
+    &:hover .startup__image img
+        filter: grayscale(0)
+
+    .startup__image
+        flexbox()
+        flex-center()
+        width: 120px
+
+        img
+            filter: grayscale()
+            transition(.2s)
