@@ -1349,7 +1349,7 @@
 		},
 	"\/img\/speakers\/dejanRoljic@1x.jpg": {
 		"ft": 16384,
-		"iS": 6476,
+		"iS": 7502,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/.dejanRoljic@1x~imageoptim.jpg",
 		"oF": 0,
@@ -2022,6 +2022,16 @@
 		"oT": 1,
 		"q": 81
 		},
+	"\/img\/sponsors\/koios.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/koios.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/sponsors\/kpmg.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2153,7 +2163,7 @@
 		},
 	"\/img\/sponsors\/media\/blockExplorer@2x.png": {
 		"ft": 32768,
-		"iS": 2811,
+		"iS": 4613,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/media\/blockExplorer@2x.png",
 		"oF": 0,
@@ -2700,6 +2710,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/sponsors\/rentalcars.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/safe.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/safe.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
