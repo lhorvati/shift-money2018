@@ -1209,7 +1209,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@1x.jpg": {
 		"ft": 16384,
-		"iS": 6979,
+		"iS": 5882,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@1x.jpg",
 		"oF": 0,
@@ -2053,6 +2053,17 @@
 		"oT": 1,
 		"q": 81
 		},
+	"\/img\/sponsors\/locoins.png": {
+		"ft": 32768,
+		"iS": 3888,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/locoins.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
 	"\/img\/sponsors\/media\/bitcoinChaser@1x.png": {
 		"ft": 32768,
 		"iS": 1728,
@@ -2142,7 +2153,7 @@
 		},
 	"\/img\/sponsors\/media\/blockExplorer@2x.png": {
 		"ft": 32768,
-		"iS": 4613,
+		"iS": 2811,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/media\/blockExplorer@2x.png",
 		"oF": 0,
