@@ -1219,7 +1219,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@2x.jpg": {
 		"ft": 16384,
-		"iS": 11782,
+		"iS": 15979,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@2x.jpg",
 		"oF": 0,
@@ -2047,17 +2047,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/img\/sponsors\/locoins.png": {
-		"ft": 32768,
-		"iS": 3888,
-		"oA": 0,
-		"oAP": "\/img\/sponsors\/locoins.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 81
 		},
 	"\/img\/sponsors\/loCoins.svg": {
 		"ft": 2097152,
