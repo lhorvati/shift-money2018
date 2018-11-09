@@ -1209,7 +1209,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@1x.jpg": {
 		"ft": 16384,
-		"iS": 6979,
+		"iS": 5882,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@1x.jpg",
 		"oF": 0,
@@ -1219,7 +1219,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@2x.jpg": {
 		"ft": 16384,
-		"iS": 15979,
+		"iS": 11782,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@2x.jpg",
 		"oF": 0,
@@ -1349,7 +1349,7 @@
 		},
 	"\/img\/speakers\/dejanRoljic@1x.jpg": {
 		"ft": 16384,
-		"iS": 6476,
+		"iS": 7502,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/.dejanRoljic@1x~imageoptim.jpg",
 		"oF": 0,
@@ -1897,6 +1897,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/sponsors\/dalmacijavino.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/dalmacijavino.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/sponsors\/dataRobot.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1962,6 +1972,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/sponsors\/generali.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/getbybus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/getbybus.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -2147,7 +2167,7 @@
 		},
 	"\/img\/sponsors\/media\/blockExplorer@2x.png": {
 		"ft": 32768,
-		"iS": 4613,
+		"iS": 2811,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/media\/blockExplorer@2x.png",
 		"oF": 0,
