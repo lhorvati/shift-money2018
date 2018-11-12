@@ -1219,7 +1219,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@2x.jpg": {
 		"ft": 16384,
-		"iS": 15979,
+		"iS": 11782,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@2x.jpg",
 		"oF": 0,
@@ -1349,7 +1349,7 @@
 		},
 	"\/img\/speakers\/dejanRoljic@1x.jpg": {
 		"ft": 16384,
-		"iS": 6476,
+		"iS": 7502,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/.dejanRoljic@1x~imageoptim.jpg",
 		"oF": 0,
@@ -1522,6 +1522,26 @@
 		"iS": 17591,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/jeremyAchin@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/joelWasfy@1x.jpg": {
+		"ft": 16384,
+		"iS": 7305,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/joelWasfy@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/joelWasfy@2x.jpg": {
+		"ft": 16384,
+		"iS": 22313,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/joelWasfy@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1725,6 +1745,46 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"q": 81
+		},
+	"\/img\/speakers\/srdjanMahmutovic@1x.jpg": {
+		"ft": 16384,
+		"iS": 6434,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/srdjanMahmutovic@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/srdjanMahmutovic@2x.jpg": {
+		"ft": 16384,
+		"iS": 16908,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/srdjanMahmutovic@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/stanislavSirakov@1x.jpg": {
+		"ft": 16384,
+		"iS": 5595,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/stanislavSirakov@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/stanislavSirakov@2x.jpg": {
+		"ft": 16384,
+		"iS": 14778,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/stanislavSirakov@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 81
 		},
 	"\/img\/speakers\/stanSchroeder@1x.jpg": {
@@ -2078,6 +2138,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/sponsors\/mastercard.png": {
+		"ft": 32768,
+		"iS": 18997,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/mastercard.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
 	"\/img\/sponsors\/media\/bitcoinChaser@1x.png": {
 		"ft": 32768,
 		"iS": 1728,
@@ -2167,7 +2238,7 @@
 		},
 	"\/img\/sponsors\/media\/blockExplorer@2x.png": {
 		"ft": 32768,
-		"iS": 4613,
+		"iS": 2811,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/media\/blockExplorer@2x.png",
 		"oF": 0,
@@ -2718,6 +2789,16 @@
 		"oT": 1,
 		"q": 81
 		},
+	"\/img\/sponsors\/profico.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/profico.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/sponsors\/pwc@1x.png": {
 		"ft": 32768,
 		"iS": 4626,
@@ -2739,6 +2820,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 81
+		},
+	"\/img\/sponsors\/rba.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/rba.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/sponsors\/rentalcars.svg": {
 		"ft": 2097152,
@@ -2871,6 +2962,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 81
+		},
+	"\/img\/sponsors\/svgroup.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/svgroup.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/sponsors\/techcrunch.svg": {
 		"ft": 2097152,
