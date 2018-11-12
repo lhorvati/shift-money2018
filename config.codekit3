@@ -1209,7 +1209,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@1x.jpg": {
 		"ft": 16384,
-		"iS": 6979,
+		"iS": 5882,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@1x.jpg",
 		"oF": 0,
@@ -1219,7 +1219,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@2x.jpg": {
 		"ft": 16384,
-		"iS": 15979,
+		"iS": 11782,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@2x.jpg",
 		"oF": 0,
@@ -2088,6 +2088,17 @@
 		"oT": 1,
 		"q": 81
 		},
+	"\/img\/sponsors\/kentbank.png": {
+		"ft": 32768,
+		"iS": 3368,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/kentbank.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
 	"\/img\/sponsors\/koios.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2238,7 +2249,7 @@
 		},
 	"\/img\/sponsors\/media\/blockExplorer@2x.png": {
 		"ft": 32768,
-		"iS": 2811,
+		"iS": 4613,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/media\/blockExplorer@2x.png",
 		"oF": 0,
