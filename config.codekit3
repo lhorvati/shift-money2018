@@ -1219,7 +1219,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@2x.jpg": {
 		"ft": 16384,
-		"iS": 15979,
+		"iS": 11782,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@2x.jpg",
 		"oF": 0,
@@ -1349,7 +1349,7 @@
 		},
 	"\/img\/speakers\/dejanRoljic@1x.jpg": {
 		"ft": 16384,
-		"iS": 6476,
+		"iS": 7502,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/.dejanRoljic@1x~imageoptim.jpg",
 		"oF": 0,
@@ -1627,6 +1627,46 @@
 		"opt": 1,
 		"q": 81
 		},
+	"\/img\/speakers\/lukaSucic@1x.jpg": {
+		"ft": 16384,
+		"iS": 7657,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/lukaSucic@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/lukaSucic@2x.jpg": {
+		"ft": 16384,
+		"iS": 22358,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/lukaSucic@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/nikolaJokic@1x.jpg": {
+		"ft": 16384,
+		"iS": 4922,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/nikolaJokic@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/nikolaJokic@2x.jpg": {
+		"ft": 16384,
+		"iS": 13474,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/nikolaJokic@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/img\/speakers\/nitinGaur@1x.jpg": {
 		"ft": 16384,
 		"iS": 9604,
@@ -1882,6 +1922,26 @@
 		"iS": 12137,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/tsafrirAttar@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/vedranKani@1x.jpg": {
+		"ft": 16384,
+		"iS": 5054,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/vedranKani@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/vedranKani@2x.jpg": {
+		"ft": 16384,
+		"iS": 13078,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/vedranKani@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2280,12 +2340,34 @@
 		},
 	"\/img\/sponsors\/media\/blockExplorer@2x.png": {
 		"ft": 32768,
-		"iS": 4613,
+		"iS": 2811,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/media\/blockExplorer@2x.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/sponsors\/media\/blockference@1x.png": {
+		"ft": 32768,
+		"iS": 962,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/media\/blockference@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/sponsors\/media\/blockference@2x.png": {
+		"ft": 32768,
+		"iS": 1747,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/media\/blockference@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 81
 		},
@@ -2455,6 +2537,28 @@
 		"iS": 5887,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/media\/financialIT@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/sponsors\/media\/fintechAustria@1x.png": {
+		"ft": 32768,
+		"iS": 3799,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/media\/fintechAustria@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/sponsors\/media\/fintechAustria@2x.png": {
+		"ft": 32768,
+		"iS": 7053,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/media\/fintechAustria@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2727,6 +2831,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/sponsors\/media\/tokens24@1x.png": {
+		"ft": 32768,
+		"iS": 1821,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/media\/tokens24@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/img\/sponsors\/media\/tokens24@2x.png": {
+		"ft": 32768,
+		"iS": 3572,
+		"oA": 0,
+		"oAP": "\/img\/sponsors\/media\/tokens24@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
 		},
 	"\/img\/sponsors\/microblink.svg": {
 		"ft": 2097152,
@@ -3009,6 +3135,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/sponsors\/svgroup.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/tcom.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/tcom.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
