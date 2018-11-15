@@ -1209,7 +1209,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@1x.jpg": {
 		"ft": 16384,
-		"iS": 6979,
+		"iS": 5882,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@1x.jpg",
 		"oF": 0,
@@ -1219,7 +1219,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@2x.jpg": {
 		"ft": 16384,
-		"iS": 15979,
+		"iS": 11782,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@2x.jpg",
 		"oF": 0,
@@ -1642,26 +1642,6 @@
 		"iS": 22358,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/lukaSucic@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 81
-		},
-	"\/img\/speakers\/nikolaJokic@1x.jpg": {
-		"ft": 16384,
-		"iS": 4922,
-		"oA": 0,
-		"oAP": "\/img\/speakers\/nikolaJokic@1x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 81
-		},
-	"\/img\/speakers\/nikolaJokic@2x.jpg": {
-		"ft": 16384,
-		"iS": 13474,
-		"oA": 0,
-		"oAP": "\/img\/speakers\/nikolaJokic@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2340,7 +2320,7 @@
 		},
 	"\/img\/sponsors\/media\/blockExplorer@2x.png": {
 		"ft": 32768,
-		"iS": 2811,
+		"iS": 4613,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/media\/blockExplorer@2x.png",
 		"oF": 0,
