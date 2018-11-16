@@ -1209,7 +1209,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@1x.jpg": {
 		"ft": 16384,
-		"iS": 5882,
+		"iS": 6979,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@1x.jpg",
 		"oF": 0,
@@ -1219,7 +1219,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@2x.jpg": {
 		"ft": 16384,
-		"iS": 15979,
+		"iS": 11782,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@2x.jpg",
 		"oF": 0,
@@ -1349,7 +1349,7 @@
 		},
 	"\/img\/speakers\/dejanRoljic@1x.jpg": {
 		"ft": 16384,
-		"iS": 7502,
+		"iS": 6476,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/.dejanRoljic@1x~imageoptim.jpg",
 		"oF": 0,
@@ -2083,6 +2083,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/sponsors\/erste.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/sponsors\/erstePlavi.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/sponsors\/erstePlavi.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
