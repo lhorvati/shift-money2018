@@ -1209,7 +1209,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@1x.jpg": {
 		"ft": 16384,
-		"iS": 5882,
+		"iS": 6979,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@1x.jpg",
 		"oF": 0,
@@ -1219,7 +1219,7 @@
 		},
 	"\/img\/speakers\/andreBalleyguier@2x.jpg": {
 		"ft": 16384,
-		"iS": 15979,
+		"iS": 11782,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/andreBalleyguier@2x.jpg",
 		"oF": 0,
@@ -1662,6 +1662,26 @@
 		"iS": 22358,
 		"oA": 0,
 		"oAP": "\/img\/speakers\/lukaSucic@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/michaelGasiorek@1x.jpg": {
+		"ft": 16384,
+		"iS": 6114,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/michaelGasiorek@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/img\/speakers\/michaelGasiorek@2x.jpg": {
+		"ft": 16384,
+		"iS": 15247,
+		"oA": 0,
+		"oAP": "\/img\/speakers\/michaelGasiorek@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2400,7 +2420,7 @@
 		},
 	"\/img\/sponsors\/media\/blockExplorer@2x.png": {
 		"ft": 32768,
-		"iS": 4613,
+		"iS": 2811,
 		"oA": 0,
 		"oAP": "\/img\/sponsors\/media\/blockExplorer@2x.png",
 		"oF": 0,
