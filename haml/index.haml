@@ -2010,9 +2010,6 @@
     / FOOTER SECTION **************************************
     #footer.section
       .container
-        .footer__col
-          .footer__logo
-          .footer__logo-bg
 
         .footer__col
           %h3.footerIcon.footerIcon--about About
@@ -2024,7 +2021,13 @@
             %a(href="https://shiftconf.co") Shift Developer conference
 
         .footer__col
-          %h3.footerIcon.footerIcon--contacts Contact
+          %h3.footerIcon.footerIcon--contacts Download Shift App
+          .footer-previous
+            %a(href="https://money.shiftconf.co/app-android" target="_blank") Android Play Store
+            %a.hide(href="https://money.shiftconf.co/app-ios" target="_blank") IOS App Store
+
+        .footer__col
+          %h3.footerIcon.footerIcon--about Contact
           .contact
             Shift Conference
             %br/
@@ -2035,14 +2038,6 @@
             %br/
             %br/
             %a(href="mailto: shift@shiftconf.co") shift@shiftconf.co
-
-      .footer__row
-        .container
-          .mobileApp
-            %a(href="https://money.shiftconf.co/app-android" target="_blank")
-              %img(src="img/playstore.svg" alt="Google Play Store")/
-            %a.hide(href="https://money.shiftconf.co/app-ios" target="_blank")
-              %img(src="img/appstore.svg" alt="IOS App Store")/
 
 
       .footer__row
